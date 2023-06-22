@@ -1,0 +1,85 @@
+<?php if ($styles['font']) : ?>
+    <link href='http://fonts.googleapis.com/css?family=<?php echo urlencode($styles['font']); ?>:400,700,300' rel='stylesheet' type='text/css'>
+<?php endif; ?>
+<div id="<?php echo esc_attr($styles['id']) ?>" class="dts-table-preview">
+    <table class="<?php echo esc_attr($styles['class']); ?>">
+        <thead>
+        <tr>
+            <?php foreach ($columns as $column) : ?>
+                <th><?php echo esc_html($column['label']); ?></th>
+            <?php endforeach; ?>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <?php foreach ($columns as $column) : ?>
+                <th><?php echo esc_html($column['label']); ?></th>
+            <?php endforeach; ?>
+        </tr>
+        </tfoot>
+        <tbody>
+        <?php foreach ($list as $item) : ?>
+        <tr>
+            <?php foreach ($columns as $column) : ?>
+                <?php $value = isset($item[$column['name']])?$item[$column['name']]:'' ?>
+                <?php if ($column['type'] == 'image') : ?>
+                    <td><img src="<?php echo $value; ?>" class="dts-table-image" /></td>
+                <?php elseif ($column['type'] == 'number') : ?>
+                    <td class="dts-table-number"><?php echo $value; ?></td>
+                <?php elseif ($column['type'] == 'url') : ?>
+                    <td><a href="<?php echo $value; ?>"><?php echo $value; ?></a></td>
+                <?php else : ?>
+                    <td><?php echo $value; ?></td>
+                <?php endif; ?>
+
+            <?php endforeach; ?>
+        </tr>
+        <?php endforeach; ?>
+        </tbody>
+    </table>
+    <div class="dts-pagination">
+        <span>1</span>
+        <span class="dts-pagination-selected">2</span>
+        <span>3</span>
+        <span>4</span>
+    </div>
+</div>
+
+<style>
+    .dts-table-preview {
+        display: table;
+        margin: auto;
+    }
+
+    .dts-pagination {
+        text-align: right;
+        margin-top: 7px;
+    }
+
+    .dts-pagination span {
+        padding: 2px 5px;
+    }
+
+    .dts-table-image {
+        max-width: 200px;
+    }
+
+    #<?php echo $styles['id']; ?> table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin: auto;
+    }
+
+    #<?php echo $styles['id']; ?> td, #<?php echo $styles['id']; ?> th {
+        padding: 8px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    #<?php echo $styles['id']; ?> td.dts-table-number {
+        text-align: right;
+    }
+    <?php echo $styles['css']; ?>
+
+    <?php echo $customCSS?$customCSS:''; ?>
+</style>

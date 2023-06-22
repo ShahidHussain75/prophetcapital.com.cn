@@ -1,0 +1,246 @@
+/* Common styles */
+.dts-clear {
+    clear: both;
+}
+
+.CodeMirror {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+#dts-preview .inside {
+    overflow: auto;
+}
+
+/* Error notices */
+.dts-error-notice {
+    color: red;
+    font-size: 80%;
+}
+
+/* Grid styles */
+.column-shortcode input {
+    min-width: 200px;
+    background: #eee;
+}
+
+/* Meta box styles */
+.js .dts-form .postbox .hndle {
+    cursor: pointer;
+}
+
+/* Data table form styles */
+#dts-body-content {
+    width: 100%;
+    min-width: 463px;
+    float: left;
+    position: relative;
+}
+
+#dts-add-table-form-container {
+    margin-right:300px;
+}
+
+#dts-add-table-right-sidebar {
+    float: right;
+    margin-right: -300px;
+    width: 280px;
+}
+
+.dts-columns-table {
+    width: 100%;
+}
+
+.dts-columns-table td {
+    cursor: move;
+}
+
+.dts-columns-table tr.dts-state-highlight td {
+    border: 1px solid #fcefa1;
+    background: #fbf9ee;
+}
+
+.dts-columns-table tr.ui-sortable-helper {
+    background: #eee;
+}
+
+.dts-columns-table td.center {
+    text-align: center;
+}
+
+.dts-options-table .dts-table-subheader {
+    border-top: 1px solid #ccc;
+}
+
+.dts-options-table .dts-table-label {
+    width: 300px;
+}
+
+#dts-table-preview .inside {
+    overflow: auto;
+}
+
+/* Sample table design */
+.dts-table-designs-container {
+    overflow: auto;
+    height: 320px;
+}
+
+.dts-table-design-sample {
+    font-size: 8px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid #fff;
+}
+
+.dts-table-design-sample .dts-table-design-pagination {
+    text-align: right;
+}
+
+.dts-table-design-sample:hover {
+    border: 1px solid #fcefa1;
+    background: #fbf9ee;
+}
+
+.dts-table-design-sample.selected {
+    border: 1px solid #00a2ca;
+    background: #c1dfe7;
+}
+
+.dts-table-design-sample table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: auto;
+    box-sizing: border-box;
+    width: 160px;
+}
+
+.dts-table-design-sample table td, .dts-table-design-sample table th {
+    padding: 2px 3px;
+    text-align: left;
+}
+
+.dts-table-design-pagination span {
+    padding: 0 2px;
+}
+
+/* Data source table preview styles */
+
+table.dts-data-source-table-preview {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ccc;
+}
+
+table.dts-data-source-table-preview th {
+    background: #eee;
+    padding: 7px;
+}
+
+table.dts-data-source-table-preview td {
+    border: 1px solid #ccc;
+    padding: 7px;
+}
+
+
+/** Charts **/
+
+#dts-group-by-columns {
+    margin-left: 40px;
+    padding-right: 30px;
+    max-height: 200px;
+    overflow: auto;
+    min-width: 300px;
+}
+
+
+.chart {
+    display: block;
+    width: 30%;
+    max-width: 270px;
+    height: 200px;
+    float: left;
+    background-size: contain;
+    margin: 0px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: center center;
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+
+.chart.pie {
+    background-image: url('../img/charts/pie.png');
+}
+
+.chart.chart2d {
+    background-image: url('../img/charts/2d.png');
+}
+
+.chart.bar {
+    background-image: url('../img/charts/bar.png');
+    background-color: transparent;
+}
+
+.chart:hover {
+    border: 1px solid #fcefa1;
+    background-color: #fbf9ee;
+}
+
+.chart.selected {
+    border: 1px solid #00a2ca;
+    background-color: #c1dfe7;
+}
+
+/* Chart palettes */
+
+.palettes-list {
+    height: 200px;
+    overflow: auto;
+}
+
+ul.dts-palette {
+    list-style: none;
+    float: left;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+ul.dts-palette:hover {
+    border: 1px solid #fcefa1;
+    background-color: #fbf9ee;
+}
+
+ul.dts-palette.selected {
+    border: 1px solid #00a2ca;
+    background-color: #c1dfe7;
+}
+
+ul.dts-palette li {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+/* Maps */
+
+#dts-address-type-latlng, #dts-address-type-text {
+    margin-left: 20px;
+}
+
+/* Grids */
+
+#dts-grid-preview .inside {
+    overflow: auto;
+    max-height: 500px;
+}
+
+#dts-grid-styles .inside > div {
+    margin-right: 50px;
+}

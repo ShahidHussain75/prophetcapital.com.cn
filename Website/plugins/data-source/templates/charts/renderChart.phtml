@@ -1,0 +1,16 @@
+<?php $chartId = uniqid('chart'); ?>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        var options = {packages: ['corechart'], callback : drawChart<?php echo $chartId; ?>};
+        google.load('visualization', '1', options);
+
+        function drawChart<?php echo $chartId; ?>() {
+            var data = google.visualization.arrayToDataTable(<?php echo dts_json_encode($values); ?>);
+            var options = <?php echo dts_json_encode($options); ?>;
+            var chart = new google.visualization.<?php echo $chart; ?>(document.getElementById('dts-chart-<?php echo $chartId; ?>'));
+            chart.draw(data, options);
+        }
+    });
+</script>
+
+<div id="dts-chart-<?php echo $chartId; ?>" style="width: <?php echo $chartData->width.(strpos($chartData->width,'%')?'':'px'); ?>; height: <?php echo $chartData->height; ?>px;"></div>

@@ -1,0 +1,23 @@
+<script type="text/javascript">
+    <?php if ($map == 'geochart') : ?>
+        var options = {packages: ['geochart'], callback : drawMap};
+    <?php else: ?>
+        var options = {packages: ['map'], callback : drawMap};
+    <?php endif; ?>
+
+    google.load('visualization', '1', options);
+
+    function drawMap() {
+        var data = google.visualization.arrayToDataTable(<?php echo dts_json_encode($values); ?>);
+
+        var options = <?php echo dts_json_encode($options); ?>;
+
+        <?php if ($map == 'geochart') : ?>
+            var map = new google.visualization.GeoChart(document.getElementById('dts-chart'));
+        <?php else: ?>
+            var map = new google.visualization.Map(document.getElementById('dts-chart'));
+        <?php endif; ?>
+        map.draw(data, options);
+    };
+</script>
+<div id="dts-chart" style="height: 500px;"></div>

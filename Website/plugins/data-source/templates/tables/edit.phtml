@@ -1,0 +1,315 @@
+<div class="wrap dts-form">
+
+    <h2><?php echo esc_html( __( 'Edit Data Table', 'data-source' ) ); ?></h2>
+
+    <form method="post" action="<?php echo $this->menuUrl('dts-tables', 'edit', array('post'=>$dataTable->id)); ?>" id="dts-add-table-form" class="edit">
+        <?php wp_nonce_field( 'dts-save-data-table'); ?>
+        <input type="hidden" value="<?php echo $this->menuUrl('dts-tables', 'preview'); ?>" id="dts-load-preview-url" />
+        <input type="hidden" value="<?php echo $this->menuUrl('dts-tables', 'saveStyles'); ?>" id="dts-save-styles-url" />
+        <input type="hidden" value="<?php echo $this->menuUrl('dts-tables', 'loadStyles'); ?>" id="dts-load-styles-url" />
+        <input type="hidden" value="<?php echo esc_attr(dts_json_encode($dataTable->design)); ?>" id="dts-current-design" />
+        <div id="dts-add-table-form-container" class="metabox-holder columns-2">
+            <div id="dts-body-content">
+                <div id="titlediv" class="dts-field-container">
+                    <input type="text" name="title" size="80" value="<?php echo esc_attr($dataTable->title); ?>" id="title" spellcheck="true" autocomplete="off" placeholder="<?php esc_attr_e('Enter table title', 'data-source'); ?>" />
+                </div>
+                <br class="clear" />
+                <div id="dts-data-table" class="meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Data Source', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <label for="data-source"><?php esc_html_e('Select Data Source', 'data-source'); ?></label>
+                            <div class="field dts-field-container">
+                                <select id="data-source" name="datasource" data-url="<?php echo $this->menuUrl('dts-tables', 'getColumns', array('post'=>$dataTable->id)); ?>">
+                                    <option value=""><?php esc_html_e('[ Select Data Source ]'); ?></option>
+                                    <?php foreach ($dataSources as $dataSource) : ?>
+                                    <option value="<?php echo esc_attr($dataSource->ID); ?>" <?php if ($dataSource->ID == $dataTable->datasource) : ?>selected="selected"<?php endif; ?>><?php echo esc_html($dataSource->post_title); ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dts-table-preview" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Table Preview', 'data-source'); ?></span></h3>
+                        <div class="inside"></div>
+                    </div>
+                </div>
+
+                <div id="dts-table-columns" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Table Columns', 'data-source'); ?></span></h3>
+                        <div class="inside"></div>
+                    </div>
+                </div>
+
+                <div id="table-styles-container" class="meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle ui-sortable-handle"><span><?php esc_html_e('Table Design'); ?></span></h3>
+                        <div class="inside">
+                            <p><?php esc_html_e('Here you can select table design or configure your own styles for current table.'); ?></p>
+                            <p>
+                                <select name="table_design_type" id="dts-table-design-type">
+                                    <option value="dts_existing" data-tab="dts-existing-design-tab" <?php if ($dataTable->table_design_type=='dts_existing') : ?>selected="selected"<?php endif; ?>><?php esc_html_e('Existing Table Styles'); ?></option>
+                                    <option value="dts_custom" data-tab="dts-custom-design-tab" <?php if ($dataTable->table_design_type=='dts_custom') : ?>selected="selected"<?php endif; ?>><?php esc_html_e('Custom'); ?></option>
+                                    <option value="dts_class" data-tab="dts-class-design-tab" <?php if ($dataTable->table_design_type=='dts_class') : ?>selected="selected"<?php endif; ?>><?php esc_html_e('My Table Class'); ?></option>
+                                </select>
+                            </p>
+                            <div id="dts-existing-design-tab" class="dts-table-styles-tab">
+                                <input type="hidden" value="<?php echo esc_attr($dataTable->dts_existing_table_style); ?>" id="dts-existing-table-style" name="dts_existing_table_style" />
+                                <div class="dts-table-designs-container">
+                                    <div class="dts-table-design-sample" style="display:none;" id="dts-table-sample-template">
+                                        <table class="dts-table-design-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Name</th>
+                                                    <th>Date</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tfoot>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Name</th>
+                                                    <th>Date</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </tfoot>
+                                            <tbody>
+                                                <tr>
+                                                    <td>12</td>
+                                                    <td>admin</td>
+                                                    <td>12/12/2014</td>
+                                                    <td>$120</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>13</td>
+                                                    <td>user</td>
+                                                    <td>05/05/2015</td>
+                                                    <td>$90</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>16</td>
+                                                    <td>anonymous</td>
+                                                    <td>01/03/2016</td>
+                                                    <td>$110</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="dts-table-design-pagination">
+                                            <span>1</span>
+                                            <span class="dts-table-design-selected">2</span>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                    <div class="dts-clear"></div>
+                                </div>
+                            </div>
+                            <div id="dts-class-design-tab" class="dts-table-styles-tab">
+                                <p><?php esc_html_e('Specify your table class name:'); ?></p>
+                                <input type="text" name="table_class" value="<?php echo esc_html($dataTable->table_class); ?>" />
+                                <a href="#" class="button table-preview-btn"><?php esc_html_e('Preview', 'data-source');?></a>
+
+                                <p><?php esc_html_e('Custom CSS:'); ?></p>
+                                <div class="field dts-field-container dts-custom-css-container">
+                                    <textarea cols="80" rows="10" id="table-css" name="table_css"><?php echo esc_html($dataTable->table_css); ?></textarea>
+                                </div>
+                            </div>
+                            <div id="dts-custom-design-tab" class="dts-table-styles-tab">
+                                <table width="100%" class="dts-options-table">
+                                    <tbody>
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><strong><?php esc_html_e('Table Styles'); ?></strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="dts-table-label">
+                                            <p><label><?php esc_html_e('Table border'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="dts-color" id="dts-table-border" name="design[table_border]" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><?php esc_html_e('Borders type'); ?></p>
+                                        </td>
+                                        <td>
+                                            <select name="design[table_borders_type]" id="dts-table-borders-type">
+                                                <option value="horizontal"><?php esc_html_e('Horizontal only'); ?></option>
+                                                <option value="all"><?php esc_html_e('All'); ?></option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Table font'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <select name="design[table_font]" id="dts-table-font">
+                                                <option value=""><?php esc_html_e('[ Theme Default ]'); ?></option>
+                                                <?php foreach ($fonts as $font=>$styles) : ?>
+                                                    <option value="<?php echo esc_attr($font);?>"><?php echo esc_html($font);?></option>
+                                                <?php endforeach; ?>
+                                            </select>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="2" class="dts-table-subheader">
+                                            <p><strong><?php esc_html_e('Header Styles'); ?></strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Header background'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="dts-color" id="dts-header-background-color" name="design[header_background]" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Header text color'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="dts-color" id="dts-header-text-color" name="design[header_text]" />
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td colspan="2" class="dts-table-subheader">
+                                            <p><strong><?php esc_html_e('Table Body Styles'); ?></strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Primary (odd) rows background'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="dts-color" id="dts-body-odd-background-color" name="design[body_odd_background]" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Secondary (even) rows background'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="dts-color" id="dts-body-even-background-color" name="design[body_even_background]" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Hover background'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="dts-color" id="dts-body-hover-background-color" name="design[body_hover_background]" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Body text color'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="dts-color" id="dts-header-text-color" name="design[body_text]" />
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="2" class="dts-table-subheader">
+                                            <p><strong><?php esc_html_e('Pagination Styles'); ?></strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Text color'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="dts-color" id="dts-pagination-text-color" name="design[pagination_color]" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Selected page text color'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="dts-color" id="dts-pagination-selected-text-color" name="design[pagination_selected_color]" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Selected page background'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" class="dts-color" id="dts-pagination-background-color" name="design[pagination_background]" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="dts-table-subheader" colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p><label><?php esc_html_e('Save your styles as:'); ?></label></p>
+                                        </td>
+                                        <td>
+                                            <input type="text" id="dts-styles-name" name="design[name]" />
+                                            <input type="button" id="dts-save-styles" value="<?php esc_attr_e('Save'); ?>" class="button" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <p><a href="#" class="button table-preview-btn"><?php esc_html_e('Preview', 'data-source');?></a></p>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="save-data-source-form">
+                    <input type="submit" class="button-primary" name="save" value="<?php echo esc_attr( __( 'Save', 'data-source' ) ); ?>" />
+                </div>
+            </div>
+
+            <div id="dts-add-table-right-sidebar">
+                <div id="side-sortables" class="meta-box-sortables ui-sortable" style="">
+                    <div id="table-options-container" class="postbox ">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle ui-sortable-handle"><span><?php esc_html_e('Table Options', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <p><label for="dts-pagination"><input type="checkbox" value="1" name="pagination" id="dts-pagination" <?php if ($dataTable->pagination) : ?>checked="checked" <?php endif; ?> /> <strong><?php esc_html_e('Enable pagination', 'data-source'); ?></strong></label></p>
+
+                            <p><label for="dts-header"><input type="checkbox" value="1" name="header" id="dts-header" <?php if ($dataTable->header) : ?>checked="checked" <?php endif; ?> /> <strong><?php esc_html_e('Show header', 'data-source'); ?></strong></label></p>
+                            <p><label for="dts-footer"><input type="checkbox" value="1" name="footer" id="dts-footer" <?php if ($dataTable->footer) : ?>checked="checked" <?php endif; ?> /> <strong><?php esc_html_e('Show footer', 'data-source'); ?></strong></label></p>
+                            <p><label for="dts-sortby"><strong><?php esc_html_e('Default sorting', 'data-source'); ?></strong></label></p>
+                            <select name="sortby" id="dts-sortby" data-val="<?php echo esc_attr($dataTable->sortby) ?>">
+                                <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                            </select>
+                            <select name="sortorder" id="dts-sortorder">
+                                <option value="asc"><?php esc_html_e('ASC', 'data-source'); ?></option>
+                                <option value="desc" <?php if ($dataTable->sortorder == 'desc') : ?>selected="selected"<?php endif; ?>><?php esc_html_e('DESC', 'data-source'); ?></option>
+                            </select>
+
+                            <p><label for="dts-langauge"><strong><?php esc_html_e('Interface language', 'data-source'); ?></strong></label></p>
+                            <select name="language" id="dts-language">
+                                <?php foreach ($languages as $language) : ?>
+                                    <option value="<?php echo esc_attr($language); ?>" <?php if ($dataTable->language == $language) : ?>selected="selected"<?php endif; ?>><?php echo esc_html($language); ?></option>
+                                <?php endforeach; ?>
+                            </select>
+                            <p><a href="#" class="button table-preview-btn"><?php esc_html_e('Reload Preview', 'data-source');?></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

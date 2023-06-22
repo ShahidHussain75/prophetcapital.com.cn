@@ -1,0 +1,207 @@
+<div class="wrap dts-form">
+
+    <h2><?php echo esc_html( __( 'Edit Data Chart', 'data-source' ) ); ?></h2>
+
+    <form method="post" action="<?php echo $this->menuUrl('dts-charts', 'edit', array('post'=>$dataChart->id)); ?>" id="dts-add-chart-form" class="edit">
+        <?php wp_nonce_field( 'dts-save-data-chart'); ?>
+        <input type="hidden" value="<?php echo $this->menuUrl('dts-charts', 'preview'); ?>" id="dts-load-preview-url" />
+        <input type="hidden" value="<?php echo esc_attr(dts_json_encode($dataChart->columns)); ?>" id="dts-columns" />
+        <input type="hidden" value="<?php echo esc_attr(dts_json_encode($dataChart->groupby)); ?>" id="dts-groupby" />
+        <div id="dts-add-table-form-container" class="metabox-holder columns-2">
+            <div id="dts-body-content">
+                <div id="titlediv" class="dts-field-container">
+                    <input type="text" name="title" size="80" value="<?php echo esc_attr($dataChart->title); ?>" id="title" spellcheck="true" autocomplete="off" placeholder="<?php esc_attr_e('Enter chart title', 'data-source'); ?>" />
+                </div>
+                <br class="clear" />
+                <div id="dts-data-table" class="meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Data Source', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <label for="data-source"><?php esc_html_e('Select Data Source', 'data-source'); ?></label>
+                            <div class="field dts-field-container">
+                                <select id="data-source" name="datasource" data-url="<?php echo $this->menuUrl('dts-charts', 'getColumns'); ?>">
+                                    <option value=""><?php esc_html_e('[ Select Data Source ]'); ?></option>
+                                    <?php foreach ($dataSources as $dataSource) : ?>
+                                    <option value="<?php echo esc_attr($dataSource->ID); ?>" <?php if ($dataSource->ID == $dataChart->datasource) : ?>selected="selected"<?php endif; ?>><?php echo esc_html($dataSource->post_title); ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-chart-type" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Chart Type', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <input type="hidden" value="" id="dts-chart-name" name="chart_name" />
+                            <a href="#" class="chart pie dts-chart-type <?php if ($dataChart->chart_name == 'pie') : ?>selected<?php endif; ?>" data-chart-type="pie"></a>
+                            <a href="#" class="chart bar dts-chart-type <?php if ($dataChart->chart_name == 'bar') : ?>selected<?php endif; ?>" data-chart-type="bar"></a>
+                            <a href="#" class="chart chart2d dts-chart-type <?php if ($dataChart->chart_name == '2d') : ?>selected<?php endif; ?>" data-chart-type="2d"></a>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-chart-group" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Group Data', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <div class="alignleft">
+                                <p><label><input type="radio" value="" name="group" <?php if ($dataChart->group == '') : ?>checked="checked"<?php endif; ?> /> <?php esc_html_e('None', 'data-source'); ?></label></p>
+                                <p><label><input type="radio" value="fields" name="group" <?php if ($dataChart->group == 'fields') : ?>checked="checked"<?php endif; ?> /> <?php esc_html_e('By selected fields', 'data-source'); ?></label></p>
+                                <p><label><input type="radio" value="all" name="group" <?php if ($dataChart->group == 'all') : ?>checked="checked"<?php endif; ?> /> <?php esc_html_e('All (data summary)', 'data-source'); ?></label></p>
+                            </div>
+                            <div class="alignleft" id="dts-group-by-columns"></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-chart-columns" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Chart Columns', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <div class="dts-form-container"></div>
+                            <br>
+                            <a href="#" class="button chart-preview-btn"><?php esc_html_e('Preview', 'data-source');?></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-chart-styles" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Chart Styles', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <div class="field dts-field-container chart-style-options">
+                                <div id="styles-pie">
+                                    <p><?php esc_html_e('Chart Style'); ?></p>
+                                    <p><label><input type="radio" value="" name="pie_type" <?php if ($dataChart->pie_type == '') : ?>checked="checked"<?php endif; ?> /> <?php esc_html_e('Plain', 'data-source'); ?></label></p>
+                                    <p><label><input type="radio" value="3d" name="pie_type" <?php if ($dataChart->pie_type == '3d') : ?>checked="checked"<?php endif; ?> /> <?php esc_html_e('3D chart', 'data-source'); ?></label></p>
+                                    <p><label><input type="radio" value="donut" name="pie_type" <?php if ($dataChart->pie_type == 'donut') : ?>checked="checked"<?php endif; ?> /> <?php esc_html_e('Donut chart', 'data-source'); ?></label></p>
+                                </div>
+                                <div id="styles-bar">
+                                    <p><?php esc_html_e('Chart Style'); ?></p>
+                                    <p><label><input type="checkbox" value="1" name="stacked" <?php if ($dataChart->stacked == '1') : ?>checked="checked"<?php endif; ?> /> <?php esc_html_e('Stacked', 'data-source'); ?></label></p>
+                                    <p><label><input type="checkbox" value="1" name="horizontal" <?php if ($dataChart->horizontal == '') : ?>checked="checked"<?php endif; ?> /> <?php esc_html_e('Horizontal', 'data-source'); ?></label></p>
+                                </div>
+                                <div id="styles-2d"></div>
+                            </div>
+                            <div class="field dts-field-container">
+                                <p><?php esc_html_e('Chart Palette'); ?></p>
+                                <p><label><input type="radio" value="" name="palette" <?php if ($dataChart->palette == '') : ?>checked="checked"<?php endif; ?> /> <?php esc_html_e('Default', 'data-source'); ?></label></p>
+                                <p><label><input type="radio" value="custom" name="palette" <?php if ($dataChart->palette == 'custom') : ?>checked="checked"<?php endif; ?> /> <?php esc_html_e('Custom', 'data-source'); ?></label></p>
+                                <div class="palettes-list">
+                                    <?php foreach ($palettes as $palette) : ?>
+                                        <ul class="dts-palette" data-colors="<?php echo esc_attr(dts_json_encode($palette['colors'])); ?>">
+                                            <?php foreach ($palette['colors'] as $color) : ?>
+                                                <li style="background-color: <?php echo $color ?>"></li>
+                                            <?php endforeach; ?>
+                                        </ul>
+                                    <?php endforeach; ?>
+                                    <?php if (count($dataChart->colors)) : ?>
+                                        <?php foreach ($dataChart->colors as $color) : ?>
+                                            <input type="hidden" value="<?php echo esc_attr($color); ?>" name="colors[]" class="color" />
+                                        <?php endforeach; ?>
+                                    <?php endif; ?>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+                            <a href="#" class="button chart-preview-btn"><?php esc_html_e('Preview', 'data-source');?></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-chart-preview" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Chart Preview', 'data-source'); ?></span></h3>
+                        <div class="inside"></div>
+                    </div>
+                </div>
+
+                <div class="save-data-source-form">
+                    <input type="submit" class="button-primary" name="save" value="<?php echo esc_attr( __( 'Save', 'data-source' ) ); ?>" />
+                </div>
+            </div>
+
+            <div id="dts-add-table-right-sidebar">
+                <div id="side-sortables" class="meta-box-sortables ui-sortable" style="">
+                    <div id="chart-options-container" class="postbox ">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle ui-sortable-handle"><span><?php esc_html_e('Chart Options', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <p><label for="dts-legend"><input type="checkbox" value="1" name="legend" id="dts-legend" <?php if ($dataChart->legend == '1') : ?>checked="checked"<?php endif; ?> /> <strong><?php esc_html_e('Show Legend', 'data-source'); ?></strong></label></p>
+                            <p><label for="dts-show-title"><input type="checkbox" value="1" name="show_title" id="dts-show-title" <?php if ($dataChart->show_title == '1') : ?>checked="checked"<?php endif; ?> /> <strong><?php esc_html_e('Show Title', 'data-source'); ?></strong></label></p>
+
+                            <p><label for="dts-sortby"><strong><?php esc_html_e('Default sorting', 'data-source'); ?></strong></label></p>
+                            <select name="sortby" id="dts-sortby" data-val="<?php echo esc_attr($dataChart->sortby); ?>">
+                                <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                            </select>
+                            <select name="sortorder" id="dts-sortorder">
+                                <option value="asc" <?php if ($dataChart->sortorder == 'asc') : ?>selected="selected"<?php endif; ?>><?php esc_html_e('ASC', 'data-source'); ?></option>
+                                <option value="desc" <?php if ($dataChart->sortorder == 'desc') : ?>selected="selected"<?php endif; ?>><?php esc_html_e('DESC', 'data-source'); ?></option>
+                            </select>
+                            <p><label for="dts-chart-width"><?php esc_html_e('Width x Height', 'data-source'); ?></label></p>
+                            <input type="text" value="<?php echo esc_attr($dataChart->width); ?>" name="width" size="4" />
+                            <input type="text" value="<?php echo esc_attr($dataChart->height); ?>" name="height" size="4" />
+                            <p><a href="#" class="button chart-preview-btn"><?php esc_html_e('Reload Preview', 'data-source');?></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <div style="display:none;">
+        <div id="summary-form">
+            <div class="field dts-field-container" id="summary-form-column">
+                <input type="text" class="c-label" value="" placeholder="<?php esc_attr_e('Label'); ?>" name="columns[][label]" />
+                <select class="dts-column-select c-column" name="columns[][column]"><option value=""><?php esc_html_e('[ Value Column ]'); ?></option></select>
+                <select class="dts-function-select c-function" name="columns[][function]"></select>
+                <input type="button" value="<?php esc_attr_e('Delete'); ?>" class="button dts-column-delete" />
+            </div>
+            <input type="button" value="<?php esc_attr_e('Add'); ?>" class="button dts-column-add" data-column-template="summary-form-column" />
+        </div>
+
+        <div id="col1-form">
+            <div class="field dts-field-container" id="col1-form-column">
+                <select class="dts-column-select c-label" name="columns[][label]"><option value=""><?php esc_html_e('[ Label Column ]'); ?></option></select>
+                <select class="dts-column-select c-column" name="columns[][column]"><option value=""><?php esc_html_e('[ Value Column ]'); ?></option></select>
+                <select class="dts-function-select c-function" name="columns[][function]"></select>
+            </div>
+        </div>
+
+        <div id="col2-form">
+            <div id="col1-form-column">
+                <div class="field dts-field-container">
+                    <p><?php esc_html_e('Horizontal (x)'); ?></p>
+                    <select class="dts-column-select c-column" name="columns[][column]"><option value=""><?php esc_html_e('[ Value Column ]'); ?></option></select>
+                    <select class="dts-function-select c-function" name="columns[][function]"></select>
+                </div>
+
+                <div class="field dts-field-container">
+                    <p><?php esc_html_e('Vertical (y)'); ?></p>
+                    <select class="dts-column-select c-column" name="columns[][column]"><option value=""><?php esc_html_e('[ Value Column ]'); ?></option></select>
+                    <select class="dts-function-select c-function" name="columns[][function]"></select>
+                </div>
+            </div>
+        </div>
+
+        <div id="colN-form">
+            <select class="dts-column-select c-main" name="columns[main]"><option value=""><?php esc_html_e('[ Label Column ]'); ?></option></select>
+            <div class="field dts-field-container" id="colN-form-column">
+                <input type="text" class="c-label" value="" placeholder="<?php esc_attr_e('Label'); ?>" name="columns[][label]" />
+                <select class="dts-column-select c-column" name="columns[][column]"><option value=""><?php esc_html_e('[ Value Column ]'); ?></option></select>
+                <select class="dts-function-select c-function" name="columns[][function]"></select>
+                <input type="button" value="<?php esc_attr_e('Delete'); ?>" class="button dts-column-delete" />
+            </div>
+            <input type="button" value="<?php esc_attr_e('Add'); ?>" class="button dts-column-add" data-column-template="colN-form-column" />
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="dts-table-preview">
+    <table class="dts-data-source-table-preview">
+        <thead>
+        <tr>
+            <?php foreach ($columns as $column) : ?>
+                <th><?php echo esc_html($column['label']); ?></th>
+            <?php endforeach; ?>
+        </tr>
+        </thead>
+        <tbody>
+        <?php foreach ($list as $item) : ?>
+        <tr>
+            <?php foreach ($columns as $column) : ?>
+                <?php if ($column['type'] == 'image') : ?>
+                    <td><img src="<?php echo $item[$column['name']]; ?>" class="dts-table-image" /></td>
+                <?php elseif ($column['type'] == 'number') : ?>
+                    <td class="dts-table-number"><?php echo $item[$column['name']]; ?></td>
+                <?php elseif ($column['type'] == 'url') : ?>
+                    <td><a href="<?php echo $item[$column['name']]; ?>"><?php echo $item[$column['name']]; ?></a></td>
+                <?php else : ?>
+                    <td><?php echo $item[$column['name']]; ?></td>
+                <?php endif; ?>
+
+            <?php endforeach; ?>
+        </tr>
+        <?php endforeach; ?>
+        </tbody>
+    </table>
+
+    <?php if ($type == 'xml') : ?>
+        <script>
+            jQuery('#xml-parent-path option[value!=""]').remove();
+            <?php foreach ($xml_structure as $val=>$item) : ?>
+                jQuery('#xml-parent-path').append('<option value="<?php echo esc_html($val); ?>"><?php echo esc_html($item); ?></option>');
+            <?php endforeach; ?>
+            <?php if ($xml_parent_path) : ?>
+                jQuery('#xml-parent-path option[value="<?php echo esc_attr($xml_parent_path); ?>"]').attr('selected', 'selected');
+            <?php endif; ?>
+        </script>
+    <?php endif; ?>
+</div>

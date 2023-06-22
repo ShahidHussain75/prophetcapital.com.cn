@@ -1,0 +1,167 @@
+<?php if ($styles['font']) : ?>
+<link href='http://fonts.googleapis.com/css?family=<?php echo urlencode($styles['font']); ?>:400,700,300' rel='stylesheet' type='text/css'>
+<?php endif; ?>
+<div  id="<?php echo esc_attr($styles['id']) ?>" class="dts-table-preview">
+    <table class="<?php echo esc_attr($styles['class']); ?> display dt-responsive no-wrap" width="100%">
+
+        <thead>
+        <tr>
+            <?php foreach ($columns as $column) : ?>
+                <th><?php echo esc_html($column['label']); ?></th>
+            <?php endforeach; ?>
+        </tr>
+        </thead>
+
+        <?php if ($dataTable->footer) : ?>
+        <tfoot>
+        <tr>
+            <?php foreach ($columns as $column) : ?>
+                <th><?php echo esc_html($column['label']); ?></th>
+            <?php endforeach; ?>
+        </tr>
+        </tfoot>
+        <?php endif; ?>
+
+        <tbody>
+        <?php foreach ($list as $item) : ?>
+        <tr>
+            <?php foreach ($columns as $column) : ?>
+                <?php if ($column['type'] == 'image') : ?>
+                    <td><img src="<?php echo esc_attr($item[$column['name']]); ?>" class="dts-table-image" /></td>
+                <?php elseif ($column['type'] == 'number') : ?>
+                    <td class="dts-table-number"><?php echo esc_html($item[$column['name']]); ?></td>
+                <?php elseif ($column['type'] == 'date') : ?>
+                    <td class="dts-table-date">
+                        <?php
+                            if ($timestamp = strtotime($item[$column['name']])) {
+                                $time = date("H:i:s", $timestamp);
+                                $date = date("m/d/Y", $timestamp);
+                                if ($time == '00:00:00') {
+                                    echo $date;
+                                } else {
+                                    echo $date.' '.$time;
+                                }
+                            } elseif (is_numeric($item[$column['name']])) {
+                                $date = date("m/d/Y H:i:s", intval($item[$column['name']]));
+                                echo $date;
+                            } else {
+                                echo esc_html($item[$column['name']]);
+                            }
+                        ?>
+                    </td>
+                <?php elseif ($column['type'] == 'url') : ?>
+                    <td><a href="<?php echo $item[$column['name']]; ?>"><?php echo $item[$column['name']]; ?></a></td>
+                <?php else : ?>
+                    <td>
+                        <?php
+                            if (filter_var($item[$column['name']], FILTER_VALIDATE_EMAIL)) {
+                                echo '<a href="mailto:'.esc_html($item[$column['name']]).'">'
+                                    .esc_html($item[$column['name']])
+                                    .'</a>';
+                            } else {
+                                echo esc_html($item[$column['name']]);
+                            }
+                        ?>
+                    </td>
+                <?php endif; ?>
+            <?php endforeach; ?>
+        </tr>
+        <?php endforeach; ?>
+        </tbody>
+    </table>
+</div>
+
+<style>
+    #<?php echo $styles['id']; ?> .dataTables_wrapper .dataTables_filter input {
+        margin-left: 0;
+    }
+
+    #<?php echo $styles['id']; ?> table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child,
+    #<?php echo $styles['id']; ?> table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child {
+        padding-left: 30px;
+    }
+
+    #<?php echo $styles['id']; ?> a.paginate_button, #<?php echo $styles['id']; ?> a.paginate_button:hover {
+        background: none;
+        color: <?php echo $dataTable->design['pagination_color']; ?> !important;
+    }
+
+    #<?php echo $styles['id']; ?> a.paginate_button:hover {
+        border: 1px solid <?php echo $dataTable->design['pagination_background']; ?>
+    }
+
+    #<?php echo $styles['id']; ?> .dts-table-image {
+        max-width: 200px;
+    }
+
+    #<?php echo $styles['id']; ?> table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin: auto;
+    }
+
+    #<?php echo $styles['id']; ?> td, #<?php echo $styles['id']; ?> th {
+        padding: 8px;
+        text-align: left;
+        vertical-align: top;
+        text-shadow: none;
+    }
+
+    #<?php echo $styles['id']; ?> th {
+        vertical-align: middle;
+    }
+
+    #<?php echo $styles['id']; ?> th.sorting,
+    #<?php echo $styles['id']; ?> th.sorting_asc,
+    #<?php echo $styles['id']; ?> th.sorting_desc {
+        padding-right: 20px;
+    }
+
+
+    #<?php echo $styles['id']; ?> td.dts-table-number {
+        text-align: right;
+    }
+    <?php echo $styles['css']; ?>
+    <?php echo $customCSS?$customCSS:''; ?>
+</style>
+
+<script>
+    jQuery(document).ready(
+        function () {
+            jQuery('#<?php echo $styles['id']; ?> table').DataTable({
+                <?php if ($dataTable->pagination) :?>
+                "paging":   true,
+                <?php else: ?>
+                "paging":   false,
+                <?php endif; ?>
+
+                <?php if ($dataTable->sortby) : ?>
+                "order": [[ <?php echo (int)$sortby; ?>, "<?php echo $dataTable->sortorder; ?>" ]],
+                <?php endif; ?>
+
+                "columnDefs": [
+                    <?php $i=0; $sortable = false; foreach ($columns as $column) : ?>
+                        <?php if ($column['sortable']) : $sortable = true; ?>
+                            { "targets": <?php echo $i;?>, "orderable": true },
+                        <?php else: ?>
+                            { "targets": <?php echo $i;?>, "orderable": false },
+                        <?php endif; ?>
+                    <?php $i++; endforeach; ?>
+                ],
+                <?php if (!$sortable) : ?>
+                "bSort" : false,
+                <?php endif; ?>
+
+                <?php if ($dataTable->language) : ?>
+                language: {
+                    url: '<?php echo plugins_url( 'data-source/js/DataTables/media/js/i18n/'.$dataTable->language.'.lang'); ?>'
+                }
+                <?php endif; ?>
+            });
+
+            <?php if (!$dataTable->header) : ?>
+            jQuery('#<?php echo $styles['id']; ?> table thead').hide();
+            <?php endif; ?>
+        }
+    );
+</script>

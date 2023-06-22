@@ -1,0 +1,118 @@
+<?php $gridId = uniqid('grid'); ?>
+
+<?php
+    $currentBackground = 0;
+    $maxBackground = count($backgrounds);
+?>
+<div id="<?php echo $gridId; ?>">
+    <?php $i=0; foreach ($values as $value) : ?>
+    <?php if ($i==0) : ?><div class="dts-grid-row dts-grid-row-<?php echo $options['columns_num']; ?>"><?php endif; ?>
+
+    <?php
+        if ($maxBackground) {
+            if ($currentBackground>=$maxBackground) $currentBackground = 0;
+            $background = $backgrounds[$currentBackground];
+        } else {
+            $background = '';
+        }
+    ?>
+    <div class="dts-grid-column"><div class="dts-grid-column-content" style="background:<?php echo $background; ?>"><?php echo $value; ?></div></div>
+    <?php $i++; ?>
+
+    <?php if ($i==$options['columns_num']) : $i=0; ?></div><?php endif; ?>
+    <?php $currentBackground++; ?>
+<?php endforeach; ?>
+
+<?php if (count($values) && $i && ($i<$options['columns_num'])) : ?></div><?php endif; ?>
+</div>
+
+<style>
+    #<?php echo $gridId; ?> .dts-grid-row {
+        margin-bottom: <?php echo $margin['bottom']; ?>px;
+        margin-top: <?php echo $margin['top']; ?>px;
+    }
+    #<?php echo $gridId; ?> .dts-grid-column .dts-grid-column-content {
+        padding-left: <?php echo $padding['left']; ?>px;
+        padding-right: <?php echo $padding['right']; ?>px;
+        padding-top: <?php echo $padding['top']; ?>px;
+        padding-bottom: <?php echo $padding['bottom']; ?>px;
+
+        border: <?php echo $border['size']; ?>px solid <?php echo $border['color']; ?>;
+        border-radius: <?php echo $border['radius']; ?>px;
+
+        margin-right: <?php echo $margin['horizontal']; ?>px;
+     }
+
+    .dts-grid-row {
+        width: 100%;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        display: table;
+    }
+
+    .dts-grid-row::after {
+        clear: both;
+    }
+
+    .dts-grid-column {
+        border: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        float: left;
+        min-height: 1px;
+        position: relative;
+        display: block;
+    }
+
+    .dts-grid-row-1 .dts-grid-column {
+        width: 100%;
+    }
+
+    .dts-grid-row-2 .dts-grid-column {
+        width: 50%;
+    }
+
+    .dts-grid-row-3 .dts-grid-column {
+        width: 33%;
+    }
+
+    .dts-grid-row-4 .dts-grid-column {
+        width: 25%;
+    }
+
+    .dts-grid-row-5 .dts-grid-column {
+        width: 20%;
+    }
+
+    .dts-grid-row-6 .dts-grid-column {
+        width: 16.6%;
+    }
+
+    .dts-grid-row-7 .dts-grid-column {
+        width: 14.2%;
+    }
+
+    .dts-grid-row-8 .dts-grid-column {
+        width: 12.5%;
+    }
+
+    .dts-grid-row-9 .dts-grid-column {
+        width: 11.1%;
+    }
+
+    .dts-grid-row-10 .dts-grid-column {
+        width: 10%;
+    }
+
+    .dts-grid-row-11 .dts-grid-column {
+        width: 9%;
+    }
+
+    .dts-grid-row-12 .dts-grid-column {
+        width: 8.3%;
+    }
+</style>

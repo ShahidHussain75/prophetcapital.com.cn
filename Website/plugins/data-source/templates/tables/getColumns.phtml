@@ -1,0 +1,29 @@
+<p>Please specify columns to display on the table, set types and labels, reorder them.</p>
+<table class="dts-columns-table">
+    <thead>
+    <tr>
+        <th><input type="checkbox" id="dts-show-all-columns" /> Show</th>
+        <th>Name</th>
+        <th>Label</th>
+        <th>Type</th>
+        <th>Sortable &#8645;</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($columns as $i=>$column) : ?>
+    <tr>
+        <td class="center"><input type="checkbox" class="dts-show-checkbox" name="column[<?php echo $i; ?>][show]" value="1" <?php if (isset($column['show']) && $column['show']) : ?>checked="checked"<?php endif; ?> /></td>
+        <td class="dts-column-name"><?php echo esc_html($column['name']); ?></td>
+        <td><input type="text" value="<?php echo esc_attr($column['label']); ?>" name="column[<?php echo $i; ?>][label]"  /></td>
+        <td>
+            <select name="column[<?php echo $i; ?>][type]">
+                <?php foreach ($types as $code=>$type) :?>
+                    <option value="<?php echo $code; ?>" <?php if ($column['type'] == $code) : ?>selected="selected"<?php endif; ?>><?php echo $type; ?></option>
+                <?php endforeach; ?>
+            </select>
+        </td>
+        <td class="center"><input type="checkbox" value="1" name="column[<?php echo $i; ?>][sortable]" <?php if (isset($column['sortable']) && $column['sortable']) : ?>checked="checked"<?php endif; ?>/></td>
+    </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>

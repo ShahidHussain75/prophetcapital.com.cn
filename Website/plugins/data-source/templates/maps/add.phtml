@@ -1,0 +1,273 @@
+<div class="wrap dts-form">
+
+    <h2><?php echo esc_html( __( 'Add New Data Map', 'data-source' ) ); ?></h2>
+
+    <form method="post" action="<?php echo $this->menuUrl('dts-maps', 'add'); ?>" id="dts-add-map-form">
+        <?php wp_nonce_field( 'dts-save-data-map'); ?>
+        <input type="hidden" value="<?php echo $this->menuUrl('dts-maps', 'preview'); ?>" id="dts-load-preview-url" />
+        <div class="metabox-holder columns-2">
+            <div id="dts-body-content">
+                <div id="titlediv" class="dts-field-container">
+                    <input type="text" name="title" size="80" value="" id="title" spellcheck="true" autocomplete="off" placeholder="<?php esc_attr_e('Enter map title', 'data-source'); ?>" />
+                </div>
+                <br class="clear" />
+                <div id="dts-data-table" class="meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Data Source', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <?php if (!count($dataSources)) : ?>
+                                <a href="<?php echo $this->menuUrl('dts-sources', 'add'); ?>"><?php esc_html_e('Add Data Source', 'data-source'); ?></a>
+                            <?php else: ?>
+                            <label for="data-source"><?php esc_html_e('Select Data Source', 'data-source'); ?></label>
+                            <div class="field dts-field-container">
+                                <select id="data-source" name="datasource" data-url="<?php echo $this->menuUrl('dts-maps', 'getColumns'); ?>">
+                                    <option value=""><?php esc_html_e('[ Select Data Source ]'); ?></option>
+                                    <?php foreach ($dataSources as $dataSource) : ?>
+                                    <option value="<?php echo esc_attr($dataSource->ID); ?>"><?php echo esc_html($dataSource->post_title); ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+                        <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-map-type" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Map Type', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <p><label><input type="radio" value="geochart" name="map_name" /> GeoChart</label></p>
+                            <p><label><input type="radio" value="googlemap" name="map_name" /> Google Map</label></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-map-group" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Group Data', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <div class="alignleft">
+                                <p><label><input type="radio" value="" name="group" /> <?php esc_html_e('None', 'data-source'); ?></label></p>
+                                <p><label><input type="radio" value="fields" name="group" /> <?php esc_html_e('By selected fields', 'data-source'); ?></label></p>
+                            </div>
+                            <div class="alignleft" id="dts-group-by-columns"></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-map-columns" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Map Configuration', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <div class="dts-form-container">
+                                <p><label for="dts-map-width"><?php esc_html_e('Width x Height', 'data-source'); ?></label></p>
+                                <input type="text" value="100%" name="width" size="4" />
+                                <input type="text" value="450" name="height" size="4" />
+                                <br>
+                                <p><?php esc_html_e('Location defined as:', 'data-source'); ?></p>
+                                <div class="alignleft">
+                                    <p><label><input type="radio" value="latlng" name="address_type" checked="checked" /> <?php esc_html_e('Latitude and Longitude', 'data-source'); ?></label></p>
+                                    <p><label><input type="radio" value="address" name="address_type" /> <?php esc_html_e('Text', 'data-source'); ?></label></p>
+                                </div>
+                                <div class="alignleft" id="dts-address-type-latlng">
+                                    <p><label><?php esc_html_e('Latitude', 'data-source'); ?></label></p>
+                                    <select name="latitude" class="dts-column-select-common">
+                                        <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                    </select>
+
+                                    <p><label><?php esc_html_e('Longitude', 'data-source'); ?></label></p>
+                                    <select name="longitude" class="dts-column-select-common">
+                                        <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                    </select>
+                                </div>
+                                <div class="alignleft" id="dts-address-type-text" style="display:none;">
+                                    <p><label><?php esc_html_e('Country', 'data-source'); ?></label></p>
+                                    <select name="country" class="dts-column-select-common">
+                                        <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                    </select>
+
+                                    <p><label><?php esc_html_e('State', 'data-source'); ?></label></p>
+                                    <select name="state" class="dts-column-select-common">
+                                        <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                    </select>
+
+                                    <p><label><?php esc_html_e('City', 'data-source'); ?></label></p>
+                                    <select name="city" class="dts-column-select-common">
+                                        <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                    </select>
+
+                                    <p><label><?php esc_html_e('Address', 'data-source'); ?></label></p>
+                                    <select name="address" class="dts-column-select-common">
+                                        <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                    </select>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+
+                            <div class="dts-form-container googlemap-settings">
+                                <p><label><input type="checkbox" value="1" name="scroll_wheel" checked="checked" /> <?php esc_html_e('Enable scroll with mouse wheel', 'data-source'); ?></label></p>
+                                <p><label><input type="checkbox" value="1" name="map_selector" checked="checked" /> <?php esc_html_e('Show map type selector', 'data-source'); ?></label></p>
+                                <p>
+                                    <label><?php esc_html_e('Map type:', 'data-source'); ?></label>
+                                    <select name="map_type">
+                                        <option value="normal"><?php esc_html_e('Normal', 'data-source'); ?></option>
+                                        <option value="terrain"><?php esc_html_e('Terrain', 'data-source'); ?></option>
+                                        <option value="satellite"><?php esc_html_e('Satellite', 'data-source'); ?></option>
+                                        <option value="hybrid"><?php esc_html_e('Hybrid', 'data-source'); ?></option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <label><?php esc_html_e('Zoom level:', 'data-source'); ?></label>
+                                    <select name="zoom_level">
+                                        <option value="0"><?php esc_html_e('Whole world', 'data-source'); ?></option>
+                                        <?php for ($i=1;$i<20; $i++) :?>
+                                        <option value="<?php echo $i; ?>"><?php echo $i; ?>x</option>
+                                        <?php endfor; ?>
+                                    </select>
+                                </p>
+
+                                <h4>Description</h4>
+                                <p>
+                                    <label><?php esc_html_e('Value:', 'data-source'); ?></label>
+                                    <select name="description[field]" class="dts-column-select-common">
+                                        <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                    </select>
+                                    <select name="description[function]" class="dts-function-select-common">
+                                        <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                        <option value="Count">Count</option>
+                                        <option value="Sum">Sum</option>
+                                        <option value="Average">Average</option>
+                                        <option value="Minimum">Minimum</option>
+                                        <option value="Maximum">Maximum</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <label><?php esc_html_e('Label:', 'data-source'); ?></label>
+                                    <input type="text" name="description[label]" placeholder="<?php esc_attr_e('Label'); ?>" />
+                                </p>
+                            </div>
+
+                            <div class="dts-form-container geochart-settings">
+                                <p><label><input type="radio" value="regions" name="geochart_type" checked="checked" /> <?php esc_html_e('Regions', 'data-source'); ?></label></p>
+                                <p><label><input type="radio" value="markers" name="geochart_type" /> <?php esc_html_e('Markers', 'data-source'); ?></label></p>
+
+                                <label><?php esc_html_e('Display map of:', 'data-source'); ?></label>
+                                <select name="geochart_region">
+                                    <option value=""><?php esc_html_e('World', 'data-source'); ?></option>
+                                    <?php foreach ($worldRegions as $regionId => $regionName) : ?>
+                                        <option value="<?php echo esc_attr($regionId); ?>"><?php echo esc_html($regionName); ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+
+                                <h4><?php esc_html_e('Colors', 'data-source'); ?></h4>
+                                <div>
+                                    <table>
+                                        <tbody>
+                                        <tr>
+                                            <td><?php esc_html_e('Field responsible for color'); ?></td>
+                                            <td>
+                                                <select name="color[field]" class="dts-column-select-common">
+                                                    <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                                </select>
+                                                <select name="color[function]" class="dts-function-select-common">
+                                                    <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                                    <option value="Count">Count</option>
+                                                    <option value="Sum">Sum</option>
+                                                    <option value="Average">Average</option>
+                                                    <option value="Minimum">Minimum</option>
+                                                    <option value="Maximum">Maximum</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><?php esc_html_e('Label'); ?></td>
+                                            <td>
+                                                <input type="text" name="color[label]" placeholder="<?php esc_attr_e('Label'); ?>" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><?php esc_html_e('Minimum'); ?></td>
+                                            <td>
+                                                <input type="text" value="" name="color[min_value]" size="4" />
+                                                <input type="text" class="dts-color" name="color[min]" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><?php esc_html_e('Maximum'); ?></td>
+                                            <td>
+                                                <input type="text" value="" name="color[max_value]" size="4" />
+                                                <input type="text" class="dts-color" name="color[max]" />
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="dts-geochart-marker-settings">
+                                    <h4><?php esc_html_e('Marker size', 'data-source'); ?></h4>
+                                    <table>
+                                        <tbody>
+                                        <tr>
+                                            <td><?php esc_html_e('Field responsible for size'); ?></td>
+                                            <td>
+                                                <select name="size[field]" class="dts-column-select-common">
+                                                    <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                                </select>
+                                                <select name="size[function]" class="dts-function-select-common">
+                                                    <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                                                    <option value="Count">Count</option>
+                                                    <option value="Sum">Sum</option>
+                                                    <option value="Average">Average</option>
+                                                    <option value="Minimum">Minimum</option>
+                                                    <option value="Maximum">Maximum</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><?php esc_html_e('Label'); ?></td>
+                                            <td>
+                                                <input type="text" name="size[label]" placeholder="<?php esc_attr_e('Label'); ?>" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><?php esc_html_e('Minimum'); ?></td>
+                                            <td>
+                                                <input type="text" value="" name="size[min_value]" size="4" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><?php esc_html_e('Maximum'); ?></td>
+                                            <td>
+                                                <input type="text" value="" name="size[max_value]" size="4" />
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <br>
+                            <a href="#" class="button map-preview-btn"><?php esc_html_e('Preview', 'data-source');?></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-map-preview" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Map Preview', 'data-source'); ?></span></h3>
+                        <div class="inside"></div>
+                    </div>
+                </div>
+
+                <div class="save-data-source-form">
+                    <input type="submit" class="button-primary" name="save" value="<?php echo esc_attr( __( 'Save', 'data-source' ) ); ?>" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

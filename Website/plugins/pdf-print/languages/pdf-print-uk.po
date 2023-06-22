@@ -1,0 +1,791 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pdf-print\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-15 15:16+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BestWebSoft team <wp@bestwebsoft.com>\n"
+"Language-Team: bestwebsoft.com <plugin@bestwebsoft.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: pdf-print.php:34
+msgid "PDF & Print Settings"
+msgstr "Налаштування PDF & Print"
+
+#: pdf-print.php:157
+msgid "Top Left"
+msgstr "Ліворуч зверху"
+
+#: pdf-print.php:158
+msgid "Top Right"
+msgstr "Праворуч зверху"
+
+#: pdf-print.php:159
+msgid "Bottom Left"
+msgstr "Ліворуч знизу"
+
+#: pdf-print.php:160
+msgid "Bottom Right"
+msgstr "Праворуч знизу"
+
+#: pdf-print.php:161
+msgid "Top & Bottom Left"
+msgstr "Ліворуч зверху & знизу"
+
+#: pdf-print.php:162
+msgid "Top & Bottom Right"
+msgstr "Праворуч зверху & знизу"
+
+#: pdf-print.php:211
+msgid "You have entered too much text in the \"edit styles\" field."
+msgstr "Ви ввели забагато тексту в поле редагування стилів."
+
+#: pdf-print.php:216
+msgid "Settings saved."
+msgstr "Налаштування збережені."
+
+#: pdf-print.php:219
+msgid "The folder \"uploads/pdf-print-fonts\" was removed"
+msgstr "Папка \"uploads/pdf-print-fonts\" була видалена"
+
+#: pdf-print.php:226
+msgid "Some fonts were removed from the folder \"uploads/pdf-print-fonts\""
+msgstr "Деякі шрифти з папки \"uploads/pdf-print-fonts\" були видалені"
+
+#: pdf-print.php:231 pdf-print.php:242 pdf-print.php:736
+#, php-format
+msgid "You may need to reload fonts. For more info see %s"
+msgstr ""
+"Вам, можливо, необхідно перезавантажити шрифти. Більш детальну інформацію "
+"дивіться %s"
+
+#: pdf-print.php:232 pdf-print.php:243 pdf-print.php:288 pdf-print.php:350
+#: pdf-print.php:373 pdf-print.php:714 pdf-print.php:737
+msgid "FAQ"
+msgstr "FAQ"
+
+#: pdf-print.php:253
+msgid "All plugin settings were restored."
+msgstr "Налаштування плагіну були відновлені."
+
+#: pdf-print.php:265
+msgid "Add New Template"
+msgstr "Додати темплейт"
+
+#: pdf-print.php:267 pdf-print.php:699 pdf-print.php:713
+msgid "Settings"
+msgstr "Налаштування"
+
+#: pdf-print.php:268
+msgid "Extra settings"
+msgstr "Додаткові налаштування"
+
+#: pdf-print.php:269
+msgid "Templates"
+msgstr "Темплейти"
+
+#: pdf-print.php:270
+msgid "Custom code"
+msgstr "Користувацький код"
+
+#: pdf-print.php:271
+msgid "Go PRO"
+msgstr "Перейти на PRO"
+
+#: pdf-print.php:284
+msgid "Warning: Not enough rights for folder"
+msgstr "Увага: Не вистачає прав на папку"
+
+#: pdf-print.php:285
+msgid ""
+"Please check and change permissions for your plugins` folder ( for folders - "
+"755, for files - 644 ). For more info see"
+msgstr ""
+"Будь-ласка, перевірте права на Вашу папку із плагінами  ( для папок - 755, "
+"для файлів - 644 ). Більше детальну інформацію дивіться"
+
+#: pdf-print.php:286
+msgid "Changing File Permissions"
+msgstr "Зміна прав на файли"
+
+#: pdf-print.php:287
+msgid "and"
+msgstr "та"
+
+#: pdf-print.php:302
+msgid "Types of posts that will be used in the plugin"
+msgstr "Типи постів, що буде використовувати плагін"
+
+#: pdf-print.php:317 includes/pro_banners.php:39
+msgid "Posts and pages"
+msgstr "Сторінки та записи"
+
+#: pdf-print.php:318 includes/pro_banners.php:40
+msgid "Search and archive pages"
+msgstr "Сторінки пошуку та архивів"
+
+#: pdf-print.php:321
+msgid "Show PDF button"
+msgstr "Показати кнопку PDF"
+
+#: pdf-print.php:330
+msgid "Show Print button"
+msgstr "Показати кнопку Print"
+
+#: pdf-print.php:339
+msgid "Position of buttons in the content"
+msgstr "Позиція кнопок на сторінці"
+
+#: pdf-print.php:350
+msgid ""
+"In order to use PDF and Print buttons in the custom post or page template, "
+"see"
+msgstr ""
+"Для того, щоб використовувати кнопки PDF та Print в користувацькому записі "
+"чи сторінці, перегляньте"
+
+#: pdf-print.php:356
+msgid "Load additional fonts"
+msgstr "Завантажити додаткові шрифти"
+
+#: pdf-print.php:363
+msgid "Reload Fonts"
+msgstr "Перезавантажити шрифти"
+
+#: pdf-print.php:365
+msgid "Load Fonts"
+msgstr "Завантажити шрифти"
+
+#: pdf-print.php:370
+msgid "Additional fonts were loaded successfully"
+msgstr "Додаткові шрифти були успішно завантажені"
+
+#: pdf-print.php:373
+msgid ""
+"If you have some problems with your internet connection, please, try to load "
+"additional fonts manually. For more info see"
+msgstr ""
+"Якщо Ви маєте деякі проблеми із інтернет-з’єднанням, будь-ласка, спробуйте "
+"завантажити шрифти вручну. Більш детальну інформацію дивіться"
+
+#: pdf-print.php:375
+msgid ""
+"You can load additional fonts, needed for the PDF creation. When creating "
+"the PDF-doc, this will allow automatic selection of fonts necessary for "
+"text, according to languages used in the content."
+msgstr ""
+"Ви маєте змогу завантажити додаткові шрифти. Це дозволить, під час створення "
+"PDF-документу, автоматично підбирати необхідні шрифти для тексту, відповідно "
+"до мови, що використовується в контенті."
+
+#: pdf-print.php:378
+msgid "WARNING"
+msgstr "ЗАУВАЖТЕ"
+
+#: pdf-print.php:378
+msgid ""
+"Class ZipArchive is not installed on your server. It is impossible to load "
+"additional fonts."
+msgstr ""
+"Класс ZipArchive відсутній на Вашому сервері. Завантаження шрифтів неможливе."
+
+#: pdf-print.php:383
+msgid "Use the theme stylesheet or plugin default style"
+msgstr "Використовувати стиль теми або стандартний стиль плагіну"
+
+#: pdf-print.php:386
+msgid "Default stylesheet"
+msgstr "Стандартні стилі"
+
+#: pdf-print.php:387
+msgid "Current theme stylesheet"
+msgstr "Стилі поточної теми"
+
+#: pdf-print.php:392
+msgid "Add custom styles"
+msgstr "Додати стилі"
+
+#: pdf-print.php:398
+msgid "Additional CSS-styles will be applied to your PDF/Print document"
+msgstr "Додаткові CSS-файли будуть застосовані до Ваших PDF/Print документів"
+
+#: pdf-print.php:399
+msgid "Learn more about"
+msgstr "Дізнатись більше про"
+
+#: pdf-print.php:409
+msgid "You can enter up to 10,000 characters"
+msgstr "Ви можете ввести не більше 10 000 символів"
+
+#: pdf-print.php:414
+msgid "Display additional elements"
+msgstr "Відображати додаткові елементи"
+
+#: pdf-print.php:416 includes/pro_banners.php:213 includes/pro_banners.php:238
+msgid "Title"
+msgstr "Заголовок"
+
+#: pdf-print.php:417
+msgid "Featured image"
+msgstr "Обране зображення"
+
+#: pdf-print.php:422
+msgid "Settings for shortcodes"
+msgstr "Налаштування для шорткодів"
+
+#: pdf-print.php:425
+msgid "Do!"
+msgstr "Виконати!"
+
+#: pdf-print.php:429
+msgid "Show the print window"
+msgstr "Показати вікно друку"
+
+#: pdf-print.php:438 includes/pro_banners.php:148
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: pdf-print.php:715
+msgid "Support"
+msgstr "Підтримка"
+
+#: pdf-print.php:733
+msgid "Loading of fonts. It might take a several minutes"
+msgstr "Завантаження шрифтів. Це може зайняти декілька хвилин"
+
+#: pdf-print.php:1066
+msgid "Check your internet connection"
+msgstr "Перевірте Ваше інтернет-з’єднання"
+
+#: pdf-print.php:1071
+msgid "Cannot load files in to \"uploads\" folder. Check your permissions"
+msgstr "Неможливо завантажити файли до папки \"uploads\". Перевірте Ваші права"
+
+#: pdf-print.php:1100
+msgid "Additional fonts were successfully loaded"
+msgstr "Додаткові шрифти були успішно завантажені"
+
+#: pdf-print.php:1103
+msgid "Some errors occur during loading files"
+msgstr "Під час завантаження файлів виникли деякі помилки"
+
+#: pdf-print.php:1106
+msgid "Can not extract files from zip-archive"
+msgstr "Неможливо витягти файли із zip-архіву"
+
+#: pdf-print.php:1110
+msgid ""
+"Cannot create \"uploads/pdf-print-fonts\" folder. Check your permissions"
+msgstr ""
+"Неможливо створити папку  \"uploads/pdf-print-fonts\". Перевірте Ваші права"
+
+#: pdf-print.php:1158
+msgid "Additional fonts was successfully loaded"
+msgstr "Додаткові шрифти були успішно завантажені"
+
+#: includes/pro_banners.php:17
+msgid "This options is available in Pro version of plugin"
+msgstr "Цей функціонал доступний в Pro версії плагіна"
+
+#: includes/pro_banners.php:20
+msgid "Close"
+msgstr "Закрити"
+
+#: includes/pro_banners.php:26
+msgid "Unlock premium options by upgrading to Pro version"
+msgstr "Відкрийте додаткові можливості, перейшовши на Pro версію"
+
+#: includes/pro_banners.php:27
+msgid "Learn More"
+msgstr "Дізнатись більше"
+
+#: includes/pro_banners.php:43
+msgid "Layout"
+msgstr "Орієнтація"
+
+#: includes/pro_banners.php:46 includes/pro_banners.php:52
+msgid "Portrait"
+msgstr "Портретна"
+
+#: includes/pro_banners.php:47 includes/pro_banners.php:53
+msgid "Landscape"
+msgstr "Альбомна"
+
+#: includes/pro_banners.php:58
+msgid "PDF button image"
+msgstr "Зображення для кнопки PDF"
+
+#: includes/pro_banners.php:59
+msgid "Print button image"
+msgstr "Зображення для кнопки Print"
+
+#: includes/pro_banners.php:66
+msgid "Custom"
+msgstr "Користувацьке"
+
+#: includes/pro_banners.php:77
+msgid "Current image"
+msgstr "Поточне зображення"
+
+#: includes/pro_banners.php:83
+msgid "PDF files name"
+msgstr "Назва для PDF файлів"
+
+#: includes/pro_banners.php:86
+msgid "use post or page slug"
+msgstr "Використати ярлик сторінки або запису"
+
+#: includes/pro_banners.php:89
+msgid ""
+"File name cannot contain more than 195 symbols. The file name can include "
+"Latin letters, numbers and symbols \"-\" , \"_\" only."
+msgstr ""
+"Им’я файлу може складатись не більш ніж з 195 символів. Ви можете "
+"використовувати латинські літери, цифри, а також символи \"-\" , \"_\" ."
+
+#: includes/pro_banners.php:95
+msgid "Do not index pdf and print pages"
+msgstr "Не індексувати сторінки PDF і Print "
+
+#: includes/pro_banners.php:102
+msgid "If you upgrade to Pro version, all your settings will be saved."
+msgstr "Якщо ви перейдете на Pro версію, всі налаштування буде збережено"
+
+#: includes/pro_banners.php:113
+msgid "Compatibility with Woocommerce"
+msgstr "Сумісність з WooCommerce"
+
+#: includes/pro_banners.php:117
+msgid "Display product data"
+msgstr "Відобразити дані продукту"
+
+#: includes/pro_banners.php:120
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: includes/pro_banners.php:121
+msgid "Price"
+msgstr "Ціна"
+
+#: includes/pro_banners.php:122
+msgid "Stock"
+msgstr "Наявність"
+
+#: includes/pro_banners.php:123
+msgid "SKU"
+msgstr "Артикул"
+
+#: includes/pro_banners.php:124
+msgid "Categories"
+msgstr "Категорії"
+
+#: includes/pro_banners.php:125
+msgid "Tags"
+msgstr "Ключові слова"
+
+#: includes/pro_banners.php:126
+msgid "Product Variations"
+msgstr "Варіації Продукту"
+
+#: includes/pro_banners.php:127
+msgid "Product Short Description"
+msgstr "Опис Продукту"
+
+#: includes/pro_banners.php:128
+msgid "Additional Information"
+msgstr "Додаткова інформація"
+
+#: includes/pro_banners.php:129
+msgid "Product Gallery"
+msgstr "Галерея Продукту"
+
+#: includes/pro_banners.php:140
+msgid ""
+"Please choose the necessary post types (or single pages), where PDF & Print "
+"buttons should be displayed:"
+msgstr ""
+"Будь ласка виберіть тип посту чи сторінки, де будуть відображатись кнопки "
+"PDF & Print"
+
+#: includes/pro_banners.php:143
+msgid "Show URL for pages"
+msgstr "Показати посилання для сторінок"
+
+#: includes/pro_banners.php:146
+msgid "Example of site pages' tree"
+msgstr "Приклад дерева сторінок сайту"
+
+#: includes/pro_banners.php:150
+msgid "If you upgrade to Pro version all your settings will be saved."
+msgstr "Якщо ви перейдете на Pro версію, всі налаштування буде збережено"
+
+#: includes/pro_banners.php:157
+msgid "Add New template"
+msgstr "Додати темплейт"
+
+#: includes/pro_banners.php:158
+msgid "For more info click \"Help\" tab at the top of the page."
+msgstr ""
+"Для отримання більш детальної інформації натисніть вкладку \"Допомога\" у "
+"верхній частині сторінки."
+
+#: includes/pro_banners.php:160
+msgid "Enter Template Title"
+msgstr "Вкажіть заголовок"
+
+#: includes/pro_banners.php:161
+msgid "Top running title"
+msgstr "Верхній колонтитул"
+
+#: includes/pro_banners.php:167 includes/pro_banners.php:177
+msgid "Add Media"
+msgstr "Додати медіафайл"
+
+#: includes/pro_banners.php:173
+msgid "Bottom running title"
+msgstr "Нижній колонтитул"
+
+#: includes/pro_banners.php:183
+msgid "Save template"
+msgstr "Зберегти"
+
+#: includes/pro_banners.php:190
+msgid "All"
+msgstr "Всі"
+
+#: includes/pro_banners.php:191
+msgid "Trash"
+msgstr "Кошик"
+
+#: includes/pro_banners.php:195
+msgid "search"
+msgstr "пошук"
+
+#: includes/pro_banners.php:200 includes/pro_banners.php:248
+msgid "Bulk Actions"
+msgstr "Оберіть дію"
+
+#: includes/pro_banners.php:202 includes/pro_banners.php:250
+msgid "Apply"
+msgstr "Застосувати"
+
+#: includes/pro_banners.php:205 includes/pro_banners.php:253
+msgid "items"
+msgstr "пункти"
+
+#: includes/pro_banners.php:216 includes/pro_banners.php:241
+msgid "Date"
+msgstr "Дата"
+
+#~ msgid "Select bulk action"
+#~ msgstr "Виберіть групову дію"
+
+#~ msgid "Go to the first page"
+#~ msgstr "Перейти до першої сторінки"
+
+#~ msgid "Go to the previous page"
+#~ msgstr "Перейти до попередньої сторінки"
+
+#~ msgid "Select Page"
+#~ msgstr "Вибір сторінки"
+
+#~ msgid "Current page"
+#~ msgstr "Поточна сторінка"
+
+#~ msgid "of"
+#~ msgstr "з"
+
+#~ msgid "Go to the next page"
+#~ msgstr "Перейти до наступної сторінки"
+
+#~ msgid "Go to the last page"
+#~ msgstr "Перейти до останньої сторінки"
+
+#~ msgid "Select All"
+#~ msgstr "Виділити все"
+
+#~ msgid "Edit"
+#~ msgstr "Редагувати"
+
+#~ msgid "Notice:"
+#~ msgstr "Зауважте:"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Налаштування плагіну змінились. Щоб зберегти їх, будь ласка, не забудьте "
+#~ "клікнути \"Зберегти зміни\"."
+
+#~ msgid "Go"
+#~ msgstr "Перейти"
+
+#~ msgid "Function call"
+#~ msgstr "Під час виклику функції"
+
+#~ msgid "Left"
+#~ msgstr "Ліворуч"
+
+#~ msgid "Right"
+#~ msgstr "Праворуч"
+
+#~ msgid "Date of completion"
+#~ msgstr "Дата завершення"
+
+#~ msgid "Link"
+#~ msgstr "Посилання"
+
+#~ msgid "Technologies"
+#~ msgstr "Технології"
+
+#~ msgid "View all posts in %s"
+#~ msgstr "Переглянути всі пости у %s"
+
+#~ msgid "here"
+#~ msgstr "тут"
+
+#~ msgid "Archive with fonts was successfully loaded. For more info see"
+#~ msgstr ""
+#~ "Додаткові шрифти були успішно завантажені. Більш детальну інформацію "
+#~ "дивіться"
+
+#~ msgid "Additional fonts already loaded"
+#~ msgstr "Додаткові шрифти завантажені"
+
+#~ msgid "You can load additional fonts, used for PDF creation"
+#~ msgstr ""
+#~ "Ви можете завантажити додаткові шрифти, що використовуються при генерації "
+#~ "PDF-сторінок"
+
+#~ msgid ""
+#~ "Cannot open ZIP-archive from \"uploads\" folder. Check your permissions"
+#~ msgstr "Неможливо розпакуваи ZIP-архів. Перевірте Ваші права"
+
+#~ msgid ""
+#~ "Save content of any page or post from your site! Paste the following "
+#~ "string in to code of your theme"
+#~ msgstr ""
+#~ "Збережіть зміст будь-якої сторінки чи запису Вашошго сайту! Додайте "
+#~ "наступну строку до коду Вашої теми"
+
+#~ msgid ""
+#~ "where you have to specify query parameters for your post.<br/> For example"
+#~ msgstr ""
+#~ " де Вам потрібно вказати параметри запиту Вашого кастомного посту.<br/> "
+#~ "Наприклад"
+
+#~ msgid "or"
+#~ msgstr " чи"
+
+#~ msgid ""
+#~ "For more information on the syntax for assigning parameters to function "
+#~ "see"
+#~ msgstr " Синтаксис для передачі параметрів у функцію можна переглянути."
+
+#~ msgid ""
+#~ "If you are using a Portfolio plugin (powered by bestwebsoft.com) and you "
+#~ "need the output pdf and print buttons next to each post, you just need to "
+#~ "insert the strings in loop into the template source code in files "
+#~ "portfolio.php and portfolio-post.php"
+#~ msgstr ""
+#~ "Якщо Ви використовуєте плагін Portfolio (розроблений bestwebsoft.com) та "
+#~ "Вам потрібно відобразити кнопку PDF та кнопку друку для кожного посту, "
+#~ "вставте наступні строки у код файлів portfolio.php та portfolio-post.php"
+
+#~ msgid ""
+#~ " In order to use PDF and Print buttons for all posts you need to put the "
+#~ "strings below into the template source code in file portfolio.php"
+#~ msgstr ""
+#~ "Якщо  Ви бажаєте використовувати кнопку PDF  або друку для усіх постів, "
+#~ "вставте наступні рядки у код файлу portfolio.php"
+
+#~ msgid "Show:"
+#~ msgstr "Показувати:"
+
+#~ msgid "Default template setting for post:"
+#~ msgstr "Налаштування стандартного шаблону для посту:"
+
+#~ msgid "Position of buttons in content for custom post:"
+#~ msgstr "Позиція кнопок на сторінці кастомного посту:"
+
+#~ msgid "Align Left"
+#~ msgstr "По лівому краю"
+
+#~ msgid "Align Right"
+#~ msgstr "По правому краю"
+
+#~ msgid "Show for custom posts:"
+#~ msgstr "Показувати для кастомного посту:"
+
+#~ msgid "Default template setting for custom posts:"
+#~ msgstr "Налаштування стандартного шаблону для кастомного посту:"
+
+#~ msgid "Position of buttons on search or archive page:"
+#~ msgstr "Позиція кнопок на сторінці пошуку чи архіву"
+
+#~ msgid "Default template setting for search and archive:"
+#~ msgstr "Налаштування стандартного шаблону для сторінки пошуку чи архіву:"
+
+#~ msgid ""
+#~ "In order to use PDF and Print buttons on the search page or archive page "
+#~ "you should put the strings below into the template source code in files "
+#~ "search.php or archives.php "
+#~ msgstr ""
+#~ "Якщо Ви бажаєте відображати кнопки PDF та друку на сторінці пошуку чи "
+#~ "архіву, вставте наступні рядки у код файлу search.php чи archives.php"
+
+#~ msgid "PDF & Print"
+#~ msgstr "PDF & Print"
+
+#~ msgid "requires"
+#~ msgstr "вимагає"
+
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "чи вище, тому він був деактивований! Будь ласка, оновіть WordPress та "
+#~ "спробуйте ще раз."
+
+#~ msgid "Back to the WordPress"
+#~ msgstr "Повернутися на WordPress на"
+
+#~ msgid "Plugins page"
+#~ msgstr "Сторінку плагінів"
+
+#~ msgid "Wrong license key"
+#~ msgstr "Невірний ключ ліцензії"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later. If the error will appear again, "
+#~ "please, contact us <a href=http://support.bestwebsoft.com>BestWebSoft</"
+#~ "a>. We are sorry for inconvenience."
+#~ msgstr ""
+#~ "Щось не так, спробуйте пізніше. Якщо помилка повториться, будь ласка, "
+#~ "повідомте нам <a href=http://support.bestwebsoft.com>BestWebSoft</a>. "
+#~ "Просимо вибачення за незручності."
+
+#~ msgid "This license key is bind to another site"
+#~ msgstr "Цей ліцензійний ключ прив'язаний до іншого сайту"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries. Please, "
+#~ "upload the plugin manually."
+#~ msgstr ""
+#~ "На жаль, ви перевищили кількість можливих спроб на день. Будь ласка, "
+#~ "завантажте плагін вручну."
+
+#~ msgid ""
+#~ "Failed to download the zip archive. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Помилка при завантаженні архіву zip. Будь ласка, завантажте плагін вручну."
+
+#~ msgid "Failed to open the zip archive. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Помилка при відкритті архіву zip. Будь ласка, завантажте плагін вручну."
+
+#~ msgid ""
+#~ "Your server does not support either ZipArchive or Phar. Please, upload "
+#~ "the plugin manually"
+#~ msgstr ""
+#~ "Ваш сервер не підтримує формати Zip та  Phar. Будь ласка, завантажте "
+#~ "плагін вручну."
+
+#~ msgid "UploadDir is not writable. Please, upload the plugin manually"
+#~ msgstr ""
+#~ "Помилка при відкритті архіву zip. Будь ласка, завантажте плагін вручну."
+
+#~ msgid ""
+#~ "Something went wrong. Try again later or upload the plugin manually. We "
+#~ "are sorry for inconvienience."
+#~ msgstr ""
+#~ "Щось не так, спробуйте пізніше або завантажте плагін вручну. Просимо "
+#~ "вибачення за незручності."
+
+#~ msgid "Please, enter Your license key"
+#~ msgstr "Будь ласка, введіть ліцензійний ключ"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr ""
+#~ "Якщо вам сподобався плагін, будь ласка, поставте нам 5 зірочок на "
+#~ "WordPress"
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Оцінити плагін"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Якщо виникли проблеми, буль ласка, повідомте нам"
+
+#~ msgid ""
+#~ "Congratulations! The PRO version of the plugin is successfully download "
+#~ "and activated."
+#~ msgstr "Вітаємо! Pro версію плагіну було успішно завантажено та активовано."
+
+#~ msgid "Please, go to"
+#~ msgstr "Будь ласка, перейдіть на"
+
+#~ msgid "You will be redirected automatically in 5 seconds."
+#~ msgstr "Вас буде переадресовано автоматично за 5 сек"
+
+#~ msgid "You can download and activate"
+#~ msgstr "Ви можете завантажити та активувати"
+
+#~ msgid "version of this plugin by entering Your license key."
+#~ msgstr "версію цього плагіну, ввівши ліцензійний ключ."
+
+#~ msgid ""
+#~ "You can find your license key on your personal page Client area, by "
+#~ "clicking on the link"
+#~ msgstr ""
+#~ "Ви можете знайти ліцензійний ключ на вкладці \"Клієнтам\" вашої сторінки"
+
+#~ msgid ""
+#~ "(your username is the email you specify when purchasing the product)."
+#~ msgstr "(ваше ім'я - це емейл, який ви вказували при купівлі продукту)"
+
+#~ msgid "Go!"
+#~ msgstr "Перейти!"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day. "
+#~ "Please, upload the plugin manually."
+#~ msgstr ""
+#~ "На жаль, ви перевищили кількість можливих спроб на день. Будь ласка, "
+#~ "завантажте плагін вручну"
+
+#~ msgid ""
+#~ "It's time to upgrade your <strong>PDF & Print</strong> to <strong>PRO</"
+#~ "strong> version"
+#~ msgstr ""
+#~ "Час оновити <strong>PDF & Print</strong> до <strong>PRO</strong> версії"
+
+#~ msgid "Extend standard plugin functionality with new great options"
+#~ msgstr "Розширте фунціонал плагіну, додавши нові корисні опції"
+
+#~ msgid ""
+#~ "If you upgrade to Pro version all your settings and galleries will be "
+#~ "saved."
+#~ msgstr "Якщо ви перейдете на Pro версію, всі налаштування буде збережено"
+
+#~ msgid "Start Your Trial"
+#~ msgstr "Отримати тимчасову версію"
+
+#~ msgid "BWS Plugins"
+#~ msgstr "BWS Plugins"
+
+#~ msgid "Use your own name"
+#~ msgstr "Викорастити своє найменування файлу"
+
+#~ msgid "have PDF page not indexed"
+#~ msgstr "не індиксувати PDF  файли"
+
+#~ msgid "Mark the checkbox to show it"
+#~ msgstr "Поставте галочку, щоб його відображати"

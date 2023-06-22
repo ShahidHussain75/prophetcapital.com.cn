@@ -1,0 +1,1123 @@
+div.upme-wrap div.upme-inner {
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 2px -1px #ccc;
+	background-color: #fff;
+}
+
+div.upme-head, div.upme-post-head,div.upme-custom-head {
+	background: #f5f5f5;
+}
+
+div.upme-wrap div.upme-head img.avatar, div.upme-wrap div.upme-field-value img {
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+div.upme-wrap div.upme-social a, #mk-sidebar .widget div.upme-wrap div.upme-social a {
+	background: #555;
+	color: #fff;
+}
+
+div.upme-wrap div.upme-social a:hover, #mk-sidebar .widget div.upme-wrap div.upme-social a:hover {
+	background: #ff6000;
+	color: #fff;
+}
+
+.upme-stats-i {
+	color: #888;
+}
+
+.upme-stats-i i {
+	color: #444;
+}
+
+.upme-posts-link a, .upme-comments-link a {
+text-decoration: none;
+}
+
+div.upme-field-name, div.upme-wrap div.upme-field-name a {
+	color: #444;
+}
+
+div.upme-wrap div.upme-field-name a:hover {
+	color: #444;
+}
+
+.upme-field-type i,.upme-post-field-type i {
+	background: #888;
+	color: #fff;
+}
+
+.upme-field-type {
+	color: #888;
+}
+
+.upme-field-value,.upme-post-field-value, .upme-post-feature-value {
+	color: #888;
+}
+
+input.upme-input, select.upme-input, textarea.upme-input, input.upme-datepicker, input.upme-datepicker[readonly] {
+	background: #fff;
+	color: #444;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 -1px 2px #ddd;
+	vertical-align:baseline;
+}
+
+input.upme-input:focus, select.upme-input:focus, textarea.upme-input:focus {
+	background: #fff;
+	color: #444;
+	border: 1px solid #aaa;
+	box-shadow: inset 0 -1px 2px #ddd;
+}
+
+.upme-help {
+	color: #666;
+}
+
+.upme-hide-from-public {
+	color: #666;
+}
+
+.upme-disable, .upme-disable i {
+	color: #aaa;
+}
+
+.upme-separator {
+	border-bottom: 1px solid #DBDBDB;
+	margin-bottom: 30px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding:0 0 10px 0;
+	color: #666;
+}
+
+a.upme-button-alt, div.upme-wrap a.upme-button-alt, div.upme-wrap div.upme-button-alt, div.upme-wrap input.upme-button-alt {
+	color: #666;
+	border: 1px solid #ddd;
+	background-color: #f5f5f5;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#eee));
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+	background-image: -moz-linear-gradient(top, #f5f5f5, #eee);
+	background-image: -ms-linear-gradient(top, #f5f5f5, #eee);
+	background-image: -o-linear-gradient(top, #f5f5f5, #eee);
+	box-shadow: inset 0 -1px 1px -1px #fff;
+}
+
+div.upme-wrap input.upme-button-alt-wide {
+	color: #666;
+	border: 1px solid #ddd;
+	background-color: #f5f5f5;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#eee));
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+	background-image: -moz-linear-gradient(top, #f5f5f5, #eee);
+	background-image: -ms-linear-gradient(top, #f5f5f5, #eee);
+	background-image: -o-linear-gradient(top, #f5f5f5, #eee);
+	box-shadow: inset 0 -1px 1px -1px #fff;
+	font-size: 13px;
+    padding: 3px;
+    width: 105px;
+}
+
+a.upme-button-alt:hover, div.upme-wrap a.upme-button-alt:hover, div.upme-wrap div.upme-button-alt:hover, div.upme-wrap input.upme-button-alt:hover, div.upme-wrap input.upme-button-alt:focus {
+	border: 1px solid #ddd;
+	background-color: #eee;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eee), to(#f5f5f5));
+	background-image: -webkit-linear-gradient(top, #eee, #f5f5f5);
+	background-image: -moz-linear-gradient(top, #eee, #f5f5f5);
+	background-image: -ms-linear-gradient(top, #eee, #f5f5f5);
+	background-image: -o-linear-gradient(top, #eee, #f5f5f5);
+	box-shadow: inset 0 -1px 1px -1px #fff;
+	color: #666;
+	padding: 4px 10px;
+}
+
+div.upme-wrap a.upme-button, input[type=submit].upme-button, input[type=button].upme-button {
+	color: #fff;
+	border: 1px solid #1278b2;
+	background-color: #1391da;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1391da), to(#1278b2));
+	background-image: -webkit-linear-gradient(top, #1391da, #1278b2);
+	background-image: -moz-linear-gradient(top, #1391da, #1278b2);
+	background-image: -ms-linear-gradient(top, #1391da, #1278b2);
+	background-image: -o-linear-gradient(top, #1391da, #1278b2);
+	box-shadow: inset 0 -1px 1px -1px #fff;
+	padding: 4px 10px;
+	text-shadow:none; /*Fix for some ThemeForest themes*/
+}
+
+
+
+div.upme-wrap a.upme-button:hover, input[type=submit].upme-button:hover, input[type=submit].upme-button:focus, input[type=button].upme-button:hover, input[type=button].upme-button:focus, div.upme-wrap a.upme-button:active, input[type=submit].upme-button:active, input[type=submit].upme-button:active, input[type=button].upme-button:active, input[type=button].upme-button:active {
+	border: 1px solid #1278b2;
+	background-color: #1278b2;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1278b2), to(#1391da));
+	background-image: -webkit-linear-gradient(top, #1278b2, #1391da);
+	background-image: -moz-linear-gradient(top, #1278b2, #1391da);
+	background-image: -ms-linear-gradient(top, #1278b2, #1391da);
+	background-image: -o-linear-gradient(top, #1278b2, #1391da);
+	box-shadow: inset 0 -1px 1px -1px #fff;
+	color: #fff;
+	padding: 4px 10px;
+	text-shadow:none; /*Fix for some ThemeForest themes*/
+}
+input[type=submit].upme-button:disabled, input[type=submit].upme-button:disabled:hover
+{
+	background-color:#FFF;
+	color: #1391da;
+	background-image: none;
+}
+
+
+div.upme-errors  {
+	background: #ffdbdb;
+	border: 1px solid #ffb4b4;
+	color: #ac2c2c;
+}
+
+#theme-page .upme-errors strong {
+	color: #A42B2B;
+}
+
+div.upme-success {
+	background: #d8f7c1;
+	border: 1px solid #a1d47b;
+	color: #527638;
+}
+div.upme-wrap div.upme-note strong, #theme-page div.upme-wrap div.upme-note strong {
+	color:#666;
+}
+
+.upme-login
+{
+	float: right;
+}
+
+.upme-login-wrapper
+{
+	float: left; width:100%;
+}
+
+.upme-back-to-login
+{
+	float:left;
+}
+
+.upme-heading
+{
+	padding: 0px 0px 10px 0px;
+}
+
+.upme-heading h3.upme-heading-text, .upme-heading-text, #theme-page h3.upme-heading-text
+{
+	font-size: 25px;
+	margin: 0px 0px 5px 0px;
+	color: #777;
+}
+
+a.upme-login-forgot-link, a.upme-login-register-link
+{
+	color:#888;
+	text-decoration:none;
+}
+
+.upme-login-forgot-link.upme-sidebar, .upme-login-register-link.upme-sidebar {
+font-size: 11px;
+}
+
+a.upme-login-forgot-link:hover, a.upme-login-register-link:hover
+{
+	color:#21759b;
+}
+.upme-hide-from-public upme-remember-me {
+color: #888;
+}
+.upme-wrap input[type="file"]:hover {
+	color: #616161; /*Fix for Bootstrap themes*/
+}
+
+.upme-field-type i:hover, .upme-post-field-type i:hover{
+    background: #565454 ;
+}
+
+
+/* Sidebar Widget Related Styles */
+div.upme-widget-wrap div.upme-inner {
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 2px -1px #ccc;
+	background-color: #fff;
+}
+
+div.upme-widget-head {
+	background: #f5f5f5;
+}
+
+div.upme-widget-wrap a.upme-button, input[type=submit].upme-button, input[type=button].upme-button, button.upme-button {
+	color: #fff;
+	border: 1px solid #1278b2;
+	background-color: #cfcfcf;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1391da), to(#1278b2));
+	background-image: -webkit-linear-gradient(top, #1391da, #1278b2);
+	background-image: -moz-linear-gradient(top, #1391da, #1278b2);
+	background-image: -ms-linear-gradient(top, #1391da, #1278b2);
+	background-image: -o-linear-gradient(top, #1391da, #1278b2);
+	box-shadow: inset 0 -1px 1px -1px #fff;
+	padding: 4px 10px;
+}
+
+div.upme-widget-wrap div.upme-field-name {
+	color: #444;
+}
+
+div.upme-widget-wrap div.upme-field-name a {
+	color: #444;
+}
+
+div.upme-widget-wrap div.upme-field-name a:hover {
+	color: #444;
+}
+
+div.upme-widget-wrap div.upme-head img.avatar, div.upme-wrap div.upme-field-value img {
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+a.upme-widget-button-alt{
+	color: #666 !important;
+	border: 1px solid #ddd;
+	background-color: #f5f5f5;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#eee));
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+	background-image: -moz-linear-gradient(top, #f5f5f5, #eee);
+	background-image: -ms-linear-gradient(top, #f5f5f5, #eee);
+	background-image: -o-linear-gradient(top, #f5f5f5, #eee);
+	box-shadow: inset 0 -1px 1px -1px #fff;
+}
+.upme-button-alt.upme-search-reset {
+	margin:0;
+}
+
+/* Password meter related styles */
+#password-meter-message.week {
+	background-color: #ffb78c;
+	border-color: #ff853c !important;
+}
+
+#password-meter-message.medium {
+	background-color: #ffec8b;
+	border-color: #fc0 !important;
+}
+
+#password-meter-message.very-week {
+	background-color: #ffa0a0;
+	border-color: #f04040 !important;
+}
+
+#password-meter-message.strong {
+	background-color: #c3ff88;
+	border-color: #8dff1c !important;
+}
+
+/*Recent Posts Section Styles*/
+p.upme-posts-title,p.upme-custom-title  {
+	color: #666666;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: Open Sans,'Helvetica','Arial';
+}
+
+/* Author profile card designs */
+.upme-author-design-one,
+.upme-author-design-three,
+.upme-author-design-four{
+    background: #FFF;
+    margin: 0;
+    padding: 15px 20px;
+    border: 1px solid #cfcfcf;
+}
+
+.upme-author-design-one     .upme-profile-pic,
+.upme-author-design-three   .upme-profile-pic{
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.upme-author-design-one .avatar {
+    border-radius: 500px;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #cfcfcf;
+}
+
+.img.avatar-50{
+    height: 50px;
+    width: 50px;
+}
+
+.upme-field-desc{
+    margin: 10px 0;
+}
+
+.upme-author-design-one .upme-social{
+    float: none !important;
+    margin: 5px 0;
+}
+
+.upme-author-design-one .upme-social div{
+    padding: 0 !important;
+}
+
+.upme-author-design .upme-social a, .upme-team-design .upme-social a{
+    border-radius: 999px;
+    display: inline-block;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    width: 24px;
+    background: none repeat scroll 0 0 #555;
+    color: #fff;
+}
+
+.upme-author-design .upme-left{
+    width: 100%;
+}
+
+.upme-author-design ul{
+    list-style: none;
+}
+
+.upme-team-design ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.upme-author-design li,.upme-team-design li{
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+
+
+.upme-author-design .avatar{
+    height: 75px;
+    padding: 5px;
+    width: 75px !important;
+}
+
+.upme-author-design .upme-profile-pic .avatar {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #cfcfcf;
+    
+
+}
+
+.upme-profile-pic-rounded .avatar{
+    border-radius: 500px;
+}
+.upme-profile-pic-square{
+    border-radius: 0;
+}
+
+.upme-author-design-two ul,
+.upme-author-design-four ul{
+    list-style: none;
+    text-align: center;
+}
+
+.upme-author-design-two .upme-profile-pic,
+.upme-author-design-four .upme-profile-pic{
+    margin: auto;
+    width: 75px;
+}
+
+.upme-author-design .upme-author-name{
+    padding: 10px 0;
+}
+
+.upme-author-design-two .upme-author-name,
+.upme-author-design-four .upme-author-name{
+    text-align: center;
+}
+
+.upme-author-design .upme-author-name a{
+    font-weight: bold;    
+}
+
+.upme-author-design-two{
+    border-bottom: 5px solid #6ab4e1;
+    border-top: 5px solid #6ab4e1;
+    outline: 1px solid #cfcfcf;
+    padding: 10px;
+}
+
+/*
+ Author Design 3
+*/
+.upme-author-design-three .upme-profile-pic, 
+.upme-author-design-three .upme-field-name, 
+.upme-author-design-three .upme-social{
+    position: relative;
+    left: -60px;
+}
+
+
+/* =================================================
+ *  Team card designs 
+ * =================================================
+*/
+.upme-team-design{
+    padding: 20px;
+}
+
+.upme-team-design .upme-social-boxes{
+    min-height: 26px;
+}
+.upme-team-design .upme-author-name a{
+    font-size: 95%;
+    display: block;
+}
+
+/* Team design one */
+.upme-team-design-one{
+    
+}
+
+.upme-team-design-one .upme-author-name{
+    text-align: center;
+}
+
+.upme-team-design .upme-single-profile{
+    width : 31.33%;
+    float: left;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+.upme-team-design-one .upme-single-profile .avatar,
+.upme-team-design-two .upme-single-profile .avatar{
+    border: 1px solid #cfcfcf;
+    border-radius: 300px;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    background: #fff;
+}
+
+.upme-team-design-one .upme-single-profile .avatar:hover,
+.upme-team-design-two .upme-single-profile .avatar:hover{
+    border: 3px solid #cfcfcf;
+    padding: 10px;
+    background: #3279C4;
+}
+
+.upme-team-design-one .upme-social{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.upme-team-name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.upme-author-name a{
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.upme-team-name{
+    margin: 10px 0;
+}
+
+/* Team design two */
+.upme-team-design-two{
+    
+}
+
+.upme-team-design-two .upme-single-profile{
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #cfcfcf;
+    padding: 10px;
+}
+
+/* Team design three */
+.upme-team-design-three{
+    
+}
+
+.upme-team-design-three .avatar{
+    border-radius: 0;
+}
+
+.upme-team-design-three .upme-single-profile .avatar{
+    background: none repeat scroll 0 0 #fff;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.upme-team-design-three .upme-author-name a{
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.upme-team-design-three .upme-author-name{
+    background: none repeat scroll 0 0 #000000;
+    padding: 5px 10px;
+}
+
+
+.upme-team-design-three ul {
+    background: none repeat scroll 0 0 #929292;
+    list-style: outside none none;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+    min-height: 26px;
+    margin-top:2px;
+}
+
+.upme-team-design-three
+
+.upme-team-design-three
+
+/* Team design four */
+.upme-team-design-four{
+    
+}
+
+.upme-team-design-four .upme-single-profile{
+    width: auto;
+}
+
+.upme-team-design-four .upme-single-profile .avatar {
+    background: none repeat scroll 0 0 #fff;
+    border: 2px solid #eee;
+    border-radius: 300px;
+    box-sizing: border-box;
+    max-width: 100px;
+    padding: 5px;background: none repeat scroll 0 0 #fff;
+    box-sizing: border-box;
+    width: 100px;
+}
+
+/* Team design five */
+.upme-team-design-five{
+    
+}
+
+.upme-team-design-five .upme-single-profile .avatar {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 300px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 5px;
+    width: 50%;
+}
+
+.upme-team-design-five .upme-profile-pic{
+    border-radius: 50px;
+    margin: auto;
+    overflow: auto;
+    position: relative;
+    top: -66px
+}
+
+.upme-team-design-five .upme-author-name{
+    position: relative;
+    top: -66px;
+}
+
+.upme-team-design-five .upme-social{
+    text-align: right;
+}
+
+.upme-team-design-five .upme-single-profile .avatar:hover{
+    border: 3px solid #cfcfcf;
+    padding: 10px;
+    background: #3279C4;
+}
+
+.upme-team-design-five .upme-single-profile{
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #cfcfcf;
+    height: 150px;
+    margin: 70px 10px 10px;
+    padding: 10px;
+}
+
+/* =========================================================
+   Slider Card Designs
+   ========================================================= */
+.upme-slider-design-one .upme-single-profile-li{
+    width: 30%;
+}
+
+.upme-slider-design-two .upme-single-profile-li{
+    width: 30%;
+}
+
+.upme-team-design-three .slides,.upme-team-design-three .flex-direction-nav{
+    background: #fff;
+}
+
+.upme-slider-design-five .upme-author-design-one{
+    border: none !important;
+}
+.upme-slider-design-six .upme-author-design-one{
+    border: none !important;
+}
+
+
+/* =================================================================
+    Profile Tabs Designs
+   ================================================================= */
+
+.upme-profile-tab{
+    background: none repeat scroll 0 0 #fff;
+/*    border: 1px solid #cfcfcf;*/
+    float: left;
+    height: 75px;
+    line-height: 1;
+    margin: 1px;
+    min-width: 75px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.upme-profile-tabs{
+/*    background: none repeat scroll 0 0 #eee;*/
+    border-bottom: 1px solid #cfcfcf;
+/*    border-top: 1px solid #cfcfcf;*/
+    float: left;
+    width: 100%;
+}
+
+.upme-profile-icon{
+    display: inline-block;
+    font-family: FontAwesome;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: 30px;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+    padding-top: 10px;
+}
+
+.upme-profile-tab-button{
+    float:right;        
+    margin-bottom: 10px;
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #cfcfcf;
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+.upme-profile-tab-button i{
+    background: none repeat scroll 0 0 #eee;
+    border-right: medium none;
+    border-top: medium none;
+    color: #1b7fa6;
+    font-size: 26px;
+}
+
+.upme-profile-tab-active{
+    background: #EEE;
+}
+
+.upme-user-profile-tab-panel .upme-profile-tab p{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px;
+    text-align: center;
+}
+
+
+/* Post features buttons */
+.upme-post-features-btn{
+    border-radius: 3px;
+    color: #767676;
+    float: left;
+    font-weight: bold;
+    padding: 3px 5px;
+    text-align: center;
+    margin: 10px 10px 10px 0;
+    font-family: Open Sans,"Helvetica","Arial";
+    font-size: 14px;
+}
+
+.upme-post-features-btn:hover{
+    cursor: pointer;
+}
+.upme-post-features-reading{
+    background: #E4E4E4  none repeat scroll 0 0;    
+    width: 150px;    
+}
+
+.upme-post-features-recommend{
+    background: #E4E4E4  none repeat scroll 0 0;
+    width: 200px;
+}
+
+.upme-post-features-favorite{
+    background: #E4E4E4  none repeat scroll 0 0;
+    width: 175px;
+}
+
+.upme-post-features-panel{
+    margin : 10px 0;
+}
+
+.upme-read-list-post-status{
+    background: #eee none repeat scroll 0 0;
+    border: 1px solid #cfcfcf;
+    float: right;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+
+.upme-read-list-post-status-plain{
+    background: #eee none repeat scroll 0 0;
+    border: 1px solid #cfcfcf;
+    float: right;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+/* Cover Image */
+.upme-cover-image img{
+    width:100%;
+    height: 250px !important;
+}
+
+/* Search Form */
+#upme_search_form{
+    margin-top: 10px !important;
+}
+
+/* Profile Tabs */
+.upme-profile-tab-panel{
+    padding: 20px 20px;
+}
+
+/* Profile Header Designs */
+.upme-profile-header-one{
+    height: 300px;
+}
+
+.upme-profile-header-one .upme-cover-image{
+    height: 300px;
+    float:left;
+    width: 100%;
+}
+
+.upme-profile-header-one .upme-cover-image img{
+    height: 300px !important;
+    width: 100%;
+}
+
+.upme-profile-header-one .upme-profile-picture{
+    margin: auto;
+    width: 150px;
+}
+
+.upme-profile-header-one .upme-profile-picture img{
+    border: 5px solid #fff;
+    height: 150px !important;
+    margin: auto;
+    position: relative;
+    top: -275px;
+    width: 150px !important;
+    margin-bottom: -150px;
+}
+
+.upme-profile-header-one .upme-profile-title{
+    height: 0;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: -125px;
+}
+
+.upme-profile-header-one .upme-profile-header-fields{
+    height: 0;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: -125px;
+
+}
+
+.upme-profile-header-one a,.upme-profile-header-fields{
+    color: #fff;
+}
+
+.upme-profile-header-one .upme-profile-edit-bar{
+    margin: auto;
+    text-align: center;
+    top: -100px;
+    position: relative;
+}
+
+
+.upme-profile-header-one .upme-profile-social-bar{
+    position: relative;
+    top: -100px;
+}
+
+.upme-profile-header-one .upme-stats{
+    position: relative;
+    top: -100px;
+}
+
+.upme-profile-header-one .upme-profile-social-bar .upme-social div{
+    padding: 5px !important;
+}
+
+.upme-profile-header-one .upme-stats {
+    float: left;
+    padding: 10px;
+}
+
+.upme-profile-header-one .upme-posts-link a, .upme-profile-header-one .upme-comments-link{
+    color: #FFF;
+}
+
+.upme-profile-header-one .upme-posts-link a:hover, .upme-profile-header-one .upme-comments-link a:hover{
+    color: #EEE;
+}
+
+.upme-profile-header-two{
+
+}
+
+.upme-profile-header-two .upme-cover-image{
+
+}
+
+.upme-profile-header-two .upme-profile-picture{
+    float: left;
+    height: 160px;
+    left: 30px;
+    position: relative;
+    top: -75px;
+    margin-bottom: -75px;
+    width: 160px;
+}
+
+.upme-profile-header-two .upme-profile-picture img{
+    border: 5px solid #eee;
+    border-radius: 0 !important;
+    height: 150px !important;
+    width: 150px !important;
+}
+
+.upme-profile-header-two .upme-profile-title, .upme-profile-header-two .upme-profile-edit-bar{
+    left: 40px;
+    position: relative;
+}
+
+.upme-profile-header-two .upme-profile-social-bar{
+    float: right;
+    position: relative;
+    top: -100px;
+    margin-bottom: -100px;
+}
+
+.upme-profile-header-two .upme-profile-social-bar .upme-social div{
+    padding: 5px !important;
+}
+
+/* User list designs */
+.upme-list-card-default-mini .upme-profile-single,.upme-list-card-default-mini-rounded .upme-profile-single{
+    float: left;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.upme-list-card-default-mini .upme-profile-single img{
+    border: 5px solid #eee;
+    border-radius: 0;
+    outline: 1px solid #cfcfcf;
+    max-width: 100%;
+    height: 75px;
+    width: 75px;
+}
+
+.upme-list-card-default-mini-rounded .upme-profile-single img{
+    border: 5px solid #eee;
+    border-radius: 100px;
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+/* Profile sidebar styles */
+.upme-view-panel-box{
+    background: #F8F8F8;
+    border-top: 1px solid #EEE;
+    float: left;
+    width: 100%;
+}
+.upme-view-panel-left{
+    border-right: 1px solid #cfcfcf;
+    float: left;
+    padding-right: 1%;
+    width: 69%;
+    background: #FFF;
+}
+
+.upme-view-panel-right{
+    float: left;
+    padding-left: 1%;
+    padding-top: 10px;
+    width: 29%;
+}
+
+/* Content lock designs */
+.upme-content-lock-one{
+    padding: 10px;
+    border: 10px solid #cfcfcf;
+    border-right: 10px solid #eee;
+    border-left: 10px solid #eee;
+    outline: 1px solid #b8b8b8;
+    margin: 20px 10px;
+}
+
+.upme-content-lock-one .upme-content-lock-icon,
+.upme-content-lock-two .upme-content-lock-icon{
+    width: 128px;
+    margin: auto;
+}
+
+.upme-content-lock-one .upme-content-lock-msg{
+    font-size: 18px;
+    font-weight: bold;
+    color: #5C5E60;
+    text-align: center;
+    padding: 10px;
+}
+
+.upme-content-lock-two{
+    background: #2b95cd none repeat scroll 0 0;
+    border-color: #cfcfcf #eee;
+    border-style: solid;
+    border-width: 3px;
+    outline: 1px solid #b8b8b8;
+    padding: 10px 0;
+    margin: 20px 10px;
+}
+
+.upme-content-lock-two .upme-content-lock-msg{
+    background: #0a0a0a none repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 3px 0;
+    text-align: center;
+}
+
+.upme-content-lock-three{
+    border: 1px solid #cfcfcf;
+    margin: 20px 10px;
+}
+
+.upme-content-lock-three .upme-content-lock-icon{
+    background: #eee none repeat scroll 0 0;
+    border-right: 10px solid #cfcfcf;
+    float: left;
+    height: 128px;
+    margin-right: 10px;
+    max-width: 15%;
+    padding: 10px;
+    width: 128px;
+}
+
+.upme-content-lock-three .upme-content-lock-msg p{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.upme-content-lock-three .upme-content-lock-msg{
+    float: left;
+    height: 128px;
+    width: 82%;
+}
+
+.upme-content-lock-three .upme-content-lock-icon img{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ==================== */
+.upme-content-lock-four{
+    border: 3px solid #cfcfcf;
+    margin: 80px 10px 20px;
+    padding: 10px;
+}
+
+.upme-content-lock-four .upme-content-lock-icon{
+    margin: auto auto -70px;
+    position: relative;
+    top: -80px;
+    width: 128px;
+}
+
+.upme-content-lock-four .upme-content-lock-msg p{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.upme-content-lock-four .upme-content-lock-msg{
+    color: #5c5e60;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.upme-content-lock-four .upme-content-lock-icon img{
+    background: #eee none repeat scroll 0 0;
+    border: 6px solid #d7d6d6;
+    border-radius: 150px;
+    padding: 20px;
+}
+
+/* ==AJAX LOADING === */
+
+.upme-ajax-loading-icon{
+    display: none;
+    margin-left: 10px;
+    float: right;
+    font-size: 18px;
+}

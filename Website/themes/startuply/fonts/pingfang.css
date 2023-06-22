@@ -1,0 +1,44 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3214822, 2016-05-06T02:33:03-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Campton-Bold by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/campton/bold/
+ * 
+ * Webfont: Campton-Medium by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/campton/medium/
+ * 
+ * Webfont: Campton-ExtraLight by Rene Bieder
+ * URL: http://www.myfonts.com/fonts/rene-bieder/campton/extra-light/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3214822
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 by Ren&#x00E9; Bieder. All rights reserved.
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+  
+@font-face {
+	font-family: pingfang;
+	src: url('PingFangHeiTC-W4-Proportional.eot');
+	src: url('PingFangHeiTC-W4-Proportional.eot?#iefix') format('embedded-opentype'),url('PingFangHeiTC-W4-Proportional.woff2') format('woff2'),url('PingFangHeiTC-W4-Proportional.woff') format('woff'),url('PingFangHeiTC-W4-Proportional.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+   }
+ 
+  body:lang(zh-hans), h1:lang(zh-hans), h2:lang(zh-hans), h3:lang(zh-hans), h4:lang(zh-hans), h5:lang(zh-hans), h6:lang(zh-hans), .h1:lang(zh-hans), .h2:lang(zh-hans), .h3:lang(zh-hans), .h4:lang(zh-hans), .h5:lang(zh-hans), .h6:lang(zh-hans), .h7:lang(zh-hans), .heading-font:lang(zh-hans), .btn:lang(zh-hans), nav:lang(zh-hans), .more-link:lang(zh-hans), .gform_wrapper .gform_body .field_description_below .gfield_description:lang(zh-hans), .vsc-countdown .countdown-amount:lang(zh-hans), .edd-downloads-container .item-price:lang(zh-hans), .edd-product-page #sidebar .product-price .edd_price:lang(zh-hans), .edd-product-page .edd_price_options .edd_price_option_price:lang(zh-hans)
+{
+
+        font-family: pingfang;
+}

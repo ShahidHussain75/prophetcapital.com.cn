@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins Language Switcher\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-11 20:27+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vladimir Garagulya <vladimir@shinephp.com>\n"
+"Language-Team: Outshine Solutions <ash.pr@outshinesolutions.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hindi\n"
+"X-Poedit-Country: INDIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../plugins-lang-switch_options.php:64
+msgid "Select Language"
+msgstr "भाषा का चयन करें"
+
+#: ../plugins-lang-switch_options.php:79
+msgid "Update"
+msgstr "अपडेट करें"
+
+#: ../plugins-lang-switch_options.php:79
+msgid "Save Changes"
+msgstr "परिवर्तन सहेजें"
+
+#: ../plugins-lang-switch_options.php:84
+msgid "About this Plugin:"
+msgstr "इस प्लगइन के बारे में:"
+
+#: ../plugins-lang-switch_options.php:85
+msgid "Author's website"
+msgstr "लेखक की वेबसाइट"
+
+#: ../plugins-lang-switch_options.php:86
+msgid "Plugin webpage"
+msgstr "प्लगइन वेबपेज"
+
+#: ../plugins-lang-switch_options.php:87
+#: ../plugins-language-switcher.php:103
+msgid "Changelog"
+msgstr "Changelog"
+
+#: ../plugins-lang-switch_options.php:88
+msgid "FAQ"
+msgstr "अक्सर पूछे जाने वाले प्रश्न"
+
+#: ../plugins-lang-switch_options.php:101
+msgid "Greetings:"
+msgstr "नमस्ते:"
+
+#: ../plugins-lang-switch_options.php:102
+msgid "It's me, the author"
+msgstr "यह मैं हु, लेखक"
+
+#: ../plugins-lang-switch_options.php:103
+msgid "for the help with Chinese translation"
+msgstr "चीनी में अनुवाद के साथ मदद के लिए"
+
+#: ../plugins-lang-switch_options.php:104
+msgid "for the help with Dutch translation"
+msgstr "डच अनुवाद के साथ मदद के लिए"
+
+#: ../plugins-lang-switch_options.php:105
+msgid "For the help with German translation"
+msgstr "जर्मन अनुवाद के साथ मदद के लिए"
+
+#: ../plugins-lang-switch_options.php:106
+#: ../plugins-lang-switch_options.php:107
+msgid "For the help with Italian translation"
+msgstr "इतालवी अनुवाद के साथ मदद के लिए"
+
+#: ../plugins-lang-switch_options.php:108
+msgid "For the help with Lithuanian translation"
+msgstr "लिथुआनियाई अनुवाद के साथ मदद के लिए"
+
+#: ../plugins-lang-switch_options.php:109
+msgid "For the help with Slovenian translation"
+msgstr "स्लोवेनियाई अनुवाद के साथ मदद के लिए"
+
+#: ../plugins-lang-switch_options.php:110
+msgid "For the help with Spanish translation"
+msgstr "स्पेनिश अनुवाद के साथ मदद के लिए"
+
+#: ../plugins-lang-switch_options.php:112
+msgid "Do you wish to see your name with link to your site here? You are welcome! Your help with translation and new ideas are very appreciated."
+msgstr "sक्या आप अपनी साइट के लिए यहाँ के लिंक के साथ अपना नाम देखना चाहते हैं? आपका स्वागत है! अनुवाद और नए विचारों के साथ तुम्हारी मदद की बहुत सराहना की है."
+
+#: ../plugins-language-switcher.php:38
+msgid "Plugins Language Switcher requires WordPress 3.0 or newer."
+msgstr "Plugins भाषा स्विचर 3.0 WordPress के या नए की आवश्यकता है."
+
+#: ../plugins-language-switcher.php:38
+msgid "Please update!"
+msgstr "अपडेट करें"
+
+#: ../plugins-language-switcher.php:59
+msgid "Plugins Language Switcher"
+msgstr "Plugins भाषा स्विचर"
+
+#: ../plugins-language-switcher.php:93
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#~ msgid "Select plugins interface back-end language"
+#~ msgstr "प्लगिन इंटरफ़ेस भाषा के बैक - एंड का चयन करें"
+
+#~ msgid "Donate"
+#~ msgstr "दान"
+
+#~ msgid "More plugins from"
+#~ msgstr "სხვა ჩანართები ავტორისგან"
+
+#~ msgid "No items found."
+#~ msgstr "არაფერი მოიძებნა"
+
+#~ msgid "Recent Posts:"
+#~ msgstr "უკანასკნელი სტატიები"
+
+#~ msgid "Scanning"
+#~ msgstr "Сканирование"
+
+#~ msgid "will take some time. Please confirm to continue"
+#~ msgstr "займет некоторое время. Подтверждите, пожалуйста, чтобы продолжить"
+
+#~ msgid "Select at least one table before click on Delete button"
+#~ msgstr ""
+#~ "Выберите по крайней мере одну таблицу перед щелчком по клавише Delete"
+
+#~ msgid ""
+#~ "Delete database tables last confirmation: Click \"Cancel\" if you have "
+#~ "any doubt."
+#~ msgstr ""
+#~ "Последней подтверждение перед операций удаления таблиц из базы данных: "
+#~ "Щелкните \"Отмена\", если не уверены."
+
+#~ msgid ""
+#~ "Click &lt;Scan&gt; to gather information how plugins use your WordPress "
+#~ "database"
+#~ msgstr ""
+#~ "Щелкните &lt;Сканирование&gt;, чтобы собрать информацию о том, как "
+#~ "плагины используют базу данных вашего WordPress"
+
+#~ msgid "Scan"
+#~ msgstr "Сканирование"
+
+#~ msgid "Table Name"
+#~ msgstr "Название таблицы"
+
+#~ msgid "Records #"
+#~ msgstr "Записей #"
+
+#~ msgid "KBytes #"
+#~ msgstr "Килобайт #"
+
+#~ msgid "Plugin Name"
+#~ msgstr "Название плагина"
+
+#~ msgid "Plugin State"
+#~ msgstr "Состояние плагина"
+
+#~ msgid ""
+#~ "Let's see what tables in your database do not belong to the core "
+#~ "WordPress installation:"
+#~ msgstr ""
+#~ "Давайте посмотрим, какие таблицы в вашей базе данных не принадлежат "
+#~ "основной установке WordPress:"
+
+#~ msgid "Congratulations! It seems that your WordPress database is clean."
+#~ msgstr "Поздравляем! Похоже, что ваша WordPress база данных чиста."
+
+#~ msgid "Cleanup: please confirm to continue"
+#~ msgstr "Зачистка: пожалуйста подтвердите, чтобы продолжить"
+
+#~ msgid "Action Page"
+#~ msgstr "Страница действий"

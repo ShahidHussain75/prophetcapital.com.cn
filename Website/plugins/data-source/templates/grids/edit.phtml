@@ -1,0 +1,191 @@
+<div class="wrap dts-form">
+
+    <h2><?php echo esc_html( __( 'Edit Data Grid', 'data-source' ) ); ?></h2>
+
+    <form method="post" action="<?php echo $this->menuUrl('dts-grids', 'edit', array('post'=>$dataGrid->id)); ?>" id="dts-add-grid-form" class="edit">
+        <?php wp_nonce_field( 'dts-save-data-grid'); ?>
+        <input type="hidden" value="<?php echo $this->menuUrl('dts-grids', 'preview'); ?>" id="dts-load-preview-url" />
+        <div id="dts-add-table-form-container" class="metabox-holder columns-2">
+            <div id="dts-body-content">
+                <div id="titlediv" class="dts-field-container">
+                    <input type="text" name="title" size="80" value="<?php echo esc_attr($dataGrid->title); ?>" id="title" spellcheck="true" autocomplete="off" placeholder="<?php esc_attr_e('Enter grid title', 'data-source'); ?>" />
+                </div>
+                <br class="clear" />
+                <div id="dts-data-table" class="meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Data Source', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <label for="data-source"><?php esc_html_e('Select Data Source', 'data-source'); ?></label>
+                            <div class="field dts-field-container">
+                                <select id="data-source" name="datasource" data-url="<?php echo $this->menuUrl('dts-grids', 'getColumns'); ?>">
+                                    <option value=""><?php esc_html_e('[ Select Data Source ]'); ?></option>
+                                    <?php foreach ($dataSources as $dataSource) : ?>
+                                    <option value="<?php echo esc_attr($dataSource->ID); ?>" <?php if ($dataSource->ID == $dataGrid->datasource) : ?>selected="selected"<?php endif; ?>><?php echo esc_html($dataSource->post_title); ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-grid-main" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Grid Template', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <?php wp_editor($dataGrid->grid_template, 'grid_template', array('textarea_rows'=>10) ); ?>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-grid-styles" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Grid Styles', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <div class="alignleft">
+                                <table>
+                                    <tbody>
+                                    <tr>
+                                        <td colspan="2">
+                                            <h4><?php esc_html_e('Box paddings (px)', 'data-source'); ?></h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dts-padding-top"><?php esc_html_e('Top padding:', 'data-source'); ?></label></td>
+                                        <td><input id="dts-padding-top" type="text" name="padding[top]" size="3" value="<?php echo esc_attr($dataGrid->padding['top']); ?>" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dts-padding-bottom"><?php esc_html_e('Bottom padding:', 'data-source'); ?></label></td>
+                                        <td><input id="dts-padding-bottom" type="text" name="padding[bottom]" size="3" value="<?php echo esc_attr($dataGrid->padding['bottom']); ?>" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dts-padding-left"><?php esc_html_e('Left padding:', 'data-source'); ?></label></td>
+                                        <td><input id="dts-padding-left" type="text" name="padding[left]" size="3" value="<?php echo esc_attr($dataGrid->padding['left']); ?>" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dts-padding-right"><?php esc_html_e('Right padding:', 'data-source'); ?></label></td>
+                                        <td><input id="dts-padding-right" type="text" name="padding[right]" size="3" value="<?php echo esc_attr($dataGrid->padding['right']); ?>" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <h4><?php esc_html_e('Box margins (px)', 'data-source'); ?></h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dts-margin-top"><?php esc_html_e('Top margin:', 'data-source'); ?></label></td>
+                                        <td><input id="dts-margin-top" type="text" name="margin[top]" size="3" value="<?php echo esc_attr($dataGrid->margin['top']); ?>" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dts-margin-bottom"><?php esc_html_e('Bottom margin:', 'data-source'); ?></label></td>
+                                        <td><input id="dts-margin-bottom" type="text" name="margin[bottom]" size="3" value="<?php echo esc_attr($dataGrid->margin['bottom']); ?>" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dts-margin-horizontal"><?php esc_html_e('Horizontal margin:', 'data-source'); ?></label></td>
+                                        <td><input id="dts-margin-horizontal" type="text" name="margin[horizontal]" size="3" value="<?php echo esc_attr($dataGrid->margin['horizontal']); ?>" /></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="2">
+                                            <h4><?php esc_html_e('Box border', 'data-source'); ?></h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dts-border-size"><?php esc_html_e('Border size (px):', 'data-source'); ?></label></td>
+                                        <td><input id="dts-border-size" type="text" name="border[size]" size="3" value="<?php echo esc_attr($dataGrid->border['size']); ?>" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dts-border-radius"><?php esc_html_e('Border radius (px):', 'data-source'); ?></label></td>
+                                        <td><input id="dts-border-radius" type="text" name="border[radius]" size="3" value="<?php echo esc_attr($dataGrid->border['radius']); ?>" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dts-border-color"><?php esc_html_e('Border color:', 'data-source'); ?></label></td>
+                                        <td><input id="dts-border-color" class="dts-color" type="text" name="border[color]" size="3" value="<?php echo esc_attr($dataGrid->border['color']); ?>" /></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="alignleft">
+                                <table id="dts-background-colors">
+                                    <thead>
+                                    <tr>
+                                        <th><h4><?php esc_html_e('Background colors', 'data-source'); ?></h4></th>
+                                    </tr>
+                                    </thead>
+                                    <tfoot>
+                                    <tr>
+                                        <th>
+                                            <a href="#" class="button dts-add-bg-color"><?php esc_html_e('Add Color', 'data-source');?></a>
+                                        </th>
+                                    </tr>
+                                    </tfoot>
+                                    <tbody>
+                                    <?php if ($dataGrid->background) foreach ($dataGrid->background as $background) : ?>
+                                    <tr>
+                                        <td>
+                                            <input class="dts-color" value="<?php echo esc_attr($background); ?>" type="text" name="background[]" /> <a href="#">[ X ]</a>
+                                        </td>
+                                    </tr>
+                                    <?php endforeach; ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="clear"></div>
+                            <p><a href="#" class="button grid-preview-btn"><?php esc_html_e('Preview', 'data-source');?></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dts-grid-preview" class="dts-meta-box-container meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle"><span><?php esc_html_e('Grid Preview', 'data-source'); ?></span></h3>
+                        <div class="inside"></div>
+                    </div>
+                </div>
+
+                <div class="save-data-source-form">
+                    <input type="submit" class="button-primary" name="save" value="<?php echo esc_attr( __( 'Save', 'data-source' ) ); ?>" />
+                </div>
+            </div>
+
+            <div id="dts-add-table-right-sidebar">
+                <div id="side-sortables" class="meta-box-sortables ui-sortable">
+                    <div id="grid-options-container" class="postbox ">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle ui-sortable-handle"><span><?php esc_html_e('Grid Options', 'data-source'); ?></span></h3>
+                        <div class="inside">
+                            <p><label for="dts-sortby"><?php esc_html_e('Default sorting', 'data-source'); ?></label></p>
+                            <select name="sortby" id="dts-sortby" data-val="<?php echo esc_attr($dataGrid->sortby); ?>">
+                                <option value=""><?php esc_html_e('None', 'data-source'); ?></option>
+                            </select>
+                            <select name="sortorder" id="dts-sortorder">
+                                <option value="asc" <?php if ($dataGrid->sortorder == 'asc') : ?>selected="selected"<?php endif; ?>><?php esc_html_e('ASC', 'data-source'); ?></option>
+                                <option value="desc" <?php if ($dataGrid->sortorder == 'desc') : ?>selected="selected"<?php endif; ?>><?php esc_html_e('DESC', 'data-source'); ?></option>
+                            </select>
+
+                            <p><label for="dts-columns-num"><?php esc_html_e('Columns in a row', 'data-source'); ?></label></p>
+                            <select name="columns_num" id="dts-columns-num">
+                                <?php for ($i=1; $i<13; $i++) : ?>
+                                <option value="<?php echo $i; ?>" <?php if ($dataGrid->columns_num == $i) : ?>selected="selected"<?php endif; ?>><?php echo $i; ?></option>
+                                <?php endfor; ?>
+                            </select>
+                            <p><a href="#" class="button grid-preview-btn"><?php esc_html_e('Reload Preview', 'data-source');?></a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="side-placeholders" class="meta-box-sortables ui-sortable">
+                    <div id="grid-options-container" class="postbox ">
+                        <div class="handlediv" title="<?php esc_html_e('Click to toggle', 'data-source'); ?>"><br></div>
+                        <h3 class="hndle ui-sortable-handle"><span><?php esc_html_e('Placeholders', 'data-source'); ?></span></h3>
+                        <div class="inside">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

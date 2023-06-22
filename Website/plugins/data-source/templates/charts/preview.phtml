@@ -1,0 +1,13 @@
+<script type="text/javascript">
+    var options = {packages: ['corechart'], callback : drawChart};
+    google.load('visualization', '1', options);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable(<?php echo dts_json_encode($values); ?>);
+        var options = <?php echo dts_json_encode($options); ?>;
+        var chart = new google.visualization.<?php echo $chart; ?>(document.getElementById('dts-chart'));
+        chart.draw(data, options);
+    }
+</script>
+
+<div id="dts-chart" style="height: 500px;"></div>

@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plugins-lang-switch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-14 05:57+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vladimir <vladimir@shinephp.com>\n"
+"Language-Team: http://www.verasoul.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../plugins-lang-switch_options.php:64
+msgid "Select Language"
+msgstr ""
+
+#: ../plugins-lang-switch_options.php:79
+msgid "Update"
+msgstr "Actualizar"
+
+#: ../plugins-lang-switch_options.php:79
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: ../plugins-lang-switch_options.php:84
+msgid "About this Plugin:"
+msgstr "Acerca de este Plugin:"
+
+#: ../plugins-lang-switch_options.php:85
+msgid "Author's website"
+msgstr "Website del Autor"
+
+#: ../plugins-lang-switch_options.php:86
+msgid "Plugin webpage"
+msgstr "Página del Plugin"
+
+#: ../plugins-lang-switch_options.php:87
+#: ../plugins-language-switcher.php:103
+msgid "Changelog"
+msgstr "Log de Cambios"
+
+#: ../plugins-lang-switch_options.php:88
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ../plugins-lang-switch_options.php:101
+msgid "Greetings:"
+msgstr "Saludos:"
+
+#: ../plugins-lang-switch_options.php:102
+msgid "It's me, the author"
+msgstr "Soy yo, el autor"
+
+#: ../plugins-lang-switch_options.php:103
+msgid "for the help with Chinese translation"
+msgstr "Por la ayuda con la traducción"
+
+#: ../plugins-lang-switch_options.php:104
+msgid "for the help with Dutch translation"
+msgstr "Por la ayuda con la traducción al Holandés"
+
+#: ../plugins-lang-switch_options.php:105
+msgid "For the help with German translation"
+msgstr "Por la ayuda con la traducción al Alemán"
+
+#: ../plugins-lang-switch_options.php:106
+#: ../plugins-lang-switch_options.php:107
+msgid "For the help with Italian translation"
+msgstr "Por la ayuda con la traducción al Italiano"
+
+#: ../plugins-lang-switch_options.php:108
+msgid "For the help with Lithuanian translation"
+msgstr "Por la ayuda con la traducción"
+
+#: ../plugins-lang-switch_options.php:109
+msgid "For the help with Slovenian translation"
+msgstr "Por la ayuda con la traducción"
+
+#: ../plugins-lang-switch_options.php:110
+msgid "For the help with Spanish translation"
+msgstr "Por su ayuda con la traducción al castellano"
+
+#: ../plugins-lang-switch_options.php:112
+msgid "Do you wish to see your name with link to your site here? You are welcome! Your help with translation and new ideas are very appreciated."
+msgstr "¿Deseas ver tu nombre con un enlace a tu sitio aquí? ¡Eres bienvenido!, tu ayuda con la traducción y nuevas ideas son agradecidas."
+
+#: ../plugins-language-switcher.php:38
+msgid "Plugins Language Switcher requires WordPress 3.0 or newer."
+msgstr "Plugins Language Switcher necesita WordPress 3.0 o superior"
+
+#: ../plugins-language-switcher.php:38
+msgid "Please update!"
+msgstr "¡Por favor, actualiza!"
+
+#: ../plugins-language-switcher.php:59
+msgid "Plugins Language Switcher"
+msgstr "Plugins Language Switcher"
+
+#: ../plugins-language-switcher.php:93
+msgid "Settings"
+msgstr "Configuración"
+
+#~ msgid "Select plugins interface back-end language"
+#~ msgstr "Seleccione el idioma de la interfaz"
+#~ msgid "Donate"
+#~ msgstr "Donar"
+#~ msgid "More plugins from"
+#~ msgstr "Más plugins de"
+#~ msgid "No items found."
+#~ msgstr "Elementos no encontrados"
+#~ msgid "Recent Posts:"
+#~ msgstr "Entradas recientes:"
+

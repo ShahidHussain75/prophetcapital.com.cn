@@ -1,0 +1,6968 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Profiles Made Easy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-21 14:01+0530\n"
+"PO-Revision-Date: Tue Aug 16 2016 13:05:00 GMT+0500 (Pakistan Standard Time)\n"
+"Last-Translator: wpadmin <admin@cixlabs.com>\n"
+"Language-Team: ThemeFluent <support@themefluent.com>\n"
+"Language: Chinese (China)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Loco-Target-Locale: zh_CN"
+
+#: ../admin/customizer.php:18 ../admin/field-builder.php:27
+#, fuzzy
+msgid "Profile Fields Cutomizer"
+msgstr ""
+
+#: ../admin/customizer.php:21 ../admin/field-builder.php:30
+msgid ""
+"Organize profile fields, add custom fields to profiles, control privacy of "
+"each field, and more using the following customizer. You can drag and drop "
+"the fields to change the order in which they are displayed on profiles and "
+"the registration form."
+msgstr ""
+
+#: ../admin/customizer.php:25 ../admin/field-builder.php:34
+msgid "Click here to add new field"
+msgstr ""
+
+#: ../admin/customizer.php:31 ../admin/customizer.php:680
+#: ../admin/field-builder.php:40 ../admin/field-builder.php:679
+msgid "Position"
+msgstr ""
+
+#: ../admin/customizer.php:37 ../admin/customizer.php:685
+#: ../admin/field-builder.php:46 ../admin/field-builder.php:684
+msgid ""
+"Please use a unique position. Position lets you place the new field in the "
+"place you want exactly in Profile view."
+msgstr ""
+
+#: ../admin/customizer.php:42 ../admin/field-builder.php:51
+msgid "Type"
+msgstr ""
+
+#: ../admin/customizer.php:46 ../admin/customizer.php:564
+#: ../admin/customizer.php:666 ../admin/field-builder.php:55
+#: ../admin/field-builder.php:557 ../admin/field-builder.php:665
+msgid "Profile Field"
+msgstr ""
+
+#: ../admin/customizer.php:49 ../admin/customizer.php:562
+#: ../admin/customizer.php:668 ../admin/field-builder.php:58
+#: ../admin/field-builder.php:555 ../admin/field-builder.php:667
+msgid "Separator"
+msgstr ""
+
+#: ../admin/customizer.php:52 ../admin/field-builder.php:61
+msgid "You can create a separator or a usermeta (profile field)"
+msgstr ""
+
+#: ../admin/customizer.php:57 ../admin/field-builder.php:66
+msgid "Editor / Input Type"
+msgstr ""
+
+#: ../admin/customizer.php:66 ../admin/customizer.php:730
+#: ../admin/field-builder.php:75 ../admin/field-builder.php:729
+msgid "Choose what type of field you would like to add."
+msgstr ""
+
+#: ../admin/customizer.php:73 ../admin/customizer.php:365
+#: ../admin/customizer.php:434 ../admin/field-builder.php:82
+#: ../admin/field-builder.php:411 ../admin/field-builder.php:1239
+#: ../classes/class-upme-admin.php:322
+msgid "Label"
+msgstr ""
+
+#: ../admin/customizer.php:79 ../admin/customizer.php:738
+#: ../admin/field-builder.php:88 ../admin/field-builder.php:737
+msgid ""
+"Enter the label / name of this field as you want it to appear in front-end "
+"(Profile edit/view)"
+msgstr ""
+
+#: ../admin/customizer.php:84 ../admin/field-builder.php:93
+msgid "Existing Meta Key / Field"
+msgstr ""
+
+#: ../admin/customizer.php:88 ../admin/field-builder.php:97
+msgid "Choose a Meta Key"
+msgstr ""
+
+#: ../admin/customizer.php:92 ../admin/customizer.php:132
+#: ../admin/field-builder.php:101 ../admin/field-builder.php:141
+#: ../classes/class-upme-admin.php:320
+msgid "New Custom Meta Key"
+msgstr ""
+
+#: ../admin/customizer.php:117 ../admin/customizer.php:766
+#: ../admin/field-builder.php:126 ../admin/field-builder.php:765
+msgid ""
+"Choose from a predefined/available list of meta fields (usermeta) or skip "
+"this to define a new custom meta key for this field below."
+msgstr ""
+
+#: ../admin/customizer.php:142 ../admin/customizer.php:808
+#: ../admin/field-builder.php:151 ../admin/field-builder.php:807
+msgid "Tooltip Text"
+msgstr ""
+
+#: ../admin/customizer.php:148 ../admin/customizer.php:813
+#: ../admin/field-builder.php:157 ../admin/field-builder.php:812
+msgid "A tooltip text can be useful for social buttons on profile header."
+msgstr ""
+
+#: ../admin/customizer.php:153 ../admin/customizer.php:816
+#: ../admin/field-builder.php:162 ../admin/field-builder.php:823
+msgid "This field is social"
+msgstr ""
+
+#: ../admin/customizer.php:157 ../admin/customizer.php:175
+#: ../admin/customizer.php:187 ../admin/customizer.php:205
+#: ../admin/customizer.php:220 ../admin/customizer.php:236
+#: ../admin/customizer.php:253 ../admin/customizer.php:268
+#: ../admin/customizer.php:302 ../admin/customizer.php:820
+#: ../admin/customizer.php:839 ../admin/customizer.php:851
+#: ../admin/customizer.php:871 ../admin/customizer.php:887
+#: ../admin/customizer.php:910 ../admin/customizer.php:935
+#: ../admin/customizer.php:1001 ../admin/customizer.php:1083
+#: ../admin/field-builder.php:166 ../admin/field-builder.php:184
+#: ../admin/field-builder.php:196 ../admin/field-builder.php:214
+#: ../admin/field-builder.php:239 ../admin/field-builder.php:255
+#: ../admin/field-builder.php:272 ../admin/field-builder.php:287
+#: ../admin/field-builder.php:321 ../admin/field-builder.php:827
+#: ../admin/field-builder.php:846 ../admin/field-builder.php:866
+#: ../admin/field-builder.php:886 ../admin/field-builder.php:914
+#: ../admin/field-builder.php:937 ../admin/field-builder.php:965
+#: ../admin/field-builder.php:1031 ../admin/field-builder.php:1113
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:42
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:61
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:76
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:86
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:177
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:202
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:223
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:234
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:245
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:267
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:289
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:300
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:311
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:322
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:333
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:105
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:115
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:125
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:135
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:145
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:155
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:56
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:75
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:90
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:108
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:120
+#: ../widgets/upme-widgets.php:153
+msgid "No"
+msgstr ""
+
+#: ../admin/customizer.php:160 ../admin/customizer.php:172
+#: ../admin/customizer.php:190 ../admin/customizer.php:202
+#: ../admin/customizer.php:223 ../admin/customizer.php:239
+#: ../admin/customizer.php:256 ../admin/customizer.php:271
+#: ../admin/customizer.php:305 ../admin/customizer.php:823
+#: ../admin/customizer.php:836 ../admin/customizer.php:854
+#: ../admin/customizer.php:868 ../admin/customizer.php:890
+#: ../admin/customizer.php:913 ../admin/customizer.php:938
+#: ../admin/customizer.php:1004 ../admin/customizer.php:1086
+#: ../admin/field-builder.php:169 ../admin/field-builder.php:181
+#: ../admin/field-builder.php:199 ../admin/field-builder.php:211
+#: ../admin/field-builder.php:242 ../admin/field-builder.php:258
+#: ../admin/field-builder.php:275 ../admin/field-builder.php:290
+#: ../admin/field-builder.php:324 ../admin/field-builder.php:830
+#: ../admin/field-builder.php:843 ../admin/field-builder.php:869
+#: ../admin/field-builder.php:883 ../admin/field-builder.php:917
+#: ../admin/field-builder.php:940 ../admin/field-builder.php:968
+#: ../admin/field-builder.php:1034 ../admin/field-builder.php:1116
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:42
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:62
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:76
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:86
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:177
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:202
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:223
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:234
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:245
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:267
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:289
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:300
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:311
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:322
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:333
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:105
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:115
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:125
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:135
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:145
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:155
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:56
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:76
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:90
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:108
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:120
+#: ../widgets/upme-widgets.php:152
+msgid "Yes"
+msgstr ""
+
+#: ../admin/customizer.php:163 ../admin/customizer.php:826
+#: ../admin/field-builder.php:172 ../admin/field-builder.php:833
+msgid ""
+"A social field can show a button with your social profile in the head of "
+"your profile. Such as Facebook page, Twitter, etc."
+msgstr ""
+
+#: ../admin/customizer.php:168 ../admin/customizer.php:393
+#: ../admin/customizer.php:462 ../admin/customizer.php:832
+#: ../admin/field-builder.php:177 ../admin/field-builder.php:442
+#: ../admin/field-builder.php:839 ../admin/field-builder.php:1269
+msgid "User can edit"
+msgstr ""
+
+#: ../admin/customizer.php:178 ../admin/customizer.php:842
+#: ../admin/field-builder.php:187 ../admin/field-builder.php:849
+msgid "Users can edit this profile field or not."
+msgstr ""
+
+#: ../admin/customizer.php:183 ../admin/field-builder.php:192
+msgid "Allow HTML Content"
+msgstr ""
+
+#: ../admin/customizer.php:193 ../admin/customizer.php:399
+#: ../admin/customizer.php:468 ../admin/customizer.php:857
+#: ../admin/field-builder.php:202 ../admin/field-builder.php:450
+#: ../admin/field-builder.php:872 ../admin/field-builder.php:1277
+msgid "If yes, users will be able to write HTML code in this field."
+msgstr ""
+
+#: ../admin/customizer.php:198 ../admin/customizer.php:401
+#: ../admin/customizer.php:470 ../admin/customizer.php:864
+#: ../admin/field-builder.php:207 ../admin/field-builder.php:454
+#: ../admin/field-builder.php:879 ../admin/field-builder.php:1281
+msgid "User can hide"
+msgstr ""
+
+#: ../admin/customizer.php:208 ../admin/customizer.php:874
+#: ../admin/field-builder.php:217 ../admin/field-builder.php:889
+msgid "Always Hide from Public"
+msgstr ""
+
+#: ../admin/customizer.php:211 ../admin/customizer.php:877
+#: ../admin/field-builder.php:230 ../admin/field-builder.php:904
+msgid ""
+"Allow users to hide this profile field from public viewing or not. Selecting "
+"No will cause the field to always be publicly visible if you have public "
+"viewing of profiles enabled. Selecting Yes will give the user a choice if "
+"the field should be publicy visible or not. Private fields are not affected "
+"by this option."
+msgstr ""
+
+#: ../admin/customizer.php:216 ../admin/customizer.php:883
+#: ../admin/field-builder.php:235 ../admin/field-builder.php:910
+msgid "This field is private"
+msgstr ""
+
+#: ../admin/customizer.php:226 ../admin/customizer.php:893
+#: ../admin/field-builder.php:245 ../admin/field-builder.php:920
+msgid "Make this field Private. Only admins can see private fields."
+msgstr ""
+
+#: ../admin/customizer.php:232 ../admin/field-builder.php:251
+msgid "This field is required"
+msgstr ""
+
+#: ../admin/customizer.php:242 ../admin/customizer.php:916
+#: ../admin/field-builder.php:261 ../admin/field-builder.php:943
+msgid ""
+"Selecting yes will force user to provide a value for this field at "
+"registeration and edit profile. Registration or profile edits will not be "
+"accepted if this field is left empty."
+msgstr ""
+
+#: ../admin/customizer.php:249 ../admin/field-builder.php:268
+msgid "Show on Registration form"
+msgstr ""
+
+#: ../admin/customizer.php:259 ../admin/customizer.php:415
+#: ../admin/customizer.php:484 ../admin/field-builder.php:278
+#: ../admin/field-builder.php:468 ../admin/field-builder.php:1295
+msgid ""
+"Show this field on the registration form? If you choose no, this field will "
+"be shown on edit profile only and not on the registration form. Most users "
+"prefer fewer fields when registering, so use this option with care."
+msgstr ""
+
+#: ../admin/customizer.php:264 ../admin/customizer.php:931
+#: ../admin/field-builder.php:283 ../admin/field-builder.php:961
+msgid "Display by User Role"
+msgstr ""
+
+#: ../admin/customizer.php:274 ../admin/customizer.php:941
+#: ../admin/field-builder.php:293 ../admin/field-builder.php:971
+msgid ""
+"If no, this field will be displayed on profiles of all User Roles. Select "
+"yes to display this field only on profiles of specific User Roles."
+msgstr ""
+
+#: ../admin/customizer.php:280 ../admin/customizer.php:954
+#: ../admin/field-builder.php:299 ../admin/field-builder.php:984
+#: ../admin/settings.php:867
+msgid "Select User Roles"
+msgstr ""
+
+#: ../admin/customizer.php:293 ../admin/customizer.php:957
+#: ../admin/field-builder.php:312 ../admin/field-builder.php:987
+msgid "This field will only be displayed on users of the selected User Roles."
+msgstr ""
+
+#: ../admin/customizer.php:298 ../admin/customizer.php:997
+#: ../admin/field-builder.php:317 ../admin/field-builder.php:1027
+msgid "Editable by Users of Role"
+msgstr ""
+
+#: ../admin/customizer.php:308 ../admin/customizer.php:1007
+#: ../admin/field-builder.php:327 ../admin/field-builder.php:1037
+msgid "If yes, available user roles will be displayed for selection."
+msgstr ""
+
+#: ../admin/customizer.php:313 ../admin/field-builder.php:332
+msgid "Select Roles that can Edit."
+msgstr ""
+
+#: ../admin/customizer.php:326 ../admin/customizer.php:1024
+#: ../admin/field-builder.php:345 ../admin/field-builder.php:1054
+msgid "Selected user roles will have the permission to edit this field."
+msgstr ""
+
+#: ../admin/customizer.php:331 ../admin/field-builder.php:361
+msgid "Icon for this field"
+msgstr ""
+
+#: ../admin/customizer.php:334 ../admin/customizer.php:1113
+#: ../admin/customizer.php:1127 ../admin/customizer.php:1132
+#: ../admin/field-builder.php:364 ../admin/field-builder.php:1163
+#: ../admin/field-builder.php:1177 ../admin/field-builder.php:1182
+#: ../admin/settings.php:614
+msgid "None"
+msgstr ""
+
+#: ../admin/customizer.php:345 ../admin/field-builder.php:384
+msgid "Submit New Field"
+msgstr ""
+
+#: ../admin/customizer.php:348 ../admin/customizer.php:1150
+#: ../admin/field-builder.php:387 ../admin/field-builder.php:1210
+#: ../templates/woocommerce/my-orders.php:66
+msgid "Cancel"
+msgstr ""
+
+#: ../admin/customizer.php:362 ../admin/customizer.php:431
+#: ../admin/field-builder.php:408 ../admin/field-builder.php:1236
+msgid "Icon"
+msgstr ""
+
+#: ../admin/customizer.php:367 ../admin/customizer.php:436
+#: ../admin/field-builder.php:413 ../admin/field-builder.php:1241
+msgid "The label that appears in front-end profile view or edit."
+msgstr ""
+
+#: ../admin/customizer.php:370 ../admin/customizer.php:439
+#: ../admin/customizer.php:778 ../admin/field-builder.php:416
+#: ../admin/field-builder.php:777 ../admin/field-builder.php:1244
+#: ../classes/class-upme-admin.php:321
+msgid "Meta Key"
+msgstr ""
+
+#: ../admin/customizer.php:372 ../admin/customizer.php:441
+#: ../admin/field-builder.php:418 ../admin/field-builder.php:1246
+msgid ""
+"This is the meta field that stores this specific profile data (e.g. "
+"first_name stores First Name)"
+msgstr ""
+
+#: ../admin/customizer.php:375 ../admin/customizer.php:444
+#: ../admin/customizer.php:720 ../admin/field-builder.php:421
+#: ../admin/field-builder.php:719 ../admin/field-builder.php:1250
+msgid "Field Input"
+msgstr ""
+
+#: ../admin/customizer.php:377 ../admin/customizer.php:446
+#: ../admin/field-builder.php:423 ../admin/field-builder.php:1252
+msgid "This column tells you the field input that will appear to user for this data."
+msgstr ""
+
+#: ../admin/customizer.php:380 ../admin/customizer.php:449
+#: ../admin/customizer.php:671 ../admin/field-builder.php:426
+#: ../admin/field-builder.php:670 ../admin/field-builder.php:1256
+msgid "Field Type"
+msgstr ""
+
+#: ../admin/customizer.php:382 ../admin/customizer.php:451
+#: ../admin/field-builder.php:428 ../admin/field-builder.php:1258
+msgid ""
+"Separator is a section title. A Profile Field can hold data and can be "
+"assigned to any user meta field."
+msgstr ""
+
+#: ../admin/customizer.php:385 ../admin/customizer.php:454
+#: ../admin/field-builder.php:432 ../admin/field-builder.php:1261
+msgid "Tooltip"
+msgstr ""
+
+#: ../admin/customizer.php:387 ../admin/customizer.php:456
+#: ../admin/field-builder.php:434 ../admin/field-builder.php:1263
+msgid ""
+"Please note that tooltips can be activated only for Social buttons such as "
+"Facebook, E-mail. Enter tooltip text here."
+msgstr ""
+
+#: ../admin/customizer.php:389 ../admin/customizer.php:458
+#: ../admin/field-builder.php:438 ../admin/field-builder.php:1265
+msgid "Social"
+msgstr ""
+
+#: ../admin/customizer.php:391 ../admin/customizer.php:460
+#: ../admin/field-builder.php:440 ../admin/field-builder.php:1267
+msgid ""
+"Make a field Social to have it appear as a button on the head of profile "
+"such as Facebook, Twitter, Google+ buttons."
+msgstr ""
+
+#: ../admin/customizer.php:395 ../admin/customizer.php:464
+#: ../admin/field-builder.php:444 ../admin/field-builder.php:1271
+msgid "Allow or do not allow user to edit this field."
+msgstr ""
+
+#: ../admin/customizer.php:397 ../admin/customizer.php:466
+#: ../admin/customizer.php:847 ../admin/field-builder.php:448
+#: ../admin/field-builder.php:862 ../admin/field-builder.php:1275
+msgid "Allow HTML"
+msgstr ""
+
+#: ../admin/customizer.php:403 ../admin/customizer.php:472
+#: ../admin/field-builder.php:456 ../admin/field-builder.php:1283
+msgid "Allow user to show/hide this profile field from public view."
+msgstr ""
+
+#: ../admin/customizer.php:405 ../admin/customizer.php:474
+#: ../admin/field-builder.php:458 ../admin/field-builder.php:1285
+msgid "Private"
+msgstr ""
+
+#: ../admin/customizer.php:407 ../admin/customizer.php:476
+#: ../admin/field-builder.php:460 ../admin/field-builder.php:1287
+msgid "Only admins can see private fields."
+msgstr ""
+
+#: ../admin/customizer.php:409 ../admin/customizer.php:478
+#: ../admin/field-builder.php:462 ../admin/field-builder.php:1289
+msgid "Required"
+msgstr ""
+
+#: ../admin/customizer.php:411 ../admin/customizer.php:480
+#: ../admin/field-builder.php:464 ../admin/field-builder.php:1291
+msgid "This is mandatory field for registration and edit profile."
+msgstr ""
+
+#: ../admin/customizer.php:413 ../admin/customizer.php:482
+#: ../admin/field-builder.php:466 ../admin/field-builder.php:1293
+msgid "Show in Registration"
+msgstr ""
+
+#: ../admin/customizer.php:417 ../admin/customizer.php:486
+#: ../admin/field-builder.php:470 ../admin/field-builder.php:1297
+msgid "Edit"
+msgstr ""
+
+#: ../admin/customizer.php:419 ../admin/customizer.php:488
+#: ../admin/field-builder.php:472 ../admin/field-builder.php:1299
+msgid "Click to edit this profile field."
+msgstr ""
+
+#: ../admin/customizer.php:421 ../admin/customizer.php:490
+#: ../admin/field-builder.php:474 ../admin/field-builder.php:1301
+msgid "Trash"
+msgstr ""
+
+#: ../admin/customizer.php:423 ../admin/customizer.php:492
+#: ../admin/field-builder.php:476 ../admin/field-builder.php:1303
+msgid "Click to remove this profile field."
+msgstr ""
+
+#: ../admin/customizer.php:734 ../admin/field-builder.php:733
+msgid "Label / Name"
+msgstr ""
+
+#: ../admin/customizer.php:742 ../admin/field-builder.php:741
+msgid "Choose Meta Field"
+msgstr ""
+
+#: ../admin/customizer.php:746 ../admin/field-builder.php:745
+msgid "Choose a user field"
+msgstr ""
+
+#: ../admin/customizer.php:775 ../admin/field-builder.php:774
+msgid "Custom Meta Field"
+msgstr ""
+
+#: ../admin/customizer.php:906 ../admin/field-builder.php:933
+msgid "This field is Required"
+msgstr ""
+
+#: ../admin/customizer.php:1021 ../admin/field-builder.php:1051
+msgid "Select Roles that can Edit"
+msgstr ""
+
+#: ../admin/customizer.php:1079 ../admin/field-builder.php:1109
+msgid "Show on Registration Form"
+msgstr ""
+
+#: ../admin/customizer.php:1089 ../admin/field-builder.php:1119
+msgid "Show this profile field on the registration form"
+msgstr ""
+
+#: ../admin/customizer.php:1101 ../admin/field-builder.php:1151
+msgid "Available Choices"
+msgstr ""
+
+#: ../admin/customizer.php:1104 ../admin/field-builder.php:1154
+msgid ""
+"Enter one choice per line please. The choices will be available for front "
+"end user to choose from."
+msgstr ""
+
+#: ../admin/customizer.php:1109 ../admin/field-builder.php:1159
+msgid "Enable Predefined Choices"
+msgstr ""
+
+#: ../admin/customizer.php:1117 ../admin/field-builder.php:1167
+msgid "List of Countries"
+msgstr ""
+
+#: ../admin/customizer.php:1120 ../admin/field-builder.php:1170
+msgid ""
+"You can enable a predefined filter for choices. e.g. List of countries It "
+"enables country selection in profiles and saves you time to do it on your "
+"own."
+msgstr ""
+
+#: ../admin/customizer.php:1125 ../admin/field-builder.php:1175
+msgid "Field Icon:"
+msgstr ""
+
+#: ../admin/customizer.php:1129 ../admin/field-builder.php:1179
+msgid "Change Icon"
+msgstr ""
+
+#: ../admin/customizer.php:1148 ../admin/field-builder.php:1207
+msgid "Update"
+msgstr ""
+
+#: ../admin/field-builder.php:2
+msgid "UPME - Custom Fields"
+msgstr ""
+
+#: ../admin/field-builder.php:220 ../admin/field-builder.php:892
+msgid "Always Hide from Guests"
+msgstr ""
+
+#: ../admin/field-builder.php:223 ../admin/field-builder.php:895
+msgid "Always Hide from Members"
+msgstr ""
+
+#: ../admin/field-builder.php:350 ../admin/field-builder.php:1129
+msgid "Help Text"
+msgstr ""
+
+#: ../admin/field-builder.php:353 ../admin/field-builder.php:1132
+msgid "A help text can be useful for provide information about the field."
+msgstr ""
+
+#: ../admin/field-builder.php:355 ../admin/field-builder.php:1134
+msgid "Show this help text under the profile field."
+msgstr ""
+
+#: ../admin/field-builder.php:1328 ../admin/modules.php:51
+#: ../admin/modules.php:153 ../admin/modules.php:184 ../admin/settings.php:131
+#: ../admin/settings.php:378 ../admin/settings.php:464
+#: ../admin/settings.php:537 ../admin/settings.php:752
+#: ../admin/settings.php:825 ../admin/settings.php:881
+#: ../admin/settings.php:1018 ../admin/settings.php:1076
+#: ../classes/class-upme-admin.php:328 ../classes/class-upme-admin.php:351
+#: ../classes/class-upme-admin.php:856
+#: ../modules/social/templates/social-settings.php:116
+#: ../templates/custom-fields.php:57 ../templates/posts-pages.php:247
+#: ../templates/seo.php:85 ../templates/separator-field-groups.php:77
+#: ../templates/woocommerce/woocommerce-list.php:34
+msgid "Save Changes"
+msgstr ""
+
+#: ../admin/field-builder.php:1334 ../classes/class-upme-admin.php:872
+msgid "Reset to Default Fields"
+msgstr ""
+
+#: ../admin/modules.php:6
+msgid "UPME - Modules"
+msgstr ""
+
+#: ../admin/modules.php:8 ../admin/settings.php:6
+msgid "Settings Saved"
+msgstr ""
+
+#: ../admin/modules.php:12 ../admin/settings.php:10
+msgid "Settings Reset Completed."
+msgstr ""
+
+#: ../admin/modules.php:16
+msgid "Record Updated."
+msgstr ""
+
+#: ../admin/modules.php:20
+msgid "No File Selected."
+msgstr ""
+
+#: ../admin/modules.php:25 ../admin/modules.php:35
+msgid "Site Lockdown"
+msgstr ""
+
+#: ../admin/modules.php:26 ../admin/modules.php:64 ../admin/modules.php:97
+msgid "Content Restriction Rules"
+msgstr ""
+
+#: ../admin/modules.php:27 ../admin/modules.php:136
+msgid "Email Templates"
+msgstr ""
+
+#: ../admin/modules.php:28 ../admin/modules.php:166
+msgid "Email Settings"
+msgstr ""
+
+#: ../admin/modules.php:29 ../admin/modules.php:203
+msgid "Export / Import"
+msgstr ""
+
+#: ../admin/modules.php:53 ../admin/modules.php:186 ../admin/settings.php:133
+#: ../admin/settings.php:380 ../admin/settings.php:466
+#: ../admin/settings.php:539 ../admin/settings.php:754
+#: ../admin/settings.php:827 ../admin/settings.php:883
+#: ../admin/settings.php:1020 ../admin/settings.php:1078
+#: ../classes/class-upme-admin.php:330 ../classes/class-upme-admin.php:353
+#: ../modules/social/templates/social-settings.php:118
+#: ../templates/custom-fields.php:59 ../templates/posts-pages.php:249
+#: ../templates/seo.php:87 ../templates/woocommerce/woocommerce-list.php:36
+msgid "Reset Options"
+msgstr ""
+
+#: ../admin/modules.php:66
+msgid "Back To Restriction Rules"
+msgstr ""
+
+#: ../admin/modules.php:99
+msgid "Create New Restriction Rule"
+msgstr ""
+
+#: ../admin/modules.php:112
+msgid "Allowed for"
+msgstr ""
+
+#: ../admin/modules.php:113
+msgid "Allowed Conditions"
+msgstr ""
+
+#: ../admin/modules.php:114
+msgid "Restrictions"
+msgstr ""
+
+#: ../admin/modules.php:115
+msgid "Redirection"
+msgstr ""
+
+#: ../admin/modules.php:116
+msgid "Delete"
+msgstr ""
+
+#: ../admin/modules.php:117
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../admin/modules.php:155
+msgid "Reset Templates"
+msgstr ""
+
+#: ../admin/modules.php:211
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:142
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:93
+msgid "Profile Fields"
+msgstr ""
+
+#: ../admin/modules.php:219 ../classes/class-upme-admin.php:15
+#: ../classes/class-upme-admin.php:412
+msgid "UPME Settings"
+msgstr ""
+
+#: ../admin/modules.php:228
+msgid "UPME Users"
+msgstr ""
+
+#: ../admin/modules.php:239
+msgid "Import Fields"
+msgstr ""
+
+#: ../admin/modules.php:248
+msgid "Export Fields"
+msgstr ""
+
+#: ../admin/modules.php:260
+msgid "Import Settings"
+msgstr ""
+
+#: ../admin/modules.php:269
+msgid "Export Settings"
+msgstr ""
+
+#: ../admin/modules.php:282 ../modules/templates/site_users_export_view.php:13
+msgid "Export Users"
+msgstr ""
+
+#: ../admin/settings.php:4
+msgid "UPME - Settings"
+msgstr ""
+
+#: ../admin/settings.php:15 ../admin/settings.php:28
+msgid "General Settings"
+msgstr ""
+
+#: ../admin/settings.php:16 ../admin/settings.php:143
+msgid "User Profile Settings"
+msgstr ""
+
+#: ../admin/settings.php:17 ../admin/settings.php:391
+msgid "UPME System Pages"
+msgstr ""
+
+#: ../admin/settings.php:18 ../admin/settings.php:476
+msgid "Redirect Settings"
+msgstr ""
+
+#: ../admin/settings.php:19 ../admin/settings.php:548
+msgid "Registration Options"
+msgstr ""
+
+#: ../admin/settings.php:20 ../admin/settings.php:763
+msgid "Search Settings"
+msgstr ""
+
+#: ../admin/settings.php:21 ../admin/settings.php:835
+msgid "Privacy Options"
+msgstr ""
+
+#: ../admin/settings.php:22
+msgid "Messages"
+msgstr ""
+
+#: ../admin/settings.php:23
+msgid "Scripts and Styles"
+msgstr ""
+
+#: ../admin/settings.php:33
+msgid "Style"
+msgstr ""
+
+#: ../admin/settings.php:37
+msgid "None - I will use custom CSS"
+msgstr ""
+
+#: ../admin/settings.php:51
+msgid "Select Theme Style or disable CSS output to use your own custom CSS."
+msgstr ""
+
+#: ../admin/settings.php:56
+msgid "Date Format"
+msgstr ""
+
+#: ../admin/settings.php:68
+msgid "Your server is running PHP "
+msgstr ""
+
+#: ../admin/settings.php:86
+msgid "Select the date format to be used for date picker."
+msgstr ""
+
+#: ../admin/settings.php:97
+msgid "Admin Bar"
+msgstr ""
+
+#: ../admin/settings.php:99
+#: ../modules/templates/site_content_restriction_rules_view.php:30
+#: ../templates/posts-pages.php:50 ../templates/posts-pages.php:105
+#: ../templates/posts-pages.php:158
+msgid "Enabled"
+msgstr ""
+
+#: ../admin/settings.php:100
+msgid "Hide from Non-Admin Users"
+msgstr ""
+
+#: ../admin/settings.php:101
+msgid "Hide from All Users"
+msgstr ""
+
+#: ../admin/settings.php:103
+msgid ""
+"Optionally hide the WordPress admin bar for logged in users on frontend "
+"pages."
+msgstr ""
+
+#: ../admin/settings.php:104
+msgid ""
+"Enabled will show the WordPress admin bar to all users. You amy select an "
+"option to hide the admin bar on frontend for non-admin users or all users."
+msgstr ""
+
+#: ../admin/settings.php:110
+msgid "Lighbox Avatar Cropping"
+msgstr ""
+
+#: ../admin/settings.php:112
+msgid "If checked, users will be able to crop avatar images in a lightbox."
+msgstr ""
+
+#: ../admin/settings.php:113
+msgid ""
+"Unchecking this option will enable the default file upload instead of "
+"lightbox cropping."
+msgstr ""
+
+#: ../admin/settings.php:119
+msgid "Use AJAX on Custom Fields"
+msgstr ""
+
+#: ../admin/settings.php:121
+msgid "If checked, backend custom fields will be updated and sorted using AJAX."
+msgstr ""
+
+#: ../admin/settings.php:122
+msgid ""
+"Checking this option will enable AJAX on backend custom fields. Useful for "
+"working with large number of custom fields ."
+msgstr ""
+
+#: ../admin/settings.php:151
+msgid "Display Name / User Link Options"
+msgstr ""
+
+#: ../admin/settings.php:153
+msgid "Link to user profiles"
+msgstr ""
+
+#: ../admin/settings.php:154
+msgid "Link to author archives"
+msgstr ""
+
+#: ../admin/settings.php:155
+msgid "No link, show as static text"
+msgstr ""
+
+#: ../admin/settings.php:156
+msgid "Enable/disable linking of Display Names on user profiles"
+msgstr ""
+
+#: ../admin/settings.php:157
+msgid "This is where the display name on user profiles will link."
+msgstr ""
+
+#: ../admin/settings.php:163
+msgid "Profile Permalinks"
+msgstr ""
+
+#: ../admin/settings.php:165 ../classes/class-upme.php:5057
+msgid "User ID"
+msgstr ""
+
+#: ../admin/settings.php:167
+msgid "Select profile link type."
+msgstr ""
+
+#: ../admin/settings.php:168
+msgid "Username will be written as <code>profile/username/</code>"
+msgstr ""
+
+#: ../admin/settings.php:169
+msgid "User ID will be writtne as <code>profile/1/</code>"
+msgstr ""
+
+#: ../admin/settings.php:170
+msgid "This is the rewrite rule used to link to user profiles."
+msgstr ""
+
+#: ../admin/settings.php:176
+msgid "Link Post Count to Author Archive"
+msgstr ""
+
+#: ../admin/settings.php:178
+msgid ""
+"If checked, post/entries count on user profiles will link to the Author "
+"archive page."
+msgstr ""
+
+#: ../admin/settings.php:179
+msgid ""
+"Unchecking this option will show post count in text only, without linking to "
+"Author archive."
+msgstr ""
+
+#: ../admin/settings.php:185
+msgid "Maximum allowed user image size"
+msgstr ""
+
+#: ../admin/settings.php:186
+#, php-format
+msgid ""
+"Provide file size in megabytes, decimal values are accepted. Your server "
+"configuration supports up to <strong>%s</strong>"
+msgstr ""
+
+#: ../admin/settings.php:187
+msgid ""
+"Users will receive an error message if they try to upload files larger than "
+"the limit set here."
+msgstr ""
+
+#: ../admin/settings.php:193
+msgid "Show separators on profiles"
+msgstr ""
+
+#: ../admin/settings.php:194
+msgid ""
+"<p>If checked, separators will be displayed when viewing front-end profiles."
+"<br /> Otherwise, separators are displayed only on the registration form and "
+"when editing profiles.<br />"
+msgstr ""
+
+#: ../admin/settings.php:195
+msgid ""
+"If you are using this option, it is recommended to also enable the next "
+"option to show empty fields on profiles.</p>"
+msgstr ""
+
+#: ../admin/settings.php:196
+msgid ""
+"Separators may be added & edited in the UPME Custom Fields section. When "
+"using this option, it is recommended to also check the option below to show "
+"empty fields on profiles."
+msgstr ""
+
+#: ../admin/settings.php:202
+msgid "Show empty fields on profiles"
+msgstr ""
+
+#: ../admin/settings.php:203
+msgid ""
+"<p>If checked, empty fields will be displayed when viewing front-end "
+"profiles.<br /> Otherwise, only fields populated with data are when viewing "
+"front-end profiles.</p>"
+msgstr ""
+
+#: ../admin/settings.php:204
+msgid "Empty fields are fields where a user has not filled in any data."
+msgstr ""
+
+#: ../admin/settings.php:210
+msgid "Field for Profile Title"
+msgstr ""
+
+#: ../admin/settings.php:212
+msgid ""
+"Select the field to be displayed as profile title. Default and recommeneded "
+"choice is <code>Display Name</code>."
+msgstr ""
+
+#: ../admin/settings.php:213
+msgid "This field will be used as the display name on user profiles."
+msgstr ""
+
+#: ../admin/settings.php:219
+msgid "Show recent user posts on profiles"
+msgstr ""
+
+#: ../admin/settings.php:220
+msgid ""
+"If checked, recent posts of the user will be displayed under profile "
+"information."
+msgstr ""
+
+#: ../admin/settings.php:221
+msgid "User need to be the author of these posts."
+msgstr ""
+
+#: ../admin/settings.php:229
+msgid "Maximum number of posts"
+msgstr ""
+
+#: ../admin/settings.php:231
+msgid "Select maximum post count allowed for user profiles."
+msgstr ""
+
+#: ../admin/settings.php:232
+msgid "Given number of user posts are displayed under the profile."
+msgstr ""
+
+#: ../admin/settings.php:239
+msgid "Show featured images on posts"
+msgstr ""
+
+#: ../admin/settings.php:240
+msgid ""
+"If checked, featured image thumbnails will be displayed with the users "
+"recent posts."
+msgstr ""
+
+#: ../admin/settings.php:241
+msgid "If feature image doesnt exist, a default image will be used."
+msgstr ""
+
+#: ../admin/settings.php:247
+msgid "Website links on user profiles"
+msgstr ""
+
+#: ../admin/settings.php:249
+msgid "No link, plain text"
+msgstr ""
+
+#: ../admin/settings.php:250
+msgid "Live link"
+msgstr ""
+
+#: ../admin/settings.php:251
+msgid "Enable/disable linking of Website on user profiles"
+msgstr ""
+
+#: ../admin/settings.php:252
+msgid "This is where the website on user profiles will link."
+msgstr ""
+
+#: ../admin/settings.php:258
+msgid "Shortcode for Profile Popup"
+msgstr ""
+
+#: ../admin/settings.php:259
+msgid ""
+"Provide [upme] shortcode with neccessary attribute values for profile modal "
+"window"
+msgstr ""
+
+#: ../admin/settings.php:260
+msgid "When modal window is enabled on profile links, this shortcode will be used"
+msgstr ""
+
+#: ../admin/settings.php:266
+msgid "Enable Profile Status"
+msgstr ""
+
+#: ../admin/settings.php:267
+msgid ""
+"If checked, users will be able to change the profile status to "
+"active/inactive."
+msgstr ""
+
+#: ../admin/settings.php:268
+msgid "Admin can check this feature to enable the private status feature for users."
+msgstr ""
+
+#: ../admin/settings.php:274
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:298
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:113
+msgid "Display Profile Status"
+msgstr ""
+
+#: ../admin/settings.php:275
+msgid ""
+"If checked, users will be able to see the status of the profile along with "
+"other profile fields."
+msgstr ""
+
+#: ../admin/settings.php:276
+msgid "Admin can check this feature to display the profile status inside profiles."
+msgstr ""
+
+#: ../admin/settings.php:282
+msgid "Link Post Author Link to UPME Profile"
+msgstr ""
+
+#: ../admin/settings.php:284
+msgid "If checked, author link in posts will link to the UPME profile page."
+msgstr ""
+
+#: ../admin/settings.php:285
+msgid "Unchecking this option will link post author to Author archive."
+msgstr ""
+
+#: ../admin/settings.php:291
+msgid "Display UPME Profile for Post Author after Post Content"
+msgstr ""
+
+#: ../admin/settings.php:293
+msgid "If checked, UPME profile of author is displayed after the post content."
+msgstr ""
+
+#: ../admin/settings.php:294
+msgid "Unchecking this option will not display UPME author profile."
+msgstr ""
+
+#: ../admin/settings.php:300
+msgid "Template for Post Author Profiles"
+msgstr ""
+
+#: ../admin/settings.php:302
+msgid "Default Design"
+msgstr ""
+
+#: ../admin/settings.php:303
+msgid "Author Profile Design 1"
+msgstr ""
+
+#: ../admin/settings.php:304
+msgid "Author Profile Design 2"
+msgstr ""
+
+#: ../admin/settings.php:305
+msgid "Author Profile Design 3"
+msgstr ""
+
+#: ../admin/settings.php:306
+msgid "Author Profile Design 4"
+msgstr ""
+
+#: ../admin/settings.php:308 ../admin/settings.php:309
+msgid "Select the template for displaying author profile."
+msgstr ""
+
+#: ../admin/settings.php:315
+msgid "Enable Two-Factor authentication with Email"
+msgstr ""
+
+#: ../admin/settings.php:316
+msgid ""
+"If checked, users will be able to enable Two-Factor authentication with "
+"email."
+msgstr ""
+
+#: ../admin/settings.php:317
+msgid ""
+"Admin can check this feature to enable Two-Factor authentication with email "
+"for users."
+msgstr ""
+
+#: ../admin/settings.php:323
+msgid "Profile Tabs Status"
+msgstr ""
+
+#: ../admin/settings.php:325
+msgid "Disabled for All Users"
+msgstr ""
+
+#: ../admin/settings.php:326
+msgid "Enabled for All Users"
+msgstr ""
+
+#: ../admin/settings.php:327
+msgid "Enabled for Logged-In Users"
+msgstr ""
+
+#: ../admin/settings.php:328
+msgid "Enabled for Profile Owner"
+msgstr ""
+
+#: ../admin/settings.php:331
+msgid "Enable/disable the profile tabs section"
+msgstr ""
+
+#: ../admin/settings.php:332
+msgid "Enable/disable the profile tabs section based on user types."
+msgstr ""
+
+#: ../admin/settings.php:338
+msgid "Profile Tabs Display Status"
+msgstr ""
+
+#: ../admin/settings.php:340
+msgid "Hide by default"
+msgstr ""
+
+#: ../admin/settings.php:341
+msgid "Display by default"
+msgstr ""
+
+#: ../admin/settings.php:344
+msgid "Display/hide the profile tabs section"
+msgstr ""
+
+#: ../admin/settings.php:345
+msgid "Display/hide the profile tabs section in intial view."
+msgstr ""
+
+#: ../admin/settings.php:351
+msgid "Delete User Profiles"
+msgstr ""
+
+#: ../admin/settings.php:353
+msgid "Users are not allowed to delete profile"
+msgstr ""
+
+#: ../admin/settings.php:354
+msgid "Users are allowed to delete profile"
+msgstr ""
+
+#: ../admin/settings.php:357
+msgid "Enable/disable deleting profiles for users."
+msgstr ""
+
+#: ../admin/settings.php:358
+msgid ""
+"If enabled, Admin and profile owner will have the permission to delete the "
+"profile."
+msgstr ""
+
+#: ../admin/settings.php:365
+msgid "Show Cover Image on Profiles"
+msgstr ""
+
+#: ../admin/settings.php:367
+msgid ""
+"If checked, cover image will be displayed on top of the profile header "
+"section."
+msgstr ""
+
+#: ../admin/settings.php:368
+msgid ""
+"Unchecking this option will display the default profile design without cover "
+"image."
+msgstr ""
+
+#: ../admin/settings.php:392
+msgid ""
+"These pages are automatically created when UPME is activated. You can leave "
+"them as they are or change to custom pages here."
+msgstr ""
+
+#: ../admin/settings.php:400 ../admin/settings.php:403
+#: ../admin/settings.php:406 ../admin/settings.php:409
+#: ../admin/settings.php:412
+msgid "View Page"
+msgstr ""
+
+#: ../admin/settings.php:417
+msgid "UPME Profile Page"
+msgstr ""
+
+#: ../admin/settings.php:419
+msgid ""
+"If you wish to change default UPME Profile page, you may set it here. Make "
+"sure you have the <code>[upme]</code> shortcode on this page."
+msgstr ""
+
+#: ../admin/settings.php:420
+msgid ""
+"This page is where users will view their own profiles, or view other user "
+"profiles from the member directory if allowed."
+msgstr ""
+
+#: ../admin/settings.php:426
+msgid "UPME Login Page"
+msgstr ""
+
+#: ../admin/settings.php:428
+msgid ""
+"If you wish to change default UPME login page, you may set it here. Make "
+"sure you have the <code>[upme_login]</code> shortcode on this page."
+msgstr ""
+
+#: ../admin/settings.php:429
+msgid "The default front-end login page."
+msgstr ""
+
+#: ../admin/settings.php:436
+msgid "UPME Registration Page"
+msgstr ""
+
+#: ../admin/settings.php:438
+msgid ""
+"If you wish to change default UPME Registration page, you may set it here. "
+"Make sure you have the <code>[upme_registration]</code> shortcode on this "
+"page."
+msgstr ""
+
+#: ../admin/settings.php:439
+msgid "The default front-end Registration page where new users will sign up."
+msgstr ""
+
+#: ../admin/settings.php:445
+msgid "UPME Reset Password Page"
+msgstr ""
+
+#: ../admin/settings.php:447
+msgid ""
+"If you wish to change default UPME Reset Password page, you may set it here. "
+"Make sure you have the <code>[upme_reset_password]</code> shortcode on this "
+"page."
+msgstr ""
+
+#: ../admin/settings.php:448
+msgid "The default front-end Reset Password page where new users will sign up."
+msgstr ""
+
+#: ../admin/settings.php:454
+msgid "UPME Member List Page"
+msgstr ""
+
+#: ../admin/settings.php:456
+msgid ""
+"If you wish to change default UPME Member List page, you may set it here. "
+"Make sure you have member list shortcode there, for example: "
+"<code>[upme_search] [upme group=all view=compact users_per_page=10]</code> "
+"is the default."
+msgstr ""
+
+#: ../admin/settings.php:457
+msgid "The default front-end Member List page."
+msgstr ""
+
+#: ../admin/settings.php:483
+msgid "Redirect Backend Profiles"
+msgstr ""
+
+#: ../admin/settings.php:485
+msgid ""
+"If checked, non-admin users who try to access backend WP profiles will be "
+"redirected to UPME Profile Page specified above."
+msgstr ""
+
+#: ../admin/settings.php:486
+msgid ""
+"Checking this option will send all users to the front-end UPME Profile Page "
+"if they try to access the default backend profile page in wp-admin. The page "
+"can be selected in the UPME System Pages settings."
+msgstr ""
+
+#: ../admin/settings.php:492
+msgid "Redirect Backend Login"
+msgstr ""
+
+#: ../admin/settings.php:494
+msgid ""
+"If checked, non-admin users who try to access backend login form will be "
+"redirected to the front end UPME Login Page specified above."
+msgstr ""
+
+#: ../admin/settings.php:495
+msgid ""
+"Checking this option will send all users to the front-end UPME Login Page if "
+"they try to access the default backend login form. The page can be selected "
+"in the UPME System Pages settings."
+msgstr ""
+
+#: ../admin/settings.php:501
+msgid "Redirect Backend Registrations"
+msgstr ""
+
+#: ../admin/settings.php:503
+msgid ""
+"If checked, non-admin users who try to access backend registration form will "
+"be redirected to the front end UPME Registration Page specified above."
+msgstr ""
+
+#: ../admin/settings.php:504
+msgid ""
+"Checking this option will send all users to the front-end UPME Registration "
+"Page if they try to access the default backend registraiton form. The page "
+"can be selected in the UPME System Pages settings."
+msgstr ""
+
+#: ../admin/settings.php:509 ../admin/settings.php:521
+msgid "Default"
+msgstr ""
+
+#: ../admin/settings.php:514
+msgid "Redirect After Login"
+msgstr ""
+
+#: ../admin/settings.php:516
+msgid ""
+"Users will be redirected to the page set here after successfully logging in. "
+"<br /> You may over-ride this setting for a specific login form by using the "
+"shortcode <code>[upme_login redirect_to=\"url_here\"]</code>"
+msgstr ""
+
+#: ../admin/settings.php:517
+msgid ""
+"Setting this option to Default will automatically use any redirect specified "
+"in the URL, and will not prevent redirect_to set in shortcode option from "
+"working. If no redirect is found in the URL and redirect_to option is not "
+"set in shortcode option, the login page will simply be reloaded to welcome "
+"the logged in user."
+msgstr ""
+
+#: ../admin/settings.php:526
+msgid "Redirect After Registration"
+msgstr ""
+
+#: ../admin/settings.php:528
+msgid ""
+"New users will be redirected to the page set here after successfully "
+"registering using the UPME registration form. <br /> You may over-ride this "
+"setting for a specific registration form by using the shortcode "
+"<code>[upme_registration redirect_to=\"url_here\"]</code>"
+msgstr ""
+
+#: ../admin/settings.php:529
+msgid ""
+"Setting this option to Default will show the Register Success message "
+"instead of redirecting to a custom page."
+msgstr ""
+
+#: ../admin/settings.php:555
+msgid "User Selected Passwords"
+msgstr ""
+
+#: ../admin/settings.php:557
+msgid "Enabled, allow users to set password"
+msgstr ""
+
+#: ../admin/settings.php:558
+msgid "Disabled, email a random password to users"
+msgstr ""
+
+#: ../admin/settings.php:559
+msgid "Enable or disable setting a user selected password at registration"
+msgstr ""
+
+#: ../admin/settings.php:560
+msgid ""
+"If enabled, users can choose their own password at registration. If disabled,"
+" WordPress will email users a random password when they register."
+msgstr ""
+
+#: ../admin/settings.php:567
+msgid "Automatic Login After Registration"
+msgstr ""
+
+#: ../admin/settings.php:569
+msgid "Enabled, log users in automatically after registration"
+msgstr ""
+
+#: ../admin/settings.php:570
+msgid "Disabled, users must login normally after registration"
+msgstr ""
+
+#: ../admin/settings.php:572
+msgid "Enable or disable automatic login after registration."
+msgstr ""
+
+#: ../admin/settings.php:573
+msgid ""
+"If enabled, users will be logged automatically after registration and "
+"redirected to the page defined in Redirect After Registration setting. If "
+"disabled, users must login normally after registration."
+msgstr ""
+
+#: ../admin/settings.php:580
+msgid "User Profile Approvals"
+msgstr ""
+
+#: ../admin/settings.php:582
+msgid "Disabled, new users are not required to get the approval."
+msgstr ""
+
+#: ../admin/settings.php:583
+msgid "Enabled, new users must get the approval"
+msgstr ""
+
+#: ../admin/settings.php:584
+msgid "Enable or disable setting a user account approval at registration"
+msgstr ""
+
+#: ../admin/settings.php:585
+msgid ""
+"If enabled, users must be approved by admin before login. If disabled, new "
+"users are not required to get the account approved before login."
+msgstr ""
+
+#: ../admin/settings.php:591
+msgid "Email Confirmation"
+msgstr ""
+
+#: ../admin/settings.php:593
+msgid "Disabled, new users are not required to confirm email"
+msgstr ""
+
+#: ../admin/settings.php:594
+msgid "Enabled, new users must confirm email to activate"
+msgstr ""
+
+#: ../admin/settings.php:595
+msgid "Enable or disable setting a user email confirmation at registration"
+msgstr ""
+
+#: ../admin/settings.php:596
+msgid ""
+"If enabled, users must confirm email address to activate. If disabled, new "
+"users are not required to confirm email address."
+msgstr ""
+
+#: ../admin/settings.php:602
+msgid "Terms and Conditions"
+msgstr ""
+
+#: ../admin/settings.php:604
+msgid "Disabled, terms and conditions are not shown in registration form"
+msgstr ""
+
+#: ../admin/settings.php:605
+msgid "Enabled, terms and conditions are shown in registration form"
+msgstr ""
+
+#: ../admin/settings.php:606
+msgid "Enable or disable agreeing to terms and conditions at registration"
+msgstr ""
+
+#: ../admin/settings.php:607
+msgid "If enabled, users must agree to terms and conditions for registration."
+msgstr ""
+
+#: ../admin/settings.php:615
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:64
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:78
+msgid "FunCaptcha"
+msgstr ""
+
+#: ../admin/settings.php:616
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:63
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:77
+msgid "reCaptcha"
+msgstr ""
+
+#: ../admin/settings.php:617
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:59
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:65
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:73
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:79
+msgid "Captcha"
+msgstr ""
+
+#: ../admin/settings.php:625
+msgid "Captcha Plugin"
+msgstr ""
+
+#: ../admin/settings.php:627
+msgid ""
+"Select which captcha plugin you want to use on the registration form. "
+"Funcaptcha requires the Funcaptcha plugin, however reCaptcha is built into "
+"UPME and requires no additional plugin to be installed. <br /> You can "
+"enable or disable captcha with shortcode options: <code>[upme_registration "
+"captcha=yes]</code> or <code>[upme_registration captcha=no]</code>."
+msgstr ""
+
+#: ../admin/settings.php:628
+msgid ""
+"If you are using a captcha that requires a plugin, you must install and "
+"activate the selected captcha plugin. Some captcha plugins require you to "
+"register a free account with them, including FunCaptcha"
+msgstr ""
+
+#: ../admin/settings.php:635
+msgid "CAPTCHA Field Label"
+msgstr ""
+
+#: ../admin/settings.php:636 ../admin/settings.php:637
+msgid "Enter text which you want to show in form in front of CAPTCHA."
+msgstr ""
+
+#: ../admin/settings.php:643
+msgid "reCaptcha Public Key"
+msgstr ""
+
+#: ../admin/settings.php:644
+msgid ""
+"Enter your reCaptcha Public Key. You can sign up for a free reCaptcha "
+"account <a href=\"http://www.google.com/recaptcha\" title=\"Get a reCaptcha "
+"Key\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: ../admin/settings.php:645 ../admin/settings.php:653
+msgid ""
+"Your reCaptcha kays are required to use reCaptcha. You can register your "
+"site for a free key on the Google reCaptcha page."
+msgstr ""
+
+#: ../admin/settings.php:651
+msgid "reCaptcha Private Key"
+msgstr ""
+
+#: ../admin/settings.php:652
+msgid "Enter your reCaptcha Private Key."
+msgstr ""
+
+#: ../admin/settings.php:659
+msgid "Register success message"
+msgstr ""
+
+#: ../admin/settings.php:661
+msgid "Show a text message when users complete the registration process."
+msgstr ""
+
+#: ../admin/settings.php:662
+msgid "This message will be shown to users after registration is complted."
+msgstr ""
+
+#: ../admin/settings.php:668
+msgid "Text/HTML below the Register Success message."
+msgstr ""
+
+#: ../admin/settings.php:670
+msgid ""
+"Show a text/HTML content under success message when users complete the "
+"registration process."
+msgstr ""
+
+#: ../admin/settings.php:671
+msgid ""
+"This message will be shown to users under the success messsage after "
+"registration is completed."
+msgstr ""
+
+#: ../admin/settings.php:677
+msgid "Select User Role at Registration"
+msgstr ""
+
+#: ../admin/settings.php:679
+msgid ""
+"If checked, users will be able to select their user role at registration. If "
+"you do not understand what this means, leave this option unchecked."
+msgstr ""
+
+#: ../admin/settings.php:680
+msgid ""
+"Checking this option will enable users to select a user role at registration,"
+" based on available user roles defined in the choose roles setting."
+msgstr ""
+
+#: ../admin/settings.php:686
+msgid "Select Role Label"
+msgstr ""
+
+#: ../admin/settings.php:687 ../admin/settings.php:688
+msgid "Enter text which you want to show as the label for User Role selection."
+msgstr ""
+
+#: ../admin/settings.php:697
+msgid "Choose User Roles for Registration"
+msgstr ""
+
+#: ../admin/settings.php:699
+msgid ""
+"Selected user roles will be available for users to choose at registration. "
+"The default role for new users will be always available, you can change the "
+"default role in WordPress general settings."
+msgstr ""
+
+#: ../admin/settings.php:700
+msgid ""
+"User roles selected in this section will appear on the registration form. Be "
+"aware that some user roles will give posting and editing access to your site,"
+" so please be careful when using this option."
+msgstr ""
+
+#: ../admin/settings.php:710
+msgid "Default Country"
+msgstr ""
+
+#: ../admin/settings.php:712
+msgid "List the countries to be used as default country."
+msgstr ""
+
+#: ../admin/settings.php:713
+msgid "Selected country will appear as the default value for country fields."
+msgstr ""
+
+#: ../admin/settings.php:719
+msgid "Password Strength Level"
+msgstr ""
+
+#: ../admin/settings.php:721
+#: ../modules/templates/site_content_restriction_rules_view.php:30
+#: ../templates/posts-pages.php:50 ../templates/posts-pages.php:105
+#: ../templates/posts-pages.php:158
+msgid "Disabled"
+msgstr ""
+
+#: ../admin/settings.php:722 ../function/functions.php:755
+msgid "Weak"
+msgstr ""
+
+#: ../admin/settings.php:726
+msgid "Select the level of strength for user password."
+msgstr ""
+
+#: ../admin/settings.php:727
+msgid "User password should match the expected criteria required by strength level"
+msgstr ""
+
+#: ../admin/settings.php:733
+msgid "Registration Form Title Message"
+msgstr ""
+
+#: ../admin/settings.php:734
+msgid ""
+"This message provides the title or message for registration form. By default "
+"it will say <strong>Your display name will appear here</strong>. Once user "
+"starts typing the username, this section will be updated to show the display "
+"name."
+msgstr ""
+
+#: ../admin/settings.php:735
+msgid "You can use custom title or custom instructions for this section."
+msgstr ""
+
+#: ../admin/settings.php:741
+msgid "Update Registration Form Title with Display Name"
+msgstr ""
+
+#: ../admin/settings.php:743
+msgid ""
+"If checked, once user starts typing the username, this section will be "
+"updated to show the display name. By default, it will be checked to allow "
+"display name."
+msgstr ""
+
+#: ../admin/settings.php:744
+msgid ""
+"Unchecking this option will keep the custom title or message from being "
+"updated with display name."
+msgstr ""
+
+#: ../admin/settings.php:770
+msgid "Use WP Cron"
+msgstr ""
+
+#: ../admin/settings.php:772
+msgid ""
+"If checked, UPME will use WP Cron Feature to update User Search Cache.<br /> "
+"When usign this option, make sure <code>DISABLE_WP_CRON</code> is not set to "
+"<code>TRUE</code> in <code>wp-config.php</code>"
+msgstr ""
+
+#: ../admin/settings.php:773
+msgid ""
+"Using WP Cron will update your search cache automatically at regular "
+"intervals."
+msgstr ""
+
+#: ../admin/settings.php:779
+msgid "Search Input Mandatory"
+msgstr ""
+
+#: ../admin/settings.php:781
+msgid ""
+"If checked, UPME will not show search results when "
+"<code>hide_until_search=true</code> is used and no search input is given."
+msgstr ""
+
+#: ../admin/settings.php:782
+msgid ""
+"Checking this option is useful if you do not want to show all users when "
+"submitting the search with no search criteria."
+msgstr ""
+
+#: ../admin/settings.php:788
+msgid "Users are Called"
+msgstr ""
+
+#: ../admin/settings.php:789
+msgid "What users are called in your system. Like Members, Doctors, etc."
+msgstr ""
+
+#: ../admin/settings.php:790
+msgid ""
+"This will update the text for the search form and search results. The "
+"default is Users."
+msgstr ""
+
+#: ../admin/settings.php:796
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:146
+msgid "Combined Search Text"
+msgstr ""
+
+#: ../admin/settings.php:797
+msgid "Name of Text search field which is used to perform combined search."
+msgstr ""
+
+#: ../admin/settings.php:798
+msgid ""
+"You may choose custom text for the main combined text search field. The "
+"default is Combined Search."
+msgstr ""
+
+#: ../admin/settings.php:804
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:137
+msgid "Search Button Text"
+msgstr ""
+
+#: ../admin/settings.php:805
+msgid "Text to display on search button."
+msgstr ""
+
+#: ../admin/settings.php:806
+msgid ""
+"This is the text of the button to submit the member search form. The default "
+"is Filter."
+msgstr ""
+
+#: ../admin/settings.php:812
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:128
+msgid "Reset Button Text"
+msgstr ""
+
+#: ../admin/settings.php:813
+msgid "Text to display on reset button."
+msgstr ""
+
+#: ../admin/settings.php:814
+msgid ""
+"This is the text of the button to reset the member search form. The default "
+"is Reset."
+msgstr ""
+
+#: ../admin/settings.php:842
+msgid "Guest viewing of profiles"
+msgstr ""
+
+#: ../admin/settings.php:844
+msgid "Enabled, make profiles publicly visible"
+msgstr ""
+
+#: ../admin/settings.php:845
+msgid "Disabled, users must login to view profiles"
+msgstr ""
+
+#: ../admin/settings.php:846
+msgid "Enable or disable guest and non-logged in user viewing of profiles."
+msgstr ""
+
+#: ../admin/settings.php:847
+msgid ""
+"If enabled, profiles will be publicly visible to non-logged in users. If "
+"disabled, guests must log in to view profiles."
+msgstr ""
+
+#: ../admin/settings.php:853
+msgid "Logged-in user viewing of other profiles"
+msgstr ""
+
+#: ../admin/settings.php:855
+msgid "Enabled, logged-in users may view other user profiles"
+msgstr ""
+
+#: ../admin/settings.php:856
+msgid "Disabled, users may only view their own profile"
+msgstr ""
+
+#: ../admin/settings.php:857
+msgid "Restricted by User Role"
+msgstr ""
+
+#: ../admin/settings.php:858
+msgid ""
+"Enable or disable logged-in user viewing of other user profiles. Admin users "
+"can always view all profiles."
+msgstr ""
+
+#: ../admin/settings.php:859
+msgid ""
+"If enabled, logged-in users are allowed to view other user profiles. If "
+"disabled, logged-in users may only view theor own profile."
+msgstr ""
+
+#: ../admin/settings.php:869
+msgid ""
+"Selected user roles can view other user profiles. Roles not selected here "
+"will only be able to view their own profile."
+msgstr ""
+
+#: ../admin/settings.php:870
+msgid ""
+"User roles selected in this section will have permission to view other "
+"profiles."
+msgstr ""
+
+#: ../admin/settings.php:893
+msgid "Messages for Insuficient Permissions"
+msgstr ""
+
+#: ../admin/settings.php:900
+msgid "Guests cannot view profiles"
+msgstr ""
+
+#: ../admin/settings.php:902
+msgid ""
+"Show a text/HTML message when guests try to view profiles if they are not "
+"allowed, asking them to login or register to view the profile."
+msgstr ""
+
+#: ../admin/settings.php:903
+msgid ""
+"This message will eb shown to guests who try to view profiles if it is not "
+"allowed in the above settings."
+msgstr ""
+
+#: ../admin/settings.php:906
+msgid "Display login form below this message"
+msgstr ""
+
+#: ../admin/settings.php:921
+msgid "User must log-in to view/edit his profile"
+msgstr ""
+
+#: ../admin/settings.php:923
+msgid ""
+"Show a text/HTML message asking the user to login to view or edit his own "
+"profile. Leave blank to show nothing."
+msgstr ""
+
+#: ../admin/settings.php:924
+msgid ""
+"This message is shown to users who try to view/edit their own profile but "
+"are not logged in."
+msgstr ""
+
+#: ../admin/settings.php:941
+msgid "User must log-in to view private content"
+msgstr ""
+
+#: ../admin/settings.php:943
+msgid ""
+"Show a text/HTML message to guests and non-logged in users who try to view "
+"private member-only content. Leave blank to show nothing."
+msgstr ""
+
+#: ../admin/settings.php:944
+msgid ""
+"This message is shown to guests and non-logged in users who try to view "
+"private member-only content."
+msgstr ""
+
+#: ../admin/settings.php:962
+msgid "User must have permission to view private content"
+msgstr ""
+
+#: ../admin/settings.php:964
+msgid ""
+"Show a text/HTML message to logged in users who try to view private content "
+"restricted for current user. Leave blank to show nothing."
+msgstr ""
+
+#: ../admin/settings.php:965
+msgid ""
+"This message is shown to logged in users who try to view private content "
+"restricted for current user."
+msgstr ""
+
+#: ../admin/settings.php:971
+msgid "User Role may not view other profiles"
+msgstr ""
+
+#: ../admin/settings.php:973
+msgid ""
+"Show a text/HTML message in place of profiles when a User Role is not "
+"allowed to view other profiles."
+msgstr ""
+
+#: ../admin/settings.php:974
+msgid ""
+"This message is shown to users who try to view the UPME Profile List while "
+"user role is blocked for viewing other profiles."
+msgstr ""
+
+#: ../admin/settings.php:980
+msgid "Registration Closed Message"
+msgstr ""
+
+#: ../admin/settings.php:982
+msgid ""
+"Show a text/HTML message in place of the registration form when registration "
+"is closed. Registeration can be opened or closed from the WordPress general "
+"settings using the checkbox <code>Anyone can register</code>."
+msgstr ""
+
+#: ../admin/settings.php:983
+msgid ""
+"This message is shown to users who try to view the UPME registration form "
+"while you have registrations disabled."
+msgstr ""
+
+#: ../admin/settings.php:989
+msgid "Profile Status Message"
+msgstr ""
+
+#: ../admin/settings.php:991
+msgid ""
+"Show a text/HTML message in place of the profile when profile is set to "
+"INACTIVE by user."
+msgstr ""
+
+#: ../admin/settings.php:992
+msgid ""
+"This message is shown to users who try to view profiles set to INACTIVE by "
+"users."
+msgstr ""
+
+#: ../admin/settings.php:998
+msgid "Profile Pending Approval Message"
+msgstr ""
+
+#: ../admin/settings.php:1000
+msgid ""
+"Show a text/HTML message on top of login form when user profile is pending "
+"approval of admin."
+msgstr ""
+
+#: ../admin/settings.php:1001
+msgid ""
+"This message is shown to users who try to login when user profile is pending "
+"approval of admin."
+msgstr ""
+
+#: ../admin/settings.php:1007
+msgid "Terms and Conditions Message"
+msgstr ""
+
+#: ../admin/settings.php:1009
+msgid "Show a text/HTML message as the Terms and Conditions for user registration."
+msgstr ""
+
+#: ../admin/settings.php:1010
+msgid ""
+"This message is shown to users in registration forms as terms and conditions "
+"for registration."
+msgstr ""
+
+#: ../admin/settings.php:1029
+msgid "Loading Scripts and Styles"
+msgstr ""
+
+#: ../admin/settings.php:1036
+msgid "Disable Fancybox Scripts and Styles"
+msgstr ""
+
+#: ../admin/settings.php:1038
+msgid ""
+"If checked, UPME will disable the loading of script and style files for "
+"Fancybox library."
+msgstr ""
+
+#: ../admin/settings.php:1039
+msgid "Use it when you have newer Fancybox version in your theme or other plugins."
+msgstr ""
+
+#: ../admin/settings.php:1045
+msgid "Disable Tipsy Scripts and Styles"
+msgstr ""
+
+#: ../admin/settings.php:1047
+msgid ""
+"If checked, UPME will disable the loading of script and style files for "
+"Tipsy library."
+msgstr ""
+
+#: ../admin/settings.php:1048
+msgid "Use it when you have newer Tipsy version in your theme or other plugins."
+msgstr ""
+
+#: ../admin/settings.php:1054
+msgid "Disable FitVids Scripts and Styles"
+msgstr ""
+
+#: ../admin/settings.php:1056
+msgid ""
+"If checked, UPME will disable the loading of script and style files for "
+"FitVids library."
+msgstr ""
+
+#: ../admin/settings.php:1057
+msgid "Use it when you have newer FitVids version in your theme or other plugins."
+msgstr ""
+
+#: ../admin/settings.php:1063
+msgid "Disable Google Font Files for Open Sans"
+msgstr ""
+
+#: ../admin/settings.php:1065
+msgid "If checked, UPME will disable the loading of Open Sans from google fonts."
+msgstr ""
+
+#: ../admin/settings.php:1066
+msgid "Use it when you want to avoid requests to google fonts."
+msgstr ""
+
+#: ../admin/sync-tool.php:2
+msgid "UPME - Sync / Tools"
+msgstr ""
+
+#: ../admin/sync-tool.php:4 ../admin/sync.php:1
+msgid "Auto Sync with WooCommerce"
+msgstr ""
+
+#: ../admin/sync-tool.php:8 ../admin/sync.php:5
+msgid ""
+"Syncing with WooCommerce will automatically add WooCommerce customer profile "
+"fields to your UPME. A quick way to have a WooCommerce account page "
+"integrated with UPME. Just click the following button and let UPME do the "
+"work for you."
+msgstr ""
+
+#: ../admin/sync-tool.php:10 ../admin/sync.php:7
+msgid "Sync and keep existing fields"
+msgstr ""
+
+#: ../admin/sync-tool.php:11 ../admin/sync.php:8
+msgid "Sync and delete existing fields"
+msgstr ""
+
+#: ../admin/sync-tool.php:15 ../admin/sync.php:12
+msgid "Please install WooCommerce plugin first."
+msgstr ""
+
+#: ../admin/templates/addons-feed.php:13
+msgid "Activated"
+msgstr ""
+
+#: ../admin/templates/addons-feed.php:16
+msgid "Deactivated"
+msgstr ""
+
+#: ../admin/templates/addons-feed.php:29
+#: ../modules/templates/site_field_export_view.php:41
+#: ../modules/templates/site_settings_export_view.php:44
+#: ../modules/templates/site_users_export_view.php:46
+msgid "Download"
+msgstr ""
+
+#: ../admin/templates/addons-list.php:3
+msgid "Add-Ons for UPME"
+msgstr ""
+
+#: ../admin/templates/addons-list.php:6
+msgid "Extend the functionality of UPME through these Free and Premium Addons."
+msgstr ""
+
+#: ../admin/user-cache.php:2
+msgid "UPME - Update User Search Cache"
+msgstr ""
+
+#: ../admin/user-cache.php:4 ../admin/user_cache.php:1
+msgid "Update User Search Cache"
+msgstr ""
+
+#: ../admin/user-cache.php:6 ../admin/user_cache.php:3
+msgid ""
+"In order to keep your search working smoothly you can update user cache from "
+"here. However it will be updated once user profile is updated."
+msgstr ""
+
+#: ../admin/user-cache.php:14 ../admin/user_cache.php:11
+#, php-format
+msgid ""
+"You have total <span id=\"upme-total-user\" style=\"font-weight: bold;"
+"\">%s</span> users in your website."
+msgstr ""
+
+#: ../admin/user-cache.php:20 ../admin/user_cache.php:17
+msgid ""
+"<p id=\"upme-processing-tag\" style=\"display:none;\">Processing.... <span "
+"id=\"upme-completed-users\" style=\"display:none;\"> users Completed</span> </p>"
+msgstr ""
+
+#: ../admin/user-cache.php:24 ../admin/user_cache.php:21
+msgid "User Search Cache Updated."
+msgstr ""
+
+#: ../admin/user-cache.php:32 ../classes/class-upme-admin.php:882
+msgid "Update User Cache"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:15 ../classes/class-upme-admin.php:415
+#: ../modules/class-upme-custom-fields.php:38
+msgid "Custom Fields"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:15 ../classes/class-upme-admin.php:419
+msgid "Sync / Tools"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:15 ../classes/class-upme-admin.php:421
+msgid "Update Search Cache"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:23 ../classes/class-upme-admin.php:185
+msgid "Please log in to view / edit your profile."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:24 ../classes/class-upme-admin.php:184
+msgid "Please log in to view user profiles."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:25 ../classes/class-upme-admin.php:186
+msgid "This content is for members only. You must log in to view this content."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:37 ../classes/class-upme-admin.php:187
+#: ../classes/class-upme-updater.php:205 ../classes/class-upme.php:3318
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:49 ../classes/class-upme-admin.php:162
+#: ../classes/class-upme-updater.php:399
+msgid "Select Role"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:65 ../classes/class-upme-admin.php:191
+#: ../classes/class-upme-updater.php:500
+msgid "Viewing of other profiles restricted for your user role."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:67 ../classes/class-upme-admin.php:192
+#: ../classes/class-upme-updater.php:525
+msgid "This is a private profile. You are not allowed to view this profile."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:69 ../classes/class-upme-admin.php:193
+#: ../classes/class-upme-updater.php:526
+msgid ""
+"This profile is pending approval. You will get a notification once the "
+"profile is approved."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:72 ../classes/class-upme-admin.php:194
+#: ../classes/class-upme-updater.php:530
+msgid "I agree to Terms and Conditions."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:80 ../classes/class-upme-admin.php:195
+#: ../classes/class-upme-updater.php:569
+msgid "This content is restricted for your user account."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:90 ../classes/class-upme-admin.php:216
+#: ../classes/class-upme-updater.php:618
+msgid "WordPress"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:94 ../classes/class-upme-admin.php:168
+#: ../classes/class-upme-updater.php:640
+msgid "Your display name will appear here."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:174
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:71
+msgid "User"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:175 ../classes/class-upme-updater.php:369
+msgid "Combined Search"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:176 ../classes/class-upme-updater.php:370
+msgid "Filter"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:274
+msgid ""
+"Enter a custom meta key for this profile field if do not want to use a "
+"predefined meta field above. It is recommended to only use alphanumeric "
+"characters and underscores, for example my_custom_meta is a proper meta key."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:275
+msgid ""
+"A Meta Key may be added to your separator in order to reference it with the "
+"[upme view=x,x,x] shortcode option. It is recommended to only use "
+"alphanumeric characters and underscores, for example my_custom_meta is a "
+"proper meta key."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:323
+msgid "Separator Text"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:327 ../classes/class-upme-admin.php:350
+msgid "Saving..."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:329 ../classes/class-upme-admin.php:352
+msgid "Resetting..."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:332
+msgid "Are you sure you want to delete this field?"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:333
+msgid "users Completed"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:334
+msgid " Processing....."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:335
+msgid " Update Completed"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:343
+msgid "User role is required."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:344
+msgid "Redirect URL is required."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:345
+msgid "Restricted Pages are required."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:346
+msgid "Restricted Posts are required."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:347
+msgid "Restricted Categories are required."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:348
+msgid "Adding Restriction Rule"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:349
+msgid "Add Restriction Rule"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:354
+msgid "Email Template Title is required"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:355
+msgid "Email Subject is required"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:356
+msgid "Downloading Fields"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:357
+msgid "Downloading Settings"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:417
+msgid "Modules"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:423
+msgid "Add-ons"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:476 ../classes/class-upme-admin.php:722
+#: ../classes/class-upme-admin.php:738 ../classes/class-upme-admin.php:2097
+msgid "Update Now"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:478
+msgid ""
+"Profile field was sent to Trash. It is recommended to update your user "
+"search cache."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:724
+msgid "Settings saved. It is recommended to update your user search cache."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:731
+msgid "Settings are reset to default."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:741
+msgid ""
+"Settings are reset to default. It is recommended to update your user search "
+"cache."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:814
+msgid "Profile field was sent to Trash."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:900
+msgid "Select Page"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:911
+msgid "Select Post"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:923
+msgid "Select Category"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:962
+msgid "UPME Fields"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1086 ../classes/class-upme.php:2754
+#: ../classes/class-upme.php:3434 ../classes/class-upme.php:3656
+msgid "Clear Date"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1118 ../classes/class-upme-admin.php:2163
+#: ../classes/class-upme.php:2790 ../classes/class-upme.php:3688
+msgid "Please Select"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1598
+msgid "Activate Profile"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1599
+msgid "Deactivate Profile"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1600
+msgid "Approve Profile"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1601
+msgid "Disapprove Profile"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1602
+msgid "Set Profile Status to Acitve"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1603
+msgid "Set Profile Status to Inacitve"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1604
+msgid "Add Profile Manage Permission"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1605
+msgid "Remove Profile Manage Permission"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1732
+msgid "Users activated successfully."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1735
+msgid "Select users for activation."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1741
+msgid "Users profile approved successfully."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1743
+msgid "Select users for approval."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1750
+msgid "Users profile deactivated successfully."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1752
+msgid "Select users for deactivation."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1759
+msgid "Users profile disapproved successfully."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1761 ../classes/class-upme-admin.php:1769
+#: ../classes/class-upme-admin.php:1777
+msgid "Select users for disapproval."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1767
+msgid "Users profile status changed to ACTIVE."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1775
+msgid "Users profile status changed to INACTIVE."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1783 ../classes/class-upme-admin.php:1791
+msgid "Users profile permission changed."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1785
+msgid "Select users for adding permission."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1793
+msgid "Select users for removing permission."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1808
+msgid "Approval Status"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1809
+msgid "Activation Status"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1810
+msgid "View User"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1830 ../classes/class-upme-updater.php:148
+#: ../classes/class-upme.php:576 ../classes/class-upme.php:1084
+#: ../classes/class-upme.php:2213 ../classes/class-upme.php:4594
+#: ../js/upme-custom-js.php:69 ../js/upme-custom-js.php:74 ../upme.php:123
+msgid "View Profile"
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1960
+msgid "Position must be a number."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1968
+msgid "Please enter a label/name for your field."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1974 ../classes/class-upme-admin.php:1990
+msgid "You must specify a usermeta / custom field."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1980 ../classes/class-upme-admin.php:1997
+msgid ""
+"A profile field with this meta key already exists, please use a unique meta "
+"key."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:1992
+msgid "Invalid usermeta / custom field."
+msgstr ""
+
+#: ../classes/class-upme-admin.php:2102
+msgid ".Click <a href=\""
+msgstr ""
+
+#: ../classes/class-upme-admin.php:2104
+msgid "Profile field added. It is recommended to update your user search cache."
+msgstr ""
+
+#: ../classes/class-upme-api.php:48
+msgid "Welcome Guest"
+msgstr ""
+
+#: ../classes/class-upme-api.php:53
+msgid "Welcome "
+msgstr ""
+
+#: ../classes/class-upme-api.php:176
+msgid "Login Page Link"
+msgstr ""
+
+#: ../classes/class-upme-api.php:177
+msgid "Registration Page Link"
+msgstr ""
+
+#: ../classes/class-upme-api.php:178
+msgid "Reset Password Page Link"
+msgstr ""
+
+#: ../classes/class-upme-api.php:179
+msgid "Profile Page Link"
+msgstr ""
+
+#: ../classes/class-upme-api.php:180
+msgid "Member List Page Link"
+msgstr ""
+
+#: ../classes/class-upme-captcha-loader.php:87
+#: ../classes/class-upme-captcha-loader.php:118
+#: ../classes/class-upme-updater.php:208
+msgid "Human Check"
+msgstr ""
+
+#: ../classes/class-upme-captcha-loader.php:403
+msgid "Enter Verification Words"
+msgstr ""
+
+#: ../classes/class-upme-captcha-loader.php:407
+msgid "Load Image"
+msgstr ""
+
+#: ../classes/class-upme-captcha-loader.php:408
+msgid "Load Audio"
+msgstr ""
+
+#: ../classes/class-upme-captcha-loader.php:409
+msgid "Refresh Image"
+msgstr ""
+
+#: ../classes/class-upme-login.php:94 ../classes/class-upme-register.php:79
+msgid "Please complete Captcha Test first."
+msgstr ""
+
+#: ../classes/class-upme-login.php:169 ../classes/class-upme-register.php:610
+msgid "Username you have used is not allowed."
+msgstr ""
+
+#: ../classes/class-upme-login.php:183 ../classes/class-upme-register.php:623
+msgid "Email you have used is not allowed."
+msgstr ""
+
+#: ../classes/class-upme-login.php:197 ../classes/class-upme-register.php:638
+msgid "Email domain you have used is not allowed."
+msgstr ""
+
+#: ../classes/class-upme-login.php:227
+msgid ""
+"Verfication link sent to your email. Please click the link in the email to "
+"login"
+msgstr ""
+
+#: ../classes/class-upme-login.php:303
+msgid "Please confirm your email to activate your account."
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:15
+msgid "Afghanistan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:16
+msgid "Åland Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:17
+msgid "Albania"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:18
+msgid "Algeria"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:19
+msgid "American Samoa"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:20
+msgid "Andorra"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:21
+msgid "Angola"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:22
+msgid "Anguilla"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:23
+msgid "Antarctica"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:24
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:25
+msgid "Argentina"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:26
+msgid "Armenia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:27
+msgid "Aruba"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:28
+msgid "Australia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:29
+msgid "Austria"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:30
+msgid "Azerbaijan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:31
+msgid "Bahamas"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:32
+msgid "Bahrain"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:33
+msgid "Bangladesh"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:34
+msgid "Barbados"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:35
+msgid "Belarus"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:36
+msgid "Belgium"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:37
+msgid "Belize"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:38
+msgid "Benin"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:39
+msgid "Bermuda"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:40
+msgid "Bhutan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:41
+msgid "Bolivia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:42
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:43
+msgid "Botswana"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:44
+msgid "Bouvet Island"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:45
+msgid "Brazil"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:46
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:47
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:48
+msgid "Bulgaria"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:49
+msgid "Burkina Faso"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:50
+msgid "Burundi"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:51
+msgid "Cambodia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:52
+msgid "Cameroon"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:53
+msgid "Canada"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:54
+msgid "Cape Verde"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:55
+msgid "Cayman Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:56
+msgid "Central African Republic"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:57
+msgid "Chad"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:58
+msgid "Chile"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:59
+msgid "China"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:60
+msgid "Christmas Island"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:61
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:62
+msgid "Colombia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:63
+msgid "Comoros"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:64
+msgid "Congo"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:65
+msgid "Congo Democratic"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:66
+msgid "Cook Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:67
+msgid "Costa Rica"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:68
+msgid "Côte d'Ivoire"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:69
+msgid "Croatia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:70
+msgid "Cuba"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:71
+msgid "Cyprus"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:72
+msgid "Czech Republic"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:73
+msgid "Denmark"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:74
+msgid "Djibouti"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:75
+msgid "Dominica"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:76
+msgid "Dominican Republic"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:77
+msgid "Ecuador"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:78
+msgid "Egypt"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:79
+msgid "El Salvador"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:80
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:81
+msgid "Eritrea"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:82
+msgid "Estonia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:83
+msgid "Ethiopia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:84
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:85
+msgid "Faroe Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:86
+msgid "Fiji"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:87
+msgid "Finland"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:88
+msgid "France"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:89
+msgid "French Guiana"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:90
+msgid "French Polynesia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:91
+msgid "French Southern Territories"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:92
+msgid "Gabon"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:93
+msgid "Gambia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:94
+msgid "Georgia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:95
+msgid "Germany"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:96
+msgid "Ghana"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:97
+msgid "Gibraltar"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:98
+msgid "Greece"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:99
+msgid "Greenland"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:100
+msgid "Grenada"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:101
+msgid "Guadeloupe"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:102
+msgid "Guam"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:103
+msgid "Guatemala"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:104
+msgid "Guernsey"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:105
+msgid "Guinea"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:106
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:107
+msgid "Guyana"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:108
+msgid "Haiti"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:109
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:110
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:111
+msgid "Honduras"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:112
+msgid "Hong Kong"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:113
+msgid "Hungary"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:114
+msgid "Iceland"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:115
+msgid "India"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:116
+msgid "Indonesia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:117
+msgid "Iran"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:118
+msgid "Iraq"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:119
+msgid "Ireland"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:120
+msgid "Isle of Man"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:121
+msgid "Israel"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:122
+msgid "Italy"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:123
+msgid "Jamaica"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:124
+msgid "Japan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:125
+msgid "Jersey"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:126
+msgid "Jordan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:127
+msgid "Kazakhstan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:128
+msgid "Kenya"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:129
+msgid "Kiribati"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:130
+msgid "Korea Democratic"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:131
+msgid "Korea Republic"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:132
+msgid "Kuwait"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:133
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:134
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:135
+msgid "Latvia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:136
+msgid "Lebanon"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:137
+msgid "Lesotho"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:138
+msgid "Liberia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:139
+msgid "Libya"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:140
+msgid "Liechtenstein"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:141
+msgid "Lithuania"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:142
+msgid "Luxembourg"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:143
+msgid "Macao"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:144
+msgid "Macedonia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:145
+msgid "Madagascar"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:146
+msgid "Malawi"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:147
+msgid "Malaysia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:148
+msgid "Maldives"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:149
+msgid "Mali"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:150
+msgid "Malta"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:151
+msgid "Marshall Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:152
+msgid "Martinique"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:153
+msgid "Mauritania"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:154
+msgid "Mauritius"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:155
+msgid "Mayotte"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:156
+msgid "Mexico"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:157
+msgid "Micronesia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:158
+msgid "Moldova"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:159
+msgid "Monaco"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:160
+msgid "Mongolia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:161
+msgid "Montenegro"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:162
+msgid "Montserrat"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:163
+msgid "Morocco"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:164
+msgid "Mozambique"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:165
+msgid "Myanmar"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:166
+msgid "Namibia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:167
+msgid "Nauru"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:168
+msgid "Nepal"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:169
+msgid "Netherlands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:170
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:171
+msgid "New Caledonia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:172
+msgid "New Zealand"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:173
+msgid "Nicaragua"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:174
+msgid "Niger"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:175
+msgid "Nigeria"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:176
+msgid "Niue"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:177
+msgid "Norfolk Island"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:178
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:179
+msgid "Norway"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:180
+msgid "Oman"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:181
+msgid "Pakistan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:182
+msgid "Palau"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:183
+msgid "Palestine"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:184
+msgid "Panama"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:185
+msgid "Papua New Guinea"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:186
+msgid "Paraguay"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:187
+msgid "Peru"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:188
+msgid "Philippines"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:189
+msgid "Pitcairn"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:190
+msgid "Poland"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:191
+msgid "Portugal"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:192
+msgid "Puerto Rico"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:193
+msgid "Qatar"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:194
+msgid "Réunion"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:195
+msgid "Romania"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:196
+msgid "Russian Federation"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:197
+msgid "Rwanda"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:198
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:199
+msgid "Saint Helena"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:200
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:201
+msgid "Saint Lucia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:202
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:203
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:204
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:205
+msgid "Samoa"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:206
+msgid "San Marino"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:207
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:208
+msgid "Saudi Arabia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:209
+msgid "Senegal"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:210
+msgid "Serbia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:211
+msgid "Seychelles"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:212
+msgid "Sierra Leone"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:213
+msgid "Singapore"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:214
+msgid "Slovakia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:215
+msgid "Slovenia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:216
+msgid "Solomon Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:217
+msgid "Somalia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:218
+msgid "South Africa"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:219
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:220
+msgid "Spain"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:221
+msgid "Sri Lanka"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:222
+msgid "Sudan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:223
+msgid "Suriname"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:224
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:225
+msgid "Swaziland"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:226
+msgid "Sweden"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:227
+msgid "Switzerland"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:228
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:229
+msgid "Taiwan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:230
+msgid "Tajikistan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:231
+msgid "Tanzania"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:232
+msgid "Thailand"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:233
+msgid "Timor-Leste"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:234
+msgid "Togo"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:235
+msgid "Tokelau"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:236
+msgid "Tonga"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:237
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:238
+msgid "Tunisia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:239
+msgid "Turkey"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:240
+msgid "Turkmenistan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:241
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:242
+msgid "Tuvalu"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:243
+msgid "Uganda"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:244
+msgid "Ukraine"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:245
+msgid "United Arab Emirates"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:246
+msgid "United Kingdom"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:247
+msgid "United States"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:248
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:249
+msgid "Uruguay"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:250
+msgid "Uzbekistan"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:251
+msgid "Vanuatu"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:252
+msgid "Venezuela"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:253
+msgid "Viet Nam"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:254
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:255
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:256
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:257
+msgid "Western Sahara"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:258
+msgid "Yemen"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:259
+msgid "Zambia"
+msgstr ""
+
+#: ../classes/class-upme-predefined.php:260
+msgid "Zimbabwe"
+msgstr ""
+
+#: ../classes/class-upme-profile-fields.php:10
+msgid "Inactive"
+msgstr ""
+
+#: ../classes/class-upme-profile-fields.php:11
+msgid "Active"
+msgstr ""
+
+#: ../classes/class-upme-profile-fields.php:28
+#: ../classes/class-upme-profile-fields.php:72 ../classes/class-upme.php:5038
+msgid "Profile Status"
+msgstr ""
+
+#: ../classes/class-upme-profile-fields.php:45
+#: ../classes/class-upme-profile-fields.php:96
+msgid "Email Authentication"
+msgstr ""
+
+#: ../classes/class-upme-profile-fields.php:51
+#: ../classes/class-upme-profile-fields.php:103
+msgid "Disable"
+msgstr ""
+
+#: ../classes/class-upme-profile-fields.php:52
+#: ../classes/class-upme-profile-fields.php:104
+msgid "Enable"
+msgstr ""
+
+#: ../classes/class-upme-profile.php:77
+msgid ""
+"Profile removal request success. We sent you an email with confirmation link."
+" Please click the link to confirm the request."
+msgstr ""
+
+#: ../classes/class-upme-profile.php:81
+msgid "Profile removal request failed."
+msgstr ""
+
+#: ../classes/class-upme-profile.php:102
+msgid "Profile deleted successfully."
+msgstr ""
+
+#: ../classes/class-upme-profile.php:105
+msgid "Invalid profile delete request."
+msgstr ""
+
+#: ../classes/class-upme-register.php:55
+msgid "This username is already registered. Please choose another one."
+msgstr ""
+
+#: ../classes/class-upme-register.php:62
+msgid "Please type your e-mail address."
+msgstr ""
+
+#: ../classes/class-upme-register.php:64
+msgid "The email address isn't correct."
+msgstr ""
+
+#: ../classes/class-upme-register.php:66
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: ../classes/class-upme-register.php:96
+msgid "Registration is disabled for this site."
+msgstr ""
+
+#: ../classes/class-upme-register.php:116
+msgid "Invalid registration form."
+msgstr ""
+
+#: ../classes/class-upme-register.php:411
+msgid "Your account is pending approval."
+msgstr ""
+
+#: ../classes/class-upme-register.php:517
+msgid "Account already activated. You can now login."
+msgstr ""
+
+#: ../classes/class-upme-register.php:531
+msgid "Your email has been verified. Please wait for moderator approval."
+msgstr ""
+
+#: ../classes/class-upme-register.php:534
+msgid "Activation successful. You can now login."
+msgstr ""
+
+#: ../classes/class-upme-register.php:546
+msgid "Activation failed. Please use a valid activation code."
+msgstr ""
+
+#: ../classes/class-upme-reset-password.php:38
+msgid "The new password field is empty."
+msgstr ""
+
+#: ../classes/class-upme-reset-password.php:44
+msgid "The confirm new password field is empty."
+msgstr ""
+
+#: ../classes/class-upme-reset-password.php:53
+msgid "The passwords do not match."
+msgstr ""
+
+#: ../classes/class-upme-reset-password.php:122
+#: ../classes/class-upme-reset-password.php:138
+msgid ""
+"This password key has expired or has already been used. Please initiate a "
+"new password reset."
+msgstr ""
+
+#: ../classes/class-upme-reset-password.php:131
+msgid "Invalid Reset Password Key"
+msgstr ""
+
+#: ../classes/class-upme-save.php:112 ../classes/class-upme-save.php:118
+#: ../classes/class-upme-save.php:455 ../classes/class-upme-save.php:461
+#, php-format
+msgid ""
+"The file you have selected for %s has a file extension that is not allowed. "
+"Please choose a different file."
+msgstr ""
+
+#: ../classes/class-upme-save.php:114 ../classes/class-upme-save.php:457
+#, php-format
+msgid "The file you have selected for %s exceeds the maximum allowed file size."
+msgstr ""
+
+#: ../classes/class-upme-save.php:116 ../classes/class-upme-save.php:459
+#, php-format
+msgid "The file you selected for %s appears to be corrupt or not a real image file."
+msgstr ""
+
+#: ../classes/class-upme-save.php:186
+msgid "E-mail address was not updated. Please enter a valid e-mail."
+msgstr ""
+
+#: ../classes/class-upme-save.php:194
+msgid "Your passwords do not match."
+msgstr ""
+
+#: ../classes/class-upme-save.php:327
+msgid "Your profile was updated."
+msgstr ""
+
+#: ../classes/class-upme-save.php:329
+msgid "Profile was updated."
+msgstr ""
+
+#: ../classes/class-upme-save.php:529
+#: ../modules/class-upme-email-templates.php:163
+msgid "Profile Information Update"
+msgstr ""
+
+#: ../classes/class-upme-save.php:530
+#, php-format
+msgid "%s has updated profile information."
+msgstr ""
+
+#: ../classes/class-upme-save.php:531
+msgid "Please find the updated information below."
+msgstr ""
+
+#: ../classes/class-upme-save.php:534 ../function/functions.php:944
+msgid "Field Key"
+msgstr ""
+
+#: ../classes/class-upme-save.php:535 ../function/functions.php:945
+msgid "Previous Value"
+msgstr ""
+
+#: ../classes/class-upme-save.php:536 ../function/functions.php:946
+msgid "Updated Value"
+msgstr ""
+
+#: ../classes/class-upme-save.php:539 ../function/functions.php:704
+#: ../modules/email_templates/upme_approval_notify_user_view.php:10
+#: ../modules/email_templates/upme_delete_profile_confirm_view.php:9
+#: ../modules/email_templates/upme_forgot_password_view.php:10
+#: ../modules/email_templates/upme_nofify_profile_update_view.php:8
+#: ../modules/email_templates/upme_reg_activation_admin_view.php:9
+#: ../modules/email_templates/upme_reg_activation_approval_admin_view.php:11
+#: ../modules/email_templates/upme_reg_activation_approval_user_view.php:10
+#: ../modules/email_templates/upme_reg_activation_user_view.php:11
+#: ../modules/email_templates/upme_reg_approval_admin_view.php:11
+#: ../modules/email_templates/upme_reg_approval_user_view.php:10
+#: ../modules/email_templates/upme_reg_default_admin_view.php:9
+#: ../modules/email_templates/upme_reg_default_user_view.php:10
+#: ../modules/email_templates/upme_two_factor_email_verify_view.php:11
+msgid "Thanks"
+msgstr ""
+
+#: ../classes/class-upme-save.php:540
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../classes/class-upme-sync-woocommerce.php:61
+#: ../classes/class-upme-sync-woocommerce.php:187
+msgid "Woocommerce File Doesn't Exist"
+msgstr ""
+
+#: ../classes/class-upme-sync-woocommerce.php:169
+#: ../classes/class-upme-sync-woocommerce.php:290
+msgid "WooCommerce customer fields have been added successfully."
+msgstr ""
+
+#: ../classes/class-upme-updater.php:187 ../classes/class-upme.php:3964
+#: ../classes/class-upme.php:4192 ../classes/class-upme.php:4313
+#: ../js/upme-custom-js.php:117 ../upme.php:127
+msgid "Login"
+msgstr ""
+
+#: ../classes/class-upme-updater.php:292
+msgid "Upload folder creation failed."
+msgstr ""
+
+#: ../classes/class-upme-updater.php:368
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:97
+msgid "Users"
+msgstr ""
+
+#: ../classes/class-upme-updater.php:406
+msgid "Reset"
+msgstr ""
+
+#: ../classes/class-upme-updater.php:418 ../classes/class-upme.php:4661
+#: ../classes/class-upme.php:4752
+msgid "Reset Password"
+msgstr ""
+
+#: ../classes/class-upme-updater.php:461
+msgid "Member List"
+msgstr ""
+
+#: ../classes/class-upme-updater.php:709
+msgid "Cover Image"
+msgstr ""
+
+#: ../classes/class-upme.php:40
+msgid "Text"
+msgstr ""
+
+#: ../classes/class-upme.php:41
+msgid "Image Upload"
+msgstr ""
+
+#: ../classes/class-upme.php:42
+msgid "Textarea"
+msgstr ""
+
+#: ../classes/class-upme.php:43
+msgid "Select Dropdown"
+msgstr ""
+
+#: ../classes/class-upme.php:44
+msgid "Radio"
+msgstr ""
+
+#: ../classes/class-upme.php:45
+msgid "Checkbox"
+msgstr ""
+
+#: ../classes/class-upme.php:47
+msgid "Date Picker"
+msgstr ""
+
+#: ../classes/class-upme.php:48
+msgid "Video"
+msgstr ""
+
+#: ../classes/class-upme.php:49
+msgid "Soundcloud"
+msgstr ""
+
+#: ../classes/class-upme.php:135
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: ../classes/class-upme.php:177
+msgid "Profile Info"
+msgstr ""
+
+#: ../classes/class-upme.php:188
+msgid "Profile Picture"
+msgstr ""
+
+#: ../classes/class-upme.php:236 ../widgets/upme-widgets.php:160
+msgid "Display Name"
+msgstr ""
+
+#: ../classes/class-upme.php:252
+msgid "About / Bio"
+msgstr ""
+
+#: ../classes/class-upme.php:269
+msgid "Custom Photo 1"
+msgstr ""
+
+#: ../classes/class-upme.php:283
+msgid "Contact Info"
+msgstr ""
+
+#: ../classes/class-upme.php:299
+msgid "Send E-mail"
+msgstr ""
+
+#: ../classes/class-upme.php:311
+msgid "Website"
+msgstr ""
+
+#: ../classes/class-upme.php:325
+msgid "Social Profiles"
+msgstr ""
+
+#: ../classes/class-upme.php:336
+#: ../modules/social/templates/social-settings.php:23
+msgid "Facebook"
+msgstr ""
+
+#: ../classes/class-upme.php:341
+msgid "Connect via Facebook"
+msgstr ""
+
+#: ../classes/class-upme.php:353
+msgid "Twitter Username"
+msgstr ""
+
+#: ../classes/class-upme.php:358
+msgid "Connect via Twitter"
+msgstr ""
+
+#: ../classes/class-upme.php:370
+msgid "Google+"
+msgstr ""
+
+#: ../classes/class-upme.php:375
+msgid "Connect via Google+"
+msgstr ""
+
+#: ../classes/class-upme.php:396 ../classes/class-upme.php:4727
+#: ../classes/class-upme.php:4729
+msgid "New Password"
+msgstr ""
+
+#: ../classes/class-upme.php:938
+msgid "This account is pending activation."
+msgstr ""
+
+#: ../classes/class-upme.php:1200
+msgid "first"
+msgstr ""
+
+#: ../classes/class-upme.php:1203
+msgid "previous"
+msgstr ""
+
+#: ../classes/class-upme.php:1235
+msgid "next"
+msgstr ""
+
+#: ../classes/class-upme.php:1237
+msgid "last"
+msgstr ""
+
+#: ../classes/class-upme.php:1441
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: ../classes/class-upme.php:2063
+msgid "Your search has returned <span>"
+msgstr ""
+
+#: ../classes/class-upme.php:2217 ../js/upme-custom-js.php:82 ../upme.php:124
+msgid "Edit Profile"
+msgstr ""
+
+#: ../classes/class-upme.php:2395
+msgid "Nothing found matching the selected criteria."
+msgstr ""
+
+#: ../classes/class-upme.php:2399
+msgid "Please enter search criteria."
+msgstr ""
+
+#: ../classes/class-upme.php:2854 ../classes/class-upme.php:3766
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: ../classes/class-upme.php:2856 ../classes/class-upme.php:3768
+msgid "Type your new password again."
+msgstr ""
+
+#: ../classes/class-upme.php:2867 ../classes/class-upme.php:2881
+#: ../profile/upme-profile.php:195 ../profile/upme-profile.php:394
+msgid "Delete Image"
+msgstr ""
+
+#: ../classes/class-upme.php:2868 ../classes/class-upme.php:2882
+#: ../profile/upme-profile.php:200 ../profile/upme-profile.php:396
+msgid "Loading"
+msgstr ""
+
+#: ../classes/class-upme.php:2871
+msgid "Current Picture"
+msgstr ""
+
+#: ../classes/class-upme.php:2876
+msgid ""
+"You can sign up at <a href=\"http://en.gravatar.com/\">Gravatar</a> to have a "
+"globally recognized avatar or upload a custom profile picture below."
+msgstr ""
+
+#: ../classes/class-upme.php:2898
+msgid "Update Image"
+msgstr ""
+
+#: ../classes/class-upme.php:2964 ../classes/class-upme.php:3508
+#: ../classes/class-upme.php:3827
+msgid "Hide from Public"
+msgstr ""
+
+#: ../classes/class-upme.php:3000
+msgid "Update Profile"
+msgstr ""
+
+#: ../classes/class-upme.php:3175
+#, php-format
+msgid "%s entry"
+msgstr ""
+
+#: ../classes/class-upme.php:3177
+#, php-format
+msgid "%s entries"
+msgstr ""
+
+#: ../classes/class-upme.php:3188
+#, php-format
+msgid "%s comment"
+msgstr ""
+
+#: ../classes/class-upme.php:3190
+#, php-format
+msgid "%s comments"
+msgstr ""
+
+#: ../classes/class-upme.php:3856
+msgid "Please Accept Terms and Conditions"
+msgstr ""
+
+#: ../classes/class-upme.php:3897
+msgid "Already a member? Login Here"
+msgstr ""
+
+#: ../classes/class-upme.php:4185
+msgid "Log Out"
+msgstr ""
+
+#: ../classes/class-upme.php:4277
+msgid "User not found."
+msgstr ""
+
+#: ../classes/class-upme.php:4737 ../classes/class-upme.php:4739
+msgid "Confirm"
+msgstr ""
+
+#: ../classes/class-upme.php:4811
+msgid "Recent Posts"
+msgstr ""
+
+#: ../classes/class-upme.php:5024
+msgid "Delete Profile"
+msgstr ""
+
+#: ../classes/class-upme.php:5091
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:98
+msgid "User Role"
+msgstr ""
+
+#: ../classes/class-upme.php:5251
+msgid "Name"
+msgstr ""
+
+#: ../forgotpass/upme-forgot-pass.php:67
+#: ../modules/email_templates/upme_forgot_password_view.php:3
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: ../forgotpass/upme-forgot-pass.php:70
+#: ../modules/email_templates/upme_forgot_password_view.php:6
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: ../forgotpass/upme-forgot-pass.php:71
+#: ../modules/email_templates/upme_forgot_password_view.php:7
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: ../forgotpass/upme-forgot-pass.php:81
+#: ../modules/class-upme-email-templates.php:169
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: ../function/functions.php:546
+msgid "Done"
+msgstr ""
+
+#: ../function/functions.php:547
+msgid "Prev"
+msgstr ""
+
+#: ../function/functions.php:548
+msgid "Next"
+msgstr ""
+
+#: ../function/functions.php:549
+msgid "Today"
+msgstr ""
+
+#: ../function/functions.php:551
+msgid "January"
+msgstr ""
+
+#: ../function/functions.php:552
+msgid "February"
+msgstr ""
+
+#: ../function/functions.php:553
+msgid "March"
+msgstr ""
+
+#: ../function/functions.php:554
+msgid "April"
+msgstr ""
+
+#: ../function/functions.php:555 ../function/functions.php:569
+msgid "May"
+msgstr ""
+
+#: ../function/functions.php:556
+msgid "June"
+msgstr ""
+
+#: ../function/functions.php:557
+msgid "July"
+msgstr ""
+
+#: ../function/functions.php:558
+msgid "August"
+msgstr ""
+
+#: ../function/functions.php:559
+msgid "September"
+msgstr ""
+
+#: ../function/functions.php:560
+msgid "October"
+msgstr ""
+
+#: ../function/functions.php:561
+msgid "November"
+msgstr ""
+
+#: ../function/functions.php:562
+msgid "December"
+msgstr ""
+
+#: ../function/functions.php:565
+msgid "Jan"
+msgstr ""
+
+#: ../function/functions.php:566
+msgid "Feb"
+msgstr ""
+
+#: ../function/functions.php:567
+msgid "Mar"
+msgstr ""
+
+#: ../function/functions.php:568
+msgid "Apr"
+msgstr ""
+
+#: ../function/functions.php:570
+msgid "Jun"
+msgstr ""
+
+#: ../function/functions.php:571
+msgid "Jul"
+msgstr ""
+
+#: ../function/functions.php:572
+msgid "Aug"
+msgstr ""
+
+#: ../function/functions.php:573
+msgid "Sep"
+msgstr ""
+
+#: ../function/functions.php:574
+msgid "Oct"
+msgstr ""
+
+#: ../function/functions.php:575
+msgid "Nov"
+msgstr ""
+
+#: ../function/functions.php:576
+msgid "Dec"
+msgstr ""
+
+#: ../function/functions.php:579
+msgid "Sunday"
+msgstr ""
+
+#: ../function/functions.php:580
+msgid "Monday"
+msgstr ""
+
+#: ../function/functions.php:581
+msgid "Tuesday"
+msgstr ""
+
+#: ../function/functions.php:582
+msgid "Wednesday"
+msgstr ""
+
+#: ../function/functions.php:583
+msgid "Thursday"
+msgstr ""
+
+#: ../function/functions.php:584
+msgid "Friday"
+msgstr ""
+
+#: ../function/functions.php:585
+msgid "Saturday"
+msgstr ""
+
+#: ../function/functions.php:588
+msgid "Sun"
+msgstr ""
+
+#: ../function/functions.php:589
+msgid "Mon"
+msgstr ""
+
+#: ../function/functions.php:590
+msgid "Tue"
+msgstr ""
+
+#: ../function/functions.php:591
+msgid "Wed"
+msgstr ""
+
+#: ../function/functions.php:592
+msgid "Thu"
+msgstr ""
+
+#: ../function/functions.php:593
+msgid "Fri"
+msgstr ""
+
+#: ../function/functions.php:594
+msgid "Sat"
+msgstr ""
+
+#: ../function/functions.php:597
+msgid "Su"
+msgstr ""
+
+#: ../function/functions.php:598
+msgid "Mo"
+msgstr ""
+
+#: ../function/functions.php:599
+msgid "Tu"
+msgstr ""
+
+#: ../function/functions.php:600
+msgid "We"
+msgstr ""
+
+#: ../function/functions.php:601
+msgid "Th"
+msgstr ""
+
+#: ../function/functions.php:602
+msgid "Fr"
+msgstr ""
+
+#: ../function/functions.php:603
+msgid "Sa"
+msgstr ""
+
+#: ../function/functions.php:605
+msgid "Wk"
+msgstr ""
+
+#: ../function/functions.php:697
+#: ../modules/email_templates/upme_approval_notify_user_view.php:3
+msgid "Your account has been approved successfully. "
+msgstr ""
+
+#: ../function/functions.php:700
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: ../function/functions.php:702
+#: ../modules/email_templates/upme_approval_notify_user_view.php:8
+msgid "You can now log in to use your account using the following link."
+msgstr ""
+
+#: ../function/functions.php:710 ../modules/class-upme-email-templates.php:166
+#, php-format
+msgid "[%s] User Account Approved"
+msgstr ""
+
+#: ../function/functions.php:757
+msgid "Good"
+msgstr ""
+
+#: ../function/functions.php:760
+msgid "ERROR"
+msgstr ""
+
+#: ../function/functions.php:762
+msgid "Minimum password strength level should be"
+msgstr ""
+
+#: ../function/functions.php:764
+msgid " New password is required."
+msgstr ""
+
+#: ../function/functions.php:765
+msgid " Confirm new password is required."
+msgstr ""
+
+#: ../function/functions.php:785
+msgid "Insert UPME Shortcode"
+msgstr ""
+
+#: ../function/functions.php:786
+msgid "Login / Registration Forms"
+msgstr ""
+
+#: ../function/functions.php:787
+msgid "Front-end Registration Form"
+msgstr ""
+
+#: ../function/functions.php:788
+msgid "Registration Form with Custom Redirect"
+msgstr ""
+
+#: ../function/functions.php:789
+msgid "Registration Form with Captcha"
+msgstr ""
+
+#: ../function/functions.php:790
+msgid "Registration Form without Captcha"
+msgstr ""
+
+#: ../function/functions.php:791
+msgid "Front-end Login Form"
+msgstr ""
+
+#: ../function/functions.php:792
+msgid "Sidebar Login Widget (use in text widget)"
+msgstr ""
+
+#: ../function/functions.php:793
+msgid "Login Form with Custom Redirect"
+msgstr ""
+
+#: ../function/functions.php:794
+msgid "Logout Button"
+msgstr ""
+
+#: ../function/functions.php:795
+msgid "Logout Button with Custom Redirect"
+msgstr ""
+
+#: ../function/functions.php:796
+msgid "Single Profile"
+msgstr ""
+
+#: ../function/functions.php:797
+msgid "Logged in User Profile"
+msgstr ""
+
+#: ../function/functions.php:798
+msgid "Logged in User Profile showing User ID"
+msgstr ""
+
+#: ../function/functions.php:800
+msgid "Logged in User Profile without Stats"
+msgstr ""
+
+#: ../function/functions.php:801
+msgid "Logged in User Profile showing User Role"
+msgstr ""
+
+#: ../function/functions.php:802
+msgid "Logged in User Profile showing Profile Status"
+msgstr ""
+
+#: ../function/functions.php:803
+msgid "Logged in User Profile with Logout Redirect"
+msgstr ""
+
+#: ../function/functions.php:805
+msgid "Post Author Profile"
+msgstr ""
+
+#: ../function/functions.php:806
+msgid "Specific User Profile"
+msgstr ""
+
+#: ../function/functions.php:807
+msgid "Multiple Profiles / Member List"
+msgstr ""
+
+#: ../function/functions.php:808
+msgid "Group of Specific Users"
+msgstr ""
+
+#: ../function/functions.php:809
+#: ../modules/templates/site_users_export_view.php:17
+msgid "All Users"
+msgstr ""
+
+#: ../function/functions.php:810
+msgid "All Users in Compact View"
+msgstr ""
+
+#: ../function/functions.php:811
+msgid "All Users in Compact View, Half Width"
+msgstr ""
+
+#: ../function/functions.php:812
+msgid "All Users in Modal Windows"
+msgstr ""
+
+#: ../function/functions.php:813
+msgid "All Users in New Windows"
+msgstr ""
+
+#: ../function/functions.php:814
+msgid "Users Based on User Role"
+msgstr ""
+
+#: ../function/functions.php:815
+msgid "Administrator Users Only"
+msgstr ""
+
+#: ../function/functions.php:816
+msgid "All Users Ordered by Display Name"
+msgstr ""
+
+#: ../function/functions.php:817
+msgid "All Users Ordered by Post Count"
+msgstr ""
+
+#: ../function/functions.php:818
+msgid "All Users Ordered by Registration Date"
+msgstr ""
+
+#: ../function/functions.php:819
+msgid "All Users Ordered by Custom Field"
+msgstr ""
+
+#: ../function/functions.php:820
+msgid "All Users showing User ID"
+msgstr ""
+
+#: ../function/functions.php:821
+msgid "Group Users by Custom Field Values"
+msgstr ""
+
+#: ../function/functions.php:822
+msgid "Hide All Users until Search"
+msgstr ""
+
+#: ../function/functions.php:823
+msgid "Search Profiles"
+msgstr ""
+
+#: ../function/functions.php:824
+msgid "Search with Custom Field Filters"
+msgstr ""
+
+#: ../function/functions.php:825
+msgid "Private Content (Login Required)"
+msgstr ""
+
+#: ../function/functions.php:826
+msgid "Shortcode Option Examples"
+msgstr ""
+
+#: ../function/functions.php:827
+msgid "Hide User Statistics"
+msgstr ""
+
+#: ../function/functions.php:828
+msgid "Hide User Social Bar"
+msgstr ""
+
+#: ../function/functions.php:829
+msgid "1/2 Width Profile View"
+msgstr ""
+
+#: ../function/functions.php:830
+msgid "Compact View (No extra fields)"
+msgstr ""
+
+#: ../function/functions.php:831
+msgid "Customized Profile Fields"
+msgstr ""
+
+#: ../function/functions.php:832
+msgid "Show User ID on Profiles"
+msgstr ""
+
+#: ../function/functions.php:833
+msgid "Limit Results on Member List"
+msgstr ""
+
+#: ../function/functions.php:834
+msgid "Show Result Count on Member List"
+msgstr ""
+
+#: ../function/functions.php:1004
+msgid "Free"
+msgstr ""
+
+#: ../function/functions.php:1014 ../function/functions.php:1024
+#: ../function/functions.php:1034
+msgid "Premium"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_extend.php:32
+#, php-format
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://bit.ly/vcomposer\" "
+"target=\"_blank\">Visual Composer</a></strong> plugin to be installed and "
+"activated on your site."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:28
+#: ../widgets/upme-login-widget.php:17
+msgid "UPME Login"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:29
+msgid "Login form for UPME"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:34
+#: ../integrated_plugins/visual_composer/vc_upme_logout.php:32
+#: ../integrated_plugins/visual_composer/vc_upme_member.php:32
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:69
+#: ../integrated_plugins/visual_composer/vc_upme_non_member.php:32
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:55
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:39
+#: ../integrated_plugins/visual_composer/vc_upme_reset_password.php:32
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:49
+msgid "UPME"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:40
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:153
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:54
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:106
+msgid "Use In Sidebar"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:44
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:58
+msgid "This will change the CSS styling to better fit inside a small width sidebar."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:50
+#: ../integrated_plugins/visual_composer/vc_upme_logout.php:47
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:64
+#: ../modules/templates/site_content_restriction_rules_view.php:103
+msgid "Redirect URL"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:53
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:67
+msgid "Useres are redirected to the specified URL after logging in."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:68
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:82
+msgid ""
+"Show the Login Form with captcha, uses the captcha plugn selected in UPME "
+"settings. You can specify the captcha to be used."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:74
+msgid "Show Registration Link"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:78
+msgid "Enable/Disable registration link in login form."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:84
+msgid "Show Forgot Password Link"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:88
+msgid "Enable/Disable forgot password link in login form."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:94
+msgid "Custom Register Link Text"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:97
+msgid "Display custom text for registration link in login form."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:103
+msgid "Custom Forgot Password Link Text"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:106
+msgid "Display custom text for forgot password in login form."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:112
+msgid "Custom Register Page URL"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:115
+msgid "Custom URL for the registration page."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:121
+msgid "Custom Forgot Password URL"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_login.php:124
+msgid "Custom URL for the forgot password page."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_logout.php:26
+msgid "UPME Logout"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_logout.php:27
+msgid "Logout button for UPME"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_logout.php:38
+msgid "CSS Class"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_logout.php:41
+msgid "CSS class used for the logout link."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_logout.php:50
+msgid "Useres are redirected to the specified URL after logging out."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member.php:26
+msgid "UPME Member Content"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member.php:27
+msgid "Content for UPME Members"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member.php:38
+#: ../integrated_plugins/visual_composer/vc_upme_non_member.php:38
+msgid "Content"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member.php:41
+msgid "Enter your content for members."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:35
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:37
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:278
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:19
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:19
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:20
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:21
+msgid "Select"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:63
+msgid "UPME Member List"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:64
+msgid "Member List for UPME"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:76
+msgid "Name for the Member List"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:79
+msgid ""
+"Add specific name to member list to load different filters on different "
+"member list shortcodes. If not specified, this will add a dynamic random "
+"string as the name."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:86
+msgid "Profile Grouping Type"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:88
+msgid "Group All Users"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:88
+msgid "Group Selected Users"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:90
+msgid ""
+"Select the grouping type for member list. Group All Users displays all "
+"active users in the site. Group Selected Users allows you to select the "
+"users to be displayed in member list.."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:101
+msgid ""
+"This is used to select user(s) to be displayed in the member list instead of "
+"all users. This is used when selected users option is selected for Profile "
+"Grouping Type."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:108
+msgid "Group Meta Key"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:112
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:179
+msgid ""
+"This is used to group and filter users by custom field. Select the custom "
+"field used for grouping."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:119
+msgid "Group Meta Value"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:122
+msgid "This is used to specify the value of the custom field for grouping members."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:129
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:81
+msgid "Profile View Type"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:131
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:83
+msgid "Display Full Profile"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:132
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:84
+msgid "Display Compact Profile"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:133
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:85
+msgid "Display Selected Fields on Profile"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:135
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:87
+msgid ""
+"Select the type of view profile. Full profile displays all fields. Compact "
+"profile only displays the profile header. Selected fields allows you to "
+"select the filds to be displayed in profile.."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:146
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:97
+msgid ""
+"You can use this option to include fields to be shown in the profile.This is "
+"optional and only used when you have the selected fields option for the "
+"Profile View Type."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:153
+msgid "User Roles"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:157
+msgid "This is used to select the user roles to be allowed for the member list."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:164
+msgid "Order by Field"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:168
+msgid "This is used to select the custom field used for ordering the results."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:175
+msgid "Hide Admins"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:189
+msgid "Order Results"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:191
+msgid "ASC"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:191
+msgid "DESC"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:193
+msgid "Defines the Sort/order of the profiles displayed.."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:200
+msgid "Hide Until Search"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:204
+msgid ""
+"Hides/Shows user list and only shows search results until search is "
+"completed."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:211
+msgid "Users Per Page"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:214
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:280
+msgid "Number of user profiles to be displayed inside a single page.."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:221
+msgid "Limit Results"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:225
+msgid "Limit the member list to fixed number of users without pagination."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:232
+msgid "Open Profiles In New Window"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:236
+msgid "Open profiles in a new window from the members list."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:243
+msgid "Open Profiles In Modal Window"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:247
+msgid "Open profiles in a modal window from a member list with compact view."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:254
+msgid "Logout Redidirect URL"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:257
+msgid ""
+"Used for specifying the redirect URL after the logout button is clicked from "
+"the profile.."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:265
+msgid "Show Result Count"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:269
+msgid "Display/Hide number of results generated from the user list."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:276
+msgid "Number of Columns"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:278
+msgid "2 Columns"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:278
+msgid "3 Columns"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:287
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:103
+msgid "Display User ID"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:291
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:107
+msgid "This is used to display/hide user ID on profile."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:302
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:117
+msgid "This is used to display/hide user profile status on profile."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:309
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:123
+msgid "Display Profile Stats"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:313
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:127
+msgid "This is used to display/hide posts and comments counts on profile."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:320
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:133
+msgid "Display Social Bar"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:324
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:137
+msgid "This is used to display/hide social icons on profile."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:331
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:143
+msgid "Display User Role"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_member_list.php:335
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:147
+msgid "This is used to display/hide user role on profile."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_non_member.php:26
+msgid "UPME Non Member Content"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_non_member.php:27
+msgid "Content for Guests"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_non_member.php:41
+msgid "Enter your content for non-members."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:20
+msgid "Display Profile Based on URL"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:49
+msgid "UPME Profile"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:50
+msgid "User Profile for UPME"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:62
+msgid "Name for the Profile"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:65
+msgid ""
+"Add specific name to profile to load different filters on different profile "
+"shortcodes. If not specified, this will add a dynamic random string as the "
+"name."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:75
+msgid ""
+"This is used to select user(s) to be displayed or display the profile based "
+"on current URL. This is optional."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:157
+msgid ""
+"This is entirely optional. You can decide to show the search inside a page\n"
+"    or in the sidebar."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:165
+msgid "Logout Redirect"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_profile.php:168
+msgid "Users will be redirected to this URL after logged out from profile."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:33
+msgid "UPME Registration"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:34
+msgid "Registration form for UPME"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:45
+msgid "Name for Registration Form"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:48
+msgid ""
+"Add specific name to registration form to load different fields on different "
+"registration forms. If not specified, this will add a dynamic random string "
+"as the name."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:88
+msgid "Display Login Link"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:92
+msgid "Displays the login link on registration form for already registered users."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_registration.php:102
+msgid ""
+"Add specific to the registration form. Once user_role attribute is added, "
+"all users registred with this form will get the defined user role instead of "
+"default user role."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_reset_password.php:26
+msgid "UPME Reset Password"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_reset_password.php:27
+msgid "Reset Password form for UPME"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_reset_password.php:38
+msgid "Name for the Reset Password Form"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_reset_password.php:41
+msgid "Add specific name to reset password form."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:43
+msgid "UPME Search"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:44
+msgid "Search form for UPME"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:56
+msgid "Name for the Search Form"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:59
+msgid ""
+"Add specific name to search form to load different filters on different "
+"search\n"
+"	forms. If not specified, this will add a dynamic random string as the name."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:66
+#: ../modules/templates/site_field_export_view.php:26
+#: ../modules/templates/site_field_import_view.php:27
+msgid "Fields"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:70
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:80
+msgid ""
+"This is used to match the specified criteria using AND/OR operator. This is "
+"optional."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:76
+msgid "Filters"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:86
+msgid "Exclude Fields"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:90
+msgid ""
+"You can use this option to exclude some text fields from the default search."
+"This is optional."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:96
+msgid "Operator"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:98
+msgid "AND"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:98
+msgid "OR"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:100
+msgid "This is used to match the specified criteria using AND/OR operator."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:110
+msgid ""
+"This is entirely optional. You can decide to show the search inside a page\n"
+"	or in the sidebar."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:118
+msgid "Show Combined Search"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:122
+msgid ""
+"Used to hide combined search option and only use the search on search "
+"filters."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:131
+msgid "Used to change the text displayed inside the search reset button."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:140
+msgid "Used to change the text displayed on search button."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:149
+msgid "Used to change the text displayed inside the search box."
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:155
+msgid "Users are Called as"
+msgstr ""
+
+#: ../integrated_plugins/visual_composer/vc_upme_search.php:158
+msgid "Used change the text display for users."
+msgstr ""
+
+#: ../integrated_plugins/wpmember.php:74
+msgid "Please purchase a package to continue. Click "
+msgstr ""
+
+#: ../integrated_plugins/wpmember.php:74
+msgid "Here"
+msgstr ""
+
+#: ../integrated_plugins/wpmember.php:93
+msgid "You need to confirm your email address."
+msgstr ""
+
+#: ../js/upme-custom-js.php:141
+msgid "Please provide email address which is registered with us."
+msgstr ""
+
+#: ../js/upme-custom-js.php:142
+msgid "Please enter valid user name or email address."
+msgstr ""
+
+#: ../js/upme-custom-js.php:143
+msgid "User with given details is not allowed to change password."
+msgstr ""
+
+#: ../js/upme-custom-js.php:144 ../upme.php:133
+msgid ""
+"We are unable to deliver email to your email address. Please contact site "
+"admin."
+msgstr ""
+
+#: ../js/upme-custom-js.php:145
+msgid "We have sent password reset link to your email address."
+msgstr ""
+
+#: ../js/upme-custom-js.php:146
+msgid "Something went wrong, Please try again"
+msgstr ""
+
+#: ../modules/class-upme-custom-fields.php:39
+msgid "Separator Field Groups"
+msgstr ""
+
+#: ../modules/class-upme-email-templates.php:29
+msgid "Email Template reset successfully."
+msgstr ""
+
+#: ../modules/class-upme-email-templates.php:35
+#: ../modules/class-upme-email-templates.php:60
+#: ../modules/class-upme-email-templates.php:86
+msgid "Template not found."
+msgstr ""
+
+#: ../modules/class-upme-email-templates.php:58
+msgid "Email Template saved successfully."
+msgstr ""
+
+#: ../modules/class-upme-email-templates.php:137
+#: ../modules/class-upme-email-templates.php:159
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: ../modules/class-upme-email-templates.php:140
+#: ../modules/class-upme-email-templates.php:144
+#: ../modules/class-upme-email-templates.php:150
+#: ../modules/class-upme-email-templates.php:156
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: ../modules/class-upme-email-templates.php:147
+#: ../modules/class-upme-email-templates.php:153
+#, php-format
+msgid "[%s] Action Required: Email Verification"
+msgstr ""
+
+#: ../modules/class-upme-email-templates.php:172
+#, php-format
+msgid "[%s] Email Verification and Login"
+msgstr ""
+
+#: ../modules/class-upme-email-templates.php:175
+#, php-format
+msgid "[%s] Remove Profile and User Account"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:86
+msgid "Posts and Pages"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:317
+msgid "Login failed"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:338
+msgid "Mark as Read"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:339
+msgid "Mark as Favorite"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:340
+msgid "Mark as Recommended"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:341
+msgid "Mark as Unread"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:342
+msgid "Remove Favorite"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:343
+msgid "Remove Recommended"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:344
+#: ../modules/class-upme-posts-pages.php:371
+msgid "Read"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:345
+#: ../modules/class-upme-posts-pages.php:387
+msgid "Favorited"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:346
+#: ../modules/class-upme-posts-pages.php:379
+msgid "Recommended"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:347
+#: ../modules/class-upme-posts-pages.php:373
+#: ../modules/class-upme-posts-pages.php:394
+#: ../modules/class-upme-posts-pages.php:538
+#: ../modules/class-upme-posts-pages.php:564
+msgid "Unread"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:348
+#: ../modules/class-upme-posts-pages.php:389
+#: ../modules/class-upme-posts-pages.php:402
+msgid "Favorite"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:349
+#: ../modules/class-upme-posts-pages.php:381
+#: ../modules/class-upme-posts-pages.php:398 ../templates/posts-pages.php:231
+msgid "Recommend"
+msgstr ""
+
+#: ../modules/class-upme-posts-pages.php:350
+msgid "Processing"
+msgstr ""
+
+#: ../modules/class-upme-seo.php:77
+msgid "SEO"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:44
+msgid "New restriction rule added."
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:47
+msgid "Failed to add new restriction rule."
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:78
+msgid "Restriction rule deleted."
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:81
+msgid "Failed to delete restriction rule."
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:116
+msgid "Delete Rule"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:124
+msgid "Restriction rules are not available."
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:137
+#: ../modules/templates/site_content_restriction_rules_view.php:75
+msgid "All Logged in Users"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:155
+msgid "All Pages"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:159
+msgid "All Posts"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:168
+msgid "Selected Pages:"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:177
+msgid "Selected Posts:"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:188
+#: ../modules/class-upme-site-restrictions.php:201
+msgid "Recursive"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:190
+msgid "Sub pages of selected Pages:"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:203
+msgid "Selected pages and sub pages :"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:213
+msgid "Posts of selected categories :"
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:245
+msgid "Restriction rule staus updated."
+msgstr ""
+
+#: ../modules/class-upme-site-restrictions.php:248
+msgid "Failed to update restriction rule status."
+msgstr ""
+
+#: ../modules/class-upme-woocommerce.php:73
+msgid "Woocommerce"
+msgstr ""
+
+#: ../modules/email_templates/upme_approval_notify_user_view.php:6
+#: ../modules/email_templates/upme_delete_profile_confirm_view.php:5
+#: ../modules/email_templates/upme_reg_activation_admin_view.php:7
+#: ../modules/email_templates/upme_reg_activation_approval_admin_view.php:7
+#: ../modules/email_templates/upme_reg_approval_admin_view.php:7
+#: ../modules/email_templates/upme_reg_default_admin_view.php:7
+msgid "E-mail:"
+msgstr ""
+
+#: ../modules/email_templates/upme_delete_profile_confirm_view.php:3
+#, c-format
+msgid "Someone (hopefully you) has requested to delete your profile at {%blog_name%}"
+msgstr ""
+
+#: ../modules/email_templates/upme_delete_profile_confirm_view.php:7
+msgid "Please click the link below to confirm the removal of profile:"
+msgstr ""
+
+#: ../modules/email_templates/upme_nofify_profile_update_view.php:3
+msgid "has updated profile information. "
+msgstr ""
+
+#: ../modules/email_templates/upme_nofify_profile_update_view.php:5
+msgid "Please find the updated information below"
+msgstr ""
+
+#: ../modules/email_templates/upme_reg_activation_admin_view.php:3
+#: ../modules/email_templates/upme_reg_activation_approval_admin_view.php:3
+#: ../modules/email_templates/upme_reg_approval_admin_view.php:3
+#: ../modules/email_templates/upme_reg_default_admin_view.php:3
+msgid "New user registration on "
+msgstr ""
+
+#: ../modules/email_templates/upme_reg_activation_approval_admin_view.php:8
+#: ../modules/email_templates/upme_reg_approval_admin_view.php:8
+msgid "This user is pending approval."
+msgstr ""
+
+#: ../modules/email_templates/upme_reg_activation_approval_admin_view.php:9
+#: ../modules/email_templates/upme_reg_approval_admin_view.php:9
+msgid "You can approve the user by visiting the following link."
+msgstr ""
+
+#: ../modules/email_templates/upme_reg_activation_approval_user_view.php:4
+#: ../modules/email_templates/upme_reg_activation_user_view.php:4
+#: ../modules/email_templates/upme_reg_approval_user_view.php:4
+#: ../modules/email_templates/upme_reg_default_user_view.php:4
+#, c-format
+msgid "Someone (hopefully you) has used this email to register at {%blog_name%}"
+msgstr ""
+
+#: ../modules/email_templates/upme_reg_activation_approval_user_view.php:6
+#: ../modules/email_templates/upme_reg_activation_user_view.php:6
+#: ../modules/email_templates/upme_reg_approval_user_view.php:6
+#: ../modules/email_templates/upme_reg_default_user_view.php:6
+msgid "Password:"
+msgstr ""
+
+#: ../modules/email_templates/upme_reg_activation_approval_user_view.php:7
+#: ../modules/email_templates/upme_reg_activation_user_view.php:7
+msgid "Please click the link below to verify your ownership of this email:"
+msgstr ""
+
+#: ../modules/email_templates/upme_reg_activation_approval_user_view.php:9
+#: ../modules/email_templates/upme_reg_approval_user_view.php:7
+msgid ""
+"Your account is pending admin approval. You will get an email notification "
+"once your account is approved."
+msgstr ""
+
+#: ../modules/email_templates/upme_two_factor_email_verify_view.php:4
+#, c-format
+msgid ""
+"Someone (hopefully you) has used this email to verify the login at "
+"{%blog_name%}"
+msgstr ""
+
+#: ../modules/email_templates/upme_two_factor_email_verify_view.php:6
+msgid "Email:"
+msgstr ""
+
+#: ../modules/email_templates/upme_two_factor_email_verify_view.php:7
+msgid "Please click the link below to login automatically:"
+msgstr ""
+
+#: ../modules/social/class-upme-social-connect.php:458
+msgid "Your account is pending admin approval."
+msgstr ""
+
+#: ../modules/social/class-upme-social-connect.php:462
+msgid "Registration sucessfully completed.Your account is pending admin approval."
+msgstr ""
+
+#: ../modules/social/class-upme-social-connect.php:466
+msgid "Please click the link on registration email to activate the account."
+msgstr ""
+
+#: ../modules/social/class-upme-social-connect.php:470
+msgid ""
+"Registration sucessfully completed.Please click the link on registration "
+"email to activate the account."
+msgstr ""
+
+#: ../modules/social/class-upme-social-connect.php:474
+msgid ""
+"Please click the link on registration email to activate the account. Your "
+"account is pending admin approval."
+msgstr ""
+
+#: ../modules/social/class-upme-social-connect.php:478
+msgid ""
+"Registration sucessfully completed.Please click the link on registration "
+"email to activate the account. Your account is pending admin approval."
+msgstr ""
+
+#: ../modules/social/class-upme-social-settings.php:17
+msgid "Social Login"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:6
+msgid "Manage Social Login"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:21
+msgid "Enabled Social Networks"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:22
+msgid "LinkedIn"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:24
+msgid "Twitter"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:25
+msgid "Google Plus"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:27
+msgid ""
+"Selected social network buttons will be available in login and registration "
+"forms to login using social networks."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:28
+msgid ""
+"Please select only the necessary networks and fill in API details before "
+"using them."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:36
+msgid "Social Login Message"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:37
+#: ../modules/social/templates/social-settings.php:38
+msgid "Message displayed before the social login buttons."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:44
+msgid "Facebook App ID"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:45
+msgid "ID of your Facebook application."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:46
+msgid "Get the ID of your Facebook application and use it here."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:52
+msgid "Facebook App Secret"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:53
+msgid "Secret key of your Facebook application."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:54
+msgid "Get the app secret of your Facebook application and use it here."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:61
+msgid "Google Client ID"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:62
+msgid "Client ID of your Google application."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:63
+msgid "Get the Client ID of your Google application and use it here."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:69
+msgid "Google Client Secret"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:70
+msgid "Secret key of your Google application."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:71
+msgid "Get the app secret of your Google application and use it here."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:78
+msgid "Twitter App Key"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:79
+msgid "Application key of your Twitter application"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:80
+msgid "Get the key of your Twitter application and use it here."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:86
+msgid "Twitter App Secret"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:87
+msgid "Secret key of your Twitter application."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:88
+msgid "Get the app secret of your Twitter application and use it here."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:95
+msgid "LinkedIn App Key"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:96
+msgid "Application key of your LinkedIn application."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:97
+msgid "Get the key of your LinkedIn application and use it here."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:103
+msgid "LinkedIn App Secret"
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:104
+msgid "Secret key of your LinkedIn application."
+msgstr ""
+
+#: ../modules/social/templates/social-settings.php:105
+msgid "Get the app secret of your LinkedIn application and use it here."
+msgstr ""
+
+#: ../modules/templates/email_general_settings_view.php:7
+msgid "Email from name"
+msgstr ""
+
+#: ../modules/templates/email_general_settings_view.php:8
+msgid "Provide the name to be displayed as the sender of notification emails."
+msgstr ""
+
+#: ../modules/templates/email_general_settings_view.php:9
+msgid "Users will receive notification emails from the name specificed here."
+msgstr ""
+
+#: ../modules/templates/email_general_settings_view.php:16
+msgid "Email from address"
+msgstr ""
+
+#: ../modules/templates/email_general_settings_view.php:17
+msgid "Provide the email to be used as the sender for notification emails."
+msgstr ""
+
+#: ../modules/templates/email_general_settings_view.php:18
+msgid ""
+"Users will receive notification emails from the email address specificed "
+"here."
+msgstr ""
+
+#: ../modules/templates/email_general_settings_view.php:25
+msgid "Enable Notifications for All Admins"
+msgstr ""
+
+#: ../modules/templates/email_general_settings_view.php:27
+msgid "If checked, all administrators of the site will receive email notifications."
+msgstr ""
+
+#: ../modules/templates/email_general_settings_view.php:28
+msgid ""
+"Checking this option will allow all the admins to receive email "
+"notifications."
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:10
+msgid "Email Template Title"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:14
+msgid "Select Template"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:15
+msgid "Default registration for users"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:16
+msgid "Default registration for admin"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:17
+msgid "Registration with email confirmation and approval for Users"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:18
+msgid "Registration with email confirmation and approval for Admin"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:19
+msgid "Registration with email confirmation for Users"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:20
+msgid "Registration with email confirmation for Admin"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:21
+msgid "Registration with approval for Users"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:22
+msgid "Registration with approval for Admin"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:23
+msgid "Notify Profile Update"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:25
+msgid "User approval notification for users"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:26
+msgid "Profile removal confirmation for users"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:33
+msgid "Select the email template name."
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:37
+msgid "Email Status"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:40
+msgid "Disabled - Don't send Email"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:40
+msgid "Enabled - Send Email"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:45
+msgid "Enable/Disable sending a specific email."
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:49
+msgid "Email Subject"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:55
+msgid "Edit the subject of email template."
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:59
+msgid "Email Template Editor"
+msgstr ""
+
+#: ../modules/templates/email_templates_view.php:64
+msgid "Edit the contents of email template."
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:7
+msgid "Restricted Section"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:11
+msgid "Restrict All Pages"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:12
+msgid "Restrict All Posts"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:13
+msgid "Restrict Selected Pages"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:14
+msgid "Restrict Selected Posts"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:15
+msgid "Restrict Sub Pages of Selected Pages"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:16
+msgid "Restrict Sub Pages of Selected Pages (Including Parent Page)"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:17
+msgid "Restrict Posts by Category"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:22
+msgid "Select type of content to be restricted."
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:27
+msgid "Restrict Sub Pages Recursively"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:33
+msgid "Enable/Disable recursive restriction of sub pages."
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:38
+msgid "Restricted Pages"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:44
+#: ../modules/templates/site_field_import_view.php:33
+msgid "Select pages to be restricted."
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:49
+msgid "Restricted Posts"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:55
+msgid "Select posts to be restricted."
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:60
+msgid "Restricted Categories"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:66
+msgid "Posts of selected categories to be restricted."
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:71
+msgid "Allowed Users"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:76
+msgid "Specific User Roles"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:81
+msgid "Select what type of users have access to restricted content."
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:86
+msgid "Allowed User Roles"
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:98
+msgid "Select which user roles will be allowed to access this content."
+msgstr ""
+
+#: ../modules/templates/site_content_restriction_rules_view.php:110
+msgid ""
+"Specify the redirection URL for users with unauthorized access based on this "
+"rule."
+msgstr ""
+
+#: ../modules/templates/site_content_restrictions_view_deprecated.php:12
+msgid "Restriction Rules"
+msgstr ""
+
+#: ../modules/templates/site_content_restrictions_view_deprecated.php:16
+msgid "Disable Restriction Rules"
+msgstr ""
+
+#: ../modules/templates/site_content_restrictions_view_deprecated.php:17
+msgid "Enable Restriction Rules"
+msgstr ""
+
+#: ../modules/templates/site_content_restrictions_view_deprecated.php:22
+msgid ""
+"Enable/ Disable site restriction rules defined in Content Restriction Rules "
+"section."
+msgstr ""
+
+#: ../modules/templates/site_content_restrictions_view_deprecated.php:27
+#: ../modules/templates/site_lockdown_view.php:26
+msgid "Allowed Pages"
+msgstr ""
+
+#: ../modules/templates/site_content_restrictions_view_deprecated.php:35
+msgid ""
+"These pages will be acessible to any user regardless of the restriction rule "
+"settings."
+msgstr ""
+
+#: ../modules/templates/site_content_restrictions_view_deprecated.php:40
+#: ../modules/templates/site_lockdown_view.php:37
+msgid "Allowed Posts"
+msgstr ""
+
+#: ../modules/templates/site_content_restrictions_view_deprecated.php:46
+#: ../modules/templates/site_content_restrictions_view_deprecated.php:56
+msgid ""
+"These posts will be acessible to any user regardless of the restriction rule "
+"settings."
+msgstr ""
+
+#: ../modules/templates/site_content_restrictions_view_deprecated.php:51
+msgid "Allowed URLs"
+msgstr ""
+
+#: ../modules/templates/site_field_export_view.php:10
+#: ../modules/templates/site_settings_export_view.php:13
+msgid "Export Type"
+msgstr ""
+
+#: ../modules/templates/site_field_export_view.php:14
+#: ../modules/templates/site_field_import_view.php:16
+msgid "All Fields"
+msgstr ""
+
+#: ../modules/templates/site_field_export_view.php:15
+#: ../modules/templates/site_field_import_view.php:17
+msgid "Selected Fields"
+msgstr ""
+
+#: ../modules/templates/site_field_export_view.php:21
+#: ../modules/templates/site_settings_export_view.php:24
+#: ../modules/templates/site_users_export_view.php:36
+msgid "Select Export Type"
+msgstr ""
+
+#: ../modules/templates/site_field_export_view.php:33
+msgid "Select pages to be exported."
+msgstr ""
+
+#: ../modules/templates/site_field_import_view.php:12
+#: ../modules/templates/site_settings_import_view.php:12
+msgid "Import Type"
+msgstr ""
+
+#: ../modules/templates/site_field_import_view.php:22
+#: ../modules/templates/site_settings_import_view.php:22
+msgid "Select import type."
+msgstr ""
+
+#: ../modules/templates/site_field_import_view.php:38
+#: ../modules/templates/site_settings_import_view.php:38
+msgid "File"
+msgstr ""
+
+#: ../modules/templates/site_field_import_view.php:49
+#: ../modules/templates/site_settings_import_view.php:49
+msgid "Upload"
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:16
+msgid "Lock Entire Site"
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:18
+msgid ""
+"If checked, access to your entire site will be restricted for guests and non-"
+"logged in users.You can create exceptions below by allowing posts, pages or "
+"URL's."
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:19
+msgid ""
+"Checking this option will restrict access to your entire site for guests and "
+"non-logged in users ."
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:28
+msgid "These pages will be acessible to any user without any restrictions."
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:29
+msgid "Define public pages ."
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:39
+msgid "These posts will be acessible to any user without any restrictions."
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:40
+msgid "Define public posts ."
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:48
+msgid "Allowed URL's"
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:50
+msgid "These URL's will be acessible to any user without any restrictions."
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:51
+msgid "Define public URL's"
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:64
+msgid "Redirect Page"
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:66
+msgid ""
+"Guests will be redirected here when they try to access your locked site.The "
+"default is UPME Login page which may be\n"
+"                set in UPME Settings -> System Pages. If you choose another "
+"page, be sure it includes <code>[upme_login]</code> shortcode."
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:68
+msgid "Define redirection URL for violating site lockdown restrictions ."
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:76
+msgid "RSS Feed"
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:77
+msgid "RSS Enabled"
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:77
+msgid "RSS Disabled"
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:77
+msgid "Limited to Headlines/ Titles"
+msgstr ""
+
+#: ../modules/templates/site_lockdown_view.php:78
+#: ../modules/templates/site_lockdown_view.php:79
+msgid ""
+"RSS feed viewing does not require the user to login.Your RSS feed is "
+"publicly acessible if enabled.You may disable or limit the RSS feed above to "
+"prevent access to locked content through your RSS feed."
+msgstr ""
+
+#: ../modules/templates/site_settings_export_view.php:17
+#: ../modules/templates/site_settings_import_view.php:16
+msgid "All Settings"
+msgstr ""
+
+#: ../modules/templates/site_settings_export_view.php:29
+#: ../modules/templates/site_settings_import_view.php:27
+msgid "Settings Section"
+msgstr ""
+
+#: ../modules/templates/site_settings_export_view.php:36
+msgid "Select settings sections to be exported."
+msgstr ""
+
+#: ../modules/templates/site_settings_import_view.php:33
+msgid "Select settings sections to be restricted."
+msgstr ""
+
+#: ../profile/upme-profile.php:57 ../upme.php:144
+msgid "Are you sure you want to delete this image?"
+msgstr ""
+
+#: ../profile/upme-profile.php:58
+msgid "Please select an image to upload."
+msgstr ""
+
+#: ../profile/upme-profile.php:96
+msgid "Update Profile Picture"
+msgstr ""
+
+#: ../profile/upme-profile.php:185
+msgid "Current Picture:"
+msgstr ""
+
+#: ../profile/upme-profile.php:205 ../profile/upme-profile.php:260
+msgid "Crop Image"
+msgstr ""
+
+#: ../profile/upme-profile.php:238 ../profile/upme-profile.php:242
+#: ../templates/posts-pages.php:91 ../templates/posts-pages.php:145
+#: ../templates/posts-pages.php:198
+msgid "Upload Image"
+msgstr ""
+
+#: ../profile/upme-profile.php:259
+msgid "Crop Your New Profile Picture"
+msgstr ""
+
+#: ../profile/upme-profile.php:261
+msgid "Save Image"
+msgstr ""
+
+#: ../templates/custom-fields.php:6
+msgid "Manage Custom Field Settings"
+msgstr ""
+
+#: ../templates/custom-fields.php:21
+msgid "HTML for Help Text"
+msgstr ""
+
+#: ../templates/custom-fields.php:22
+msgid "HTML Disabled"
+msgstr ""
+
+#: ../templates/custom-fields.php:22
+msgid "HTML Enabled"
+msgstr ""
+
+#: ../templates/custom-fields.php:22
+msgid "HTML Selected Tags Enabled"
+msgstr ""
+
+#: ../templates/custom-fields.php:23
+msgid ""
+"Enabele/Disable HTML content on help text. By default HTML content is not "
+"enabled for help text."
+msgstr ""
+
+#: ../templates/custom-fields.php:24
+msgid ""
+"HTML Enabled - Enables any type of HTML content. HTML Selected Tags Enabled -"
+" only enabled p,a,strong,b,i,span tags. Other tags are blocked. Its "
+"recommended to disable or use selected tags to prevent styling conflicts."
+msgstr ""
+
+#: ../templates/custom-fields.php:32
+msgid "Collapsible Tabs in Profiles"
+msgstr ""
+
+#: ../templates/custom-fields.php:33
+msgid "Enable Collapsible Tabs"
+msgstr ""
+
+#: ../templates/custom-fields.php:33
+msgid "Disable Collapsible Tabs"
+msgstr ""
+
+#: ../templates/custom-fields.php:34
+msgid ""
+"Enabele/Disable collapsible tabs by spearator fields. By default collapsible "
+"tabs is not enabled."
+msgstr ""
+
+#: ../templates/custom-fields.php:35
+msgid "Used to display/hide profile fields based on separator fields."
+msgstr ""
+
+#: ../templates/custom-fields.php:43
+msgid "Display Fields in Collapsible Tabs"
+msgstr ""
+
+#: ../templates/custom-fields.php:44
+msgid "Show by Default "
+msgstr ""
+
+#: ../templates/custom-fields.php:44
+msgid "Hide by Default"
+msgstr ""
+
+#: ../templates/custom-fields.php:45
+msgid ""
+"Display/hide fields in collapsible types on profile loading. By default, all "
+"fields in collapsible tabs are displayed"
+msgstr ""
+
+#: ../templates/custom-fields.php:46
+msgid ""
+"Display/hide fields in collapsible types on profile loading. By default, all "
+"fields in collapsible tabs are displayed."
+msgstr ""
+
+#: ../templates/posts-pages.php:5
+msgid "All User Roles"
+msgstr ""
+
+#: ../templates/posts-pages.php:7
+msgid "Posts"
+msgstr ""
+
+#: ../templates/posts-pages.php:8
+msgid "Pages"
+msgstr ""
+
+#: ../templates/posts-pages.php:9
+msgid "Categories"
+msgstr ""
+
+#: ../templates/posts-pages.php:10
+msgid "Tags"
+msgstr ""
+
+#: ../templates/posts-pages.php:32
+msgid "Manage Posts and Pages Features"
+msgstr ""
+
+#: ../templates/posts-pages.php:42
+msgid "Favorite Posts/Pages"
+msgstr ""
+
+#: ../templates/posts-pages.php:49
+msgid "Favorite Module Status"
+msgstr ""
+
+#: ../templates/posts-pages.php:51
+msgid "You can enable/disable the favorite/bookmarks module on posts."
+msgstr ""
+
+#: ../templates/posts-pages.php:52 ../templates/posts-pages.php:107
+#: ../templates/posts-pages.php:160
+msgid ""
+"If you are not using this feature, mark in as disabled to improve "
+"performence."
+msgstr ""
+
+#: ../templates/posts-pages.php:61
+msgid "Enable Favorites On"
+msgstr ""
+
+#: ../templates/posts-pages.php:63
+msgid ""
+"These post/page types will have a Favorites button for all users or "
+"specified user roles."
+msgstr ""
+
+#: ../templates/posts-pages.php:64
+msgid ""
+"Users will see the Favorites button based on this setting and Enable "
+"Favorites for setting."
+msgstr ""
+
+#: ../templates/posts-pages.php:72
+msgid "Enable Favorites for"
+msgstr ""
+
+#: ../templates/posts-pages.php:74
+msgid "These user roles will have a Favorites button on posts/pages."
+msgstr ""
+
+#: ../templates/posts-pages.php:75
+msgid ""
+"Users will see the Favorites button based on this setting and Enable "
+"Favorites On setting."
+msgstr ""
+
+#: ../templates/posts-pages.php:83
+msgid "Default Featured Image for Favorites"
+msgstr ""
+
+#: ../templates/posts-pages.php:96
+msgid "Reading List"
+msgstr ""
+
+#: ../templates/posts-pages.php:104
+msgid "Reader Module Status"
+msgstr ""
+
+#: ../templates/posts-pages.php:106
+msgid "You can enable/disable the post reader module on posts."
+msgstr ""
+
+#: ../templates/posts-pages.php:115
+msgid "Enable Reader On"
+msgstr ""
+
+#: ../templates/posts-pages.php:117
+msgid ""
+"These post/page types will have a Mark as Read/Unread button for all users "
+"or specified user roles."
+msgstr ""
+
+#: ../templates/posts-pages.php:118
+msgid ""
+"Users will see the Mark as Read/Unread button based on this setting and "
+"Enable Reader For setting."
+msgstr ""
+
+#: ../templates/posts-pages.php:127
+msgid "Enable Reader for"
+msgstr ""
+
+#: ../templates/posts-pages.php:129
+msgid "These user roles will have a Mark as Read/Unread button on posts/pages."
+msgstr ""
+
+#: ../templates/posts-pages.php:130
+msgid ""
+"Users will see the Mark as Read/Unread button based on this setting and "
+"Enable Reader On setting."
+msgstr ""
+
+#: ../templates/posts-pages.php:137
+msgid "Default Featured Image for Reader"
+msgstr ""
+
+#: ../templates/posts-pages.php:150
+msgid "Recommended Posts/Pages"
+msgstr ""
+
+#: ../templates/posts-pages.php:157
+msgid "Recommendation Module Status"
+msgstr ""
+
+#: ../templates/posts-pages.php:159
+msgid "You can enable/disable the recommendation module on posts."
+msgstr ""
+
+#: ../templates/posts-pages.php:168
+msgid "Enable Recommend On"
+msgstr ""
+
+#: ../templates/posts-pages.php:170
+msgid ""
+"These post/page types will have a Recommend button for all users or "
+"specified user roles."
+msgstr ""
+
+#: ../templates/posts-pages.php:171 ../templates/posts-pages.php:183
+msgid ""
+"Users will see the Recommend button based on this setting and Enable "
+"Recommend For setting."
+msgstr ""
+
+#: ../templates/posts-pages.php:180
+msgid "Enable Recommend for"
+msgstr ""
+
+#: ../templates/posts-pages.php:182
+msgid "These user roles will have a Recommend button on posts/pages."
+msgstr ""
+
+#: ../templates/posts-pages.php:190
+msgid "Default Featured Image for Recommended Posts"
+msgstr ""
+
+#: ../templates/posts-pages.php:202
+msgid "Common Settings"
+msgstr ""
+
+#: ../templates/posts-pages.php:209
+msgid "Content Before Post Buttons"
+msgstr ""
+
+#: ../templates/posts-pages.php:211
+msgid "Show a text/HTML message before the post features buttons panel."
+msgstr ""
+
+#: ../templates/posts-pages.php:212
+msgid "This message will be empty by default."
+msgstr ""
+
+#: ../templates/posts-pages.php:219
+msgid "Enable Post/Page Feature Buttons"
+msgstr ""
+
+#: ../templates/posts-pages.php:220
+msgid "After Content"
+msgstr ""
+
+#: ../templates/posts-pages.php:220
+msgid "Before Content"
+msgstr ""
+
+#: ../templates/posts-pages.php:220
+msgid "Before and After Content"
+msgstr ""
+
+#: ../templates/posts-pages.php:221
+msgid ""
+"Post/Pages features buttons panel will be displayed in the specified "
+"location."
+msgstr ""
+
+#: ../templates/posts-pages.php:222
+msgid "By default, buttons panel will be displayed after the content."
+msgstr ""
+
+#: ../templates/posts-pages.php:230
+msgid "Featured Image is Enabled For"
+msgstr ""
+
+#: ../templates/posts-pages.php:231
+msgid "Favorites"
+msgstr ""
+
+#: ../templates/posts-pages.php:231
+msgid "Reader"
+msgstr ""
+
+#: ../templates/posts-pages.php:232
+msgid "These types will have a featured image displayed in the post list."
+msgstr ""
+
+#: ../templates/posts-pages.php:233
+msgid ""
+"Default image will be displayed when featured image is not available or not "
+"supported."
+msgstr ""
+
+#: ../templates/seo.php:5
+msgid "Select Field"
+msgstr ""
+
+#: ../templates/seo.php:16
+msgid "Manage Profile SEO Settings"
+msgstr ""
+
+#: ../templates/seo.php:30
+msgid "Prefix for Profile Page Title Bar"
+msgstr ""
+
+#: ../templates/seo.php:31
+msgid "Provide prefix to be included in title bar of the profile page and meta tags"
+msgstr ""
+
+#: ../templates/seo.php:32 ../templates/seo.php:40
+msgid "This will be used to specify a SEO optimized page title."
+msgstr ""
+
+#: ../templates/seo.php:38
+msgid "Suffix for Profile Page Title Bar"
+msgstr ""
+
+#: ../templates/seo.php:39
+msgid "Provide suffix to be included in title bar of the profile page and meta tags"
+msgstr ""
+
+#: ../templates/seo.php:49
+msgid "Field for Title Meta Tag"
+msgstr ""
+
+#: ../templates/seo.php:51
+msgid ""
+"Value of this profile field will be used for the title meta tag. This will "
+"be placed bewtween the prefix and suffix specified above."
+msgstr ""
+
+#: ../templates/seo.php:52
+msgid "Display name or first name is the ideal field for this setting."
+msgstr ""
+
+#: ../templates/seo.php:60
+msgid "Field for Description Meta Tag"
+msgstr ""
+
+#: ../templates/seo.php:62
+msgid "Value of this profile field will be used for the description meta tag."
+msgstr ""
+
+#: ../templates/seo.php:63
+msgid "Description/About field us the ideal field for this setting."
+msgstr ""
+
+#: ../templates/seo.php:71
+msgid "Field for Image Meta Tag"
+msgstr ""
+
+#: ../templates/seo.php:73
+msgid "Value of this profile field will be used for the image meta tag."
+msgstr ""
+
+#: ../templates/seo.php:74
+msgid "Profile picture is the ideal field for this setting."
+msgstr ""
+
+#: ../templates/separator-field-groups.php:29
+msgid "Separator Field Groups Settings"
+msgstr ""
+
+#: ../templates/woocommerce/my-account.php:27
+msgid "My Reviews"
+msgstr ""
+
+#: ../templates/woocommerce/my-account.php:33
+msgid "My Downloads"
+msgstr ""
+
+#: ../templates/woocommerce/my-account.php:39
+msgid "My Orders"
+msgstr ""
+
+#: ../templates/woocommerce/my-account.php:53
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: ../templates/woocommerce/my-account.php:58
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and edit your password and account details."
+msgstr ""
+
+#: ../templates/woocommerce/my-address.php:10
+msgid "My Addresses"
+msgstr ""
+
+#: ../templates/woocommerce/my-address.php:12
+#: ../templates/woocommerce/my-address.php:18
+msgid "Billing Address"
+msgstr ""
+
+#: ../templates/woocommerce/my-address.php:13
+msgid "Shipping Address"
+msgstr ""
+
+#: ../templates/woocommerce/my-address.php:16
+msgid "My Address"
+msgstr ""
+
+#: ../templates/woocommerce/my-address.php:28
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: ../templates/woocommerce/my-address.php:57
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: ../templates/woocommerce/my-downloads.php:11
+msgid "Available downloads"
+msgstr ""
+
+#: ../templates/woocommerce/my-orders.php:17
+msgid "Recent Orders"
+msgstr ""
+
+#: ../templates/woocommerce/my-orders.php:23
+msgid "Order"
+msgstr ""
+
+#: ../templates/woocommerce/my-orders.php:24
+msgid "Date"
+msgstr ""
+
+#: ../templates/woocommerce/my-orders.php:25
+msgid "Status"
+msgstr ""
+
+#: ../templates/woocommerce/my-orders.php:26
+msgid "Total"
+msgstr ""
+
+#: ../templates/woocommerce/my-orders.php:59
+msgid "Pay"
+msgstr ""
+
+#: ../templates/woocommerce/my-orders.php:72
+msgid "View"
+msgstr ""
+
+#: ../templates/woocommerce/my-review.php:20
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: ../templates/woocommerce/my-review.php:21
+msgid "out of 5"
+msgstr ""
+
+#: ../templates/woocommerce/my-review.php:28
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: ../templates/woocommerce/my-review.php:37
+msgid "verified owner"
+msgstr ""
+
+#: ../templates/woocommerce/my-reviews.php:26
+#: ../templates/woocommerce/my-reviews.php:39
+msgid "My Product Reviews"
+msgstr ""
+
+#: ../templates/woocommerce/my-reviews.php:40
+msgid "No reviews found."
+msgstr ""
+
+#: ../templates/woocommerce/woocommerce-list.php:6
+msgid "Manage Woocommerce"
+msgstr ""
+
+#: ../templates/woocommerce/woocommerce-list.php:22
+msgid "Display Woocoommerce Tab in Profile"
+msgstr ""
+
+#: ../templates/woocommerce/woocommerce-list.php:24
+msgid ""
+"If checked, Woocommerce my account details will be available in UPME profile "
+"as a separate tab."
+msgstr ""
+
+#: ../templates/woocommerce/woocommerce-list.php:25
+msgid "Checking this option will enable Woocommerce tab for logged-in user profiles."
+msgstr ""
+
+#: ../upme.php:132
+msgid "Password changes are not allowed for this user."
+msgstr ""
+
+#: ../upme.php:134
+msgid "We have sent a password reset link to your email address."
+msgstr ""
+
+#: ../upme.php:136
+msgid "Email is already registered."
+msgstr ""
+
+#: ../upme.php:138
+msgid "Invalid email."
+msgstr ""
+
+#: ../upme.php:139
+msgid "Email is empty."
+msgstr ""
+
+#: ../upme.php:140
+msgid "Username is already registered."
+msgstr ""
+
+#: ../upme.php:142
+msgid "Username is empty."
+msgstr ""
+
+#: ../upme.php:143
+msgid "Invalid username."
+msgstr ""
+
+#: ../upme.php:148
+msgid "Do you want to delete the profile"
+msgstr ""
+
+#: ../widgets/upme-login-widget.php:18
+msgid "Display Register Link"
+msgstr ""
+
+#: ../widgets/upme-login-widget.php:20
+msgid "Display Forgot Password Link"
+msgstr ""
+
+#: ../widgets/upme-login-widget.php:25
+msgid "Displays a log-in form for users"
+msgstr ""
+
+#: ../widgets/upme-login-widget.php:26
+msgid "UPME Log-in"
+msgstr ""
+
+#: ../widgets/upme-widgets.php:9
+msgid "Displays a list of latest registered users."
+msgstr ""
+
+#: ../widgets/upme-widgets.php:13
+msgid "UPME - Latest Members"
+msgstr ""
+
+#: ../widgets/upme-widgets.php:73
+#, php-format
+msgid "View %s Profile"
+msgstr ""
+
+#: ../widgets/upme-widgets.php:131
+msgid "Latest Members"
+msgstr ""
+
+#: ../widgets/upme-widgets.php:135
+msgid "Title:"
+msgstr ""
+
+#: ../widgets/upme-widgets.php:140
+msgid "How many users to show:"
+msgstr ""
+
+#: ../widgets/upme-widgets.php:145
+msgid "Profile picture size:"
+msgstr ""
+
+#: ../widgets/upme-widgets.php:150
+msgid "Link to user profile:"
+msgstr ""
+
+#: ../widgets/upme-widgets.php:158
+msgid "Field for User Title:"
+msgstr ""
+
+#: ../widgets/upme-widgets.php:163
+msgid "First Name + Last Name"
+msgstr ""
+
+#: ../classes/class-upme.php:3935 ../classes/class-upme.php:4421
+#: ../classes/class-upme.php:4423
+msgid "Forget?"
+msgstr "忘记密码？"
+
+#: ../classes/class-upme.php:4496 ../templates/login-forgot-pass.php:19
+msgid "Back to Login"
+msgstr "回到登录"
+
+#: ../upme.php:129
+msgid "Please enter your username or email to reset password."
+msgstr "重设密码，请输入你的用户名和邮箱"
+
+#: ../upme.php:130
+msgid "Please enter your email address."
+msgstr "请输入您的电子邮件地址。"
+
+#: ../upme.php:131
+msgid "Please enter valid username or email address."
+msgstr "请输入有效的用户名和电子邮件地址。"
+
+#: ../upme.php:135
+msgid "Something went wrong, please try again"
+msgstr "出事了，请重试"
+
+#: ../classes/class-upme-login.php:68
+msgid "The username field is empty."
+msgstr "未填写用户名"
+
+#: ../classes/class-upme-login.php:74
+msgid "The password field is empty."
+msgstr "未填写密码"
+
+#: ../classes/class-upme-login.php:230
+msgid "Incorrect username or password."
+msgstr "错误用户名或密码"
+
+#: ../classes/class-upme-login.php:253
+msgid "Invalid verification code in link."
+msgstr "错误验证码"
+
+#: ../classes/class-upme-login.php:256
+msgid "Invalid verification link."
+msgstr "错误验证链接"
+
+#: ../classes/class-upme-login.php:273
+msgid "Invalid login form."
+msgstr "错误登陆格式"
+
+#: ../classes/class-upme-login.php:354
+msgid "Invalid Username or Email"
+msgstr "无效用户名或邮件"
+
+#: ../classes/class-upme-login.php:357
+msgid "Incorrect Username or Password"
+msgstr "错误用户名或密码"
+
+#: ../classes/class-upme-login.php:361
+msgid "Please enter a password."
+msgstr "请输入密码"
+
+#: ../classes/class-upme-register.php:53 ../templates/registration.php:38
+msgid "Please enter a username."
+msgstr "请输入用户名"
+
+#: ../classes/class-upme-reset-password.php:134
+msgid "Please enter the new password."
+msgstr "请输入新密码"
+
+#: ../classes/class-upme.php:156 ../classes/class-upme.php:4483
+#: ../classes/class-upme.php:4763 ../templates/login-forgot-pass.php:9
+msgid "Username or Email"
+msgstr "登录名"
+
+#: ../classes/class-upme.php:4464 ../templates/login-form.php:28
+msgid "Remember me"
+msgstr "记住我"
+
+#: ../classes/class-upme.php:4466 ../templates/login-form.php:31
+msgid "Log In"
+msgstr "登录"
+
+#: ../classes/class-upme.php:4499 ../classes/class-upme.php:4780
+#: ../js/upme-custom-js.php:107
+#: ../modules/templates/email_templates_view.php:24
+#: ../templates/login-forgot-pass.php:22 ../upme.php:126
+msgid "Forgot Password"
+msgstr "忘记密码"
+
+#: ../classes/class-upme-admin.php:39 ../classes/class-upme-admin.php:158
+msgid "Registration successful. Please check your email."
+msgstr " 注册已成功"
+
+#: ../classes/class-upme-admin.php:1331 ../classes/class-upme-admin.php:1342
+#: ../function/functions.php:763
+msgid " is required."
+msgstr "是必须的"
+
+#: ../function/functions.php:739 ../function/functions.php:751
+msgid "Your password is too similar to your username."
+msgstr " 密码与账户名相似"
+
+#: ../function/functions.php:740 ../function/functions.php:752
+msgid "Both passwords do not match."
+msgstr "密码不相符"
+
+#: ../function/functions.php:741 ../function/functions.php:753
+msgid "Your password is too short."
+msgstr "密码位数不够"
+
+#: ../function/functions.php:742
+msgid "Your password strength is too weak."
+msgstr "密码强度极弱"
+
+#: ../function/functions.php:743
+msgid "Your password strength is weak."
+msgstr "密码强度较弱"
+
+#: ../function/functions.php:744
+msgid "Please provide username."
+msgstr "请输入账户名"
+
+#: ../function/functions.php:745
+msgid "Please provide email address."
+msgstr " 请输入电子邮箱"
+
+#: ../function/functions.php:746
+msgid "Please provide valid email address."
+msgstr "请输入有效的电子邮箱"
+
+#: ../function/functions.php:747
+msgid "That username is already taken, please try a different one."
+msgstr "用户名已存在，请输入新的用户名"
+
+#: ../function/functions.php:748
+msgid ""
+"The email you entered is already registered. Please try a new email or log "
+"in to your existing account."
+msgstr "此电子邮箱已被注册，请输入新的电子邮箱"
+
+#: ../js/upme-custom-js.php:127
+msgid "Please provide username or email address to reset password."
+msgstr "请提供用户名或电子邮件地址来重置密码。"
+
+#: ../admin/settings.php:166 ../classes/class-upme.php:66
+#: ../classes/class-upme.php:123
+msgid "Username"
+msgstr "账户名:"
+
+#: ../admin/settings.php:723 ../function/functions.php:756
+msgid "Medium"
+msgstr "中"
+
+#: ../admin/settings.php:724 ../function/functions.php:758
+msgid "Strong"
+msgstr "强大"
+
+#: ../classes/class-upme-updater.php:167 ../classes/class-upme.php:3893
+#: ../classes/class-upme.php:3933 ../classes/class-upme.php:4441
+msgid "Register"
+msgstr "注册"
+
+#: ../classes/class-upme.php:46 ../classes/class-upme.php:85
+#: ../classes/class-upme.php:165
+msgid "Password"
+msgstr "输入密码"
+
+#: ../classes/class-upme.php:75 ../classes/class-upme.php:132
+msgid "E-mail"
+msgstr "电子邮箱"
+
+#: ../classes/class-upme.php:88 ../classes/class-upme.php:4732
+msgid ""
+"Password must be at least 7 characters long. To make it stronger, use upper "
+"and lower case letters, numbers and symbols."
+msgstr "密码至少7位. 使用字母，数字及符号增强密码强度"
+
+#: ../classes/class-upme.php:95
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: ../classes/class-upme.php:98
+msgid "Type your password again."
+msgstr "再次输入密码"
+
+#: ../classes/class-upme.php:204 ../widgets/upme-widgets.php:161
+msgid "First Name"
+msgstr "名字"
+
+#: ../classes/class-upme.php:220 ../widgets/upme-widgets.php:162
+msgid "Last Name"
+msgstr "姓氏"
+
+#: ../classes/class-upme.php:294
+msgid "Email"
+msgstr "电子邮箱"
+
+#: ../classes/class-upme.php:385 ../classes/class-upme.php:3352
+#: ../templates/woocommerce/my-account.php:21
+msgid "Account Info"
+msgstr "账户信息"
+
+#: ../classes/class-upme.php:2857 ../classes/class-upme.php:3451
+#: ../classes/class-upme.php:4742
+msgid "Strength Indicator"
+msgstr "密码强弱提示"
+
+#: ../forgotpass/upme-forgot-pass.php:69 ../function/functions.php:699
+#, php-format
+msgid "Username: %s"
+msgstr "账户名: %s"
+
+#: ../function/functions.php:754
+msgid "Very weak"
+msgstr "非常弱"
+
+#: ../modules/email_templates/upme_approval_notify_user_view.php:5
+#: ../modules/email_templates/upme_delete_profile_confirm_view.php:4
+#: ../modules/email_templates/upme_forgot_password_view.php:5
+#: ../modules/email_templates/upme_reg_activation_admin_view.php:6
+#: ../modules/email_templates/upme_reg_activation_approval_admin_view.php:6
+#: ../modules/email_templates/upme_reg_activation_approval_user_view.php:5
+#: ../modules/email_templates/upme_reg_activation_user_view.php:5
+#: ../modules/email_templates/upme_reg_approval_admin_view.php:6
+#: ../modules/email_templates/upme_reg_approval_user_view.php:5
+#: ../modules/email_templates/upme_reg_default_admin_view.php:6
+#: ../modules/email_templates/upme_reg_default_user_view.php:5
+#: ../modules/email_templates/upme_two_factor_email_verify_view.php:5
+msgid "Username:"
+msgstr "账户名"
+
+#: ../upme.php:137
+msgid "Email is available"
+msgstr "电子邮件可"
+
+#: ../upme.php:141
+msgid "Username is available."
+msgstr "用户名可用。"
